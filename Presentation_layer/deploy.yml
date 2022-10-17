@@ -1,0 +1,22 @@
+﻿apiVersion: apps:/v1
+kind: Development
+metadata:
+ name: auth-api
+ labels:
+    app: auth-api
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            app: auth-api
+    template:
+        metadata:
+            labels:
+                app: auth-api
+        spec:
+            containers:
+            - name:  auth-api
+              image: 1fteboz/auth-api:1.0.0
+              imagePullPolicy: Always
+              ports:
+                - containerPort: 80

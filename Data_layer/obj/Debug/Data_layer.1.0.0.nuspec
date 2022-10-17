@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Data_layer</id>
+    <version>1.0.0</version>
+    <authors>Data_layer</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="6.0.10" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/sergeismogliuk/Projects/microservis_onion_architecture_auth/Data_layer/bin/Debug/net6.0/Data_layer.runtimeconfig.json" target="lib/net6.0/Data_layer.runtimeconfig.json" />
+    <file src="/Users/sergeismogliuk/Projects/microservis_onion_architecture_auth/Data_layer/bin/Debug/net6.0/Data_layer.dll" target="lib/net6.0/Data_layer.dll" />
+  </files>
+</package>

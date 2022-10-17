@@ -1,0 +1,13 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+ name: authApi-service
+ labels:
+    app: authApi-service
+spec:
+   ports:
+      - port: 80
+        targetPort: 80
+   selector:
+        app: authApi-service
+   type: LoadBalancer
