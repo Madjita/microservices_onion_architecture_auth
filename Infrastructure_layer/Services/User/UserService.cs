@@ -97,7 +97,7 @@ namespace Infrastructure_layer.Services.User
                 body.Append("</table>");
 
 
-                _ = _accountRepository.Update(account);
+                _ = _accountRepository.UpdateAsync(account);
                 _ = _emailSender.SendEmailAsync(account.Email, "Access code", body.ToString()); //$"<h1>Code: {value}</h1>"
 
             }
@@ -173,7 +173,7 @@ namespace Infrastructure_layer.Services.User
                 return null;
             }
 
-            var addedAccount = await _accountRepository.Add(register_model);
+            var addedAccount = await _accountRepository.AddAsync(register_model);
 
             return register_model;
         }

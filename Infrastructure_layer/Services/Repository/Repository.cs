@@ -10,6 +10,7 @@ using Data_layer.Data;
 
 namespace Infrastructure_layer.Services.Repository
 {
+    /*
     public interface IRepository<T> where T : BaseEntity
     {
         Task<T> GetByIdAsync(long id);
@@ -19,14 +20,14 @@ namespace Infrastructure_layer.Services.Repository
 
         Context GetContext();
 
-        Task<long> Add(T entity);
-        Task<long> Remove(T entity);
-        Task<long> Update(T entity);
-        Task<long> Save();
+        Task<long> AddAsync(T entity);
+        Task<long> RemoveAsync(T entity);
+        Task<long> UpdateAsync(T entity);
+        Task<long> SaveAsync();
 
 
         Task<IEnumerable<T>> toListAsync();
-    }
+    }*/
 
     public class Repository<T> : IRepository<T> where T : BaseEntity
     {
@@ -70,28 +71,28 @@ namespace Infrastructure_layer.Services.Repository
             return result;
         }
 
-        public async Task<long> Add(T entity)
+        public async Task<long> AddAsync(T entity)
         {
             var result = await _context.Set<T>().AddAsync(entity);
             await _context.SaveChangesAsync();
             return result.Entity.Id;
         }
 
-        public async Task<long> Remove(T entity)
+        public async Task<long> RemoveAsync(T entity)
         {
             var result = _context.Set<T>().Remove(entity);
             await _context.SaveChangesAsync();
             return result.Entity.Id;
         }
 
-        public async Task<long> Update(T entity)
+        public async Task<long> UpdateAsync(T entity)
         {
             var result = _context.Set<T>().Update(entity);
             await _context.SaveChangesAsync();
             return result.Entity.Id;
         }
 
-        public async Task<long> Save()
+        public async Task<long> SaveAsync()
         {
             await _context.SaveChangesAsync();
             return 1;
