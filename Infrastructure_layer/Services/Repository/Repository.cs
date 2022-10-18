@@ -10,25 +10,6 @@ using Data_layer.Data;
 
 namespace Infrastructure_layer.Services.Repository
 {
-    /*
-    public interface IRepository<T> where T : BaseEntity
-    {
-        Task<T> GetByIdAsync(long id);
-
-        IQueryable<T> Get();
-        List<T> GetAll();
-
-        Context GetContext();
-
-        Task<long> AddAsync(T entity);
-        Task<long> RemoveAsync(T entity);
-        Task<long> UpdateAsync(T entity);
-        Task<long> SaveAsync();
-
-
-        Task<IEnumerable<T>> toListAsync();
-    }*/
-
     public class Repository<T> : IRepository<T> where T : BaseEntity
     {
         private readonly Context _context;
