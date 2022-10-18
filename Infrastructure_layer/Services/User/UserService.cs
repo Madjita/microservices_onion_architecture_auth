@@ -9,21 +9,10 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Net.Mail;
 using Infrastructure_layer.Services.SmtpEmailSender;
+using System.Text;
 
 namespace Infrastructure_layer.Services.User
 {
-    public interface IUserService
-    {
-        Task<Account> AuthenticateAsync(Account model);
-        Task<Account> RegisterAsync(Account register_model);
-
-        Task<Account> TwoFactorAuthenticationAsync(Account model);
-
-
-        Task<Account> GetByIdAsync(int id);
-
-    }
-
     public class UserService : IUserService
     {
         private readonly IRepository<Account> _accountRepository;
@@ -87,29 +76,29 @@ namespace Infrastructure_layer.Services.User
                 //не ждем когда выполняться запросы так как на данный момент нам это не надо
                 account.Code = value;
 
+                StringBuilder body = new StringBuilder();
 
-                string body = $"<table style=\"border-collapse:collapse\">" +
-                    "<tbody>" +
-                        "<tr>" +
-                        "<td style=\"border-collapse:collapse;font:14px/22px 'arial' , sans-serif;vertical-align:top\">" +
-                            "<p class=\"325413c6a9ddf781paragraph\" style=\"margin:0\">" +
-                                $"<b>{value}</b>" +
-                            "</p>\n                                " +
-                        "</td>" +
-                        "<td style=\"border-collapse:collapse;font:14px/22px 'arial' , sans-serif;padding-left:10px;vertical-align:top\">" +
-                            "<p class=\"325413c6a9ddf781paragraph\" style=\"margin:0\">— Ваш код для авторизации&nbsp;</p>\n" +
-                        "</td>" +
-                        "<td style=\"border-collapse:collapse;font:14px/22px 'arial' , sans-serif;padding-left:10px;vertical-align:top\">" +
-                            "<p class=\"325413c6a9ddf781paragraph\" style=\"margin:0\">( Your access code)</p>\n" +
-                        "</td>" +
-                        "</tr>" +
-                    "</tbody>" +
-                    "</table>";
-
+                body.Append($"<table style=\"border-collapse:collapse\">");
+                body.Append("<tbody>");
+                body.Append("<tr>");
+                body.Append("<td style=\"border-collapse:collapse;font:14px/22px 'arial' , sans-serif;vertical-align:top\">");
+                body.Append("<p class=\"325413c6a9ddf781paragraph\" style=\"margin:0\">");
+                body.Append($"<b>{value}</b>");
+                body.Append("</p>");
+                body.Append("</td>");
+                body.Append("<td style=\"border-collapse:collapse;font:14px/22px 'arial' , sans-serif;padding-left:10px;vertical-align:top\">");
+                body.Append("<p class=\"325413c6a9ddf781paragraph\" style=\"margin:0\">— Ваш код для авторизации&nbsp;</p>");
+                body.Append("</td>");
+                body.Append("<td style=\"border-collapse:collapse;font:14px/22px 'arial' , sans-serif;padding-left:10px;vertical-align:top\">");
+                body.Append("<p class=\"325413c6a9ddf781paragraph\" style=\"margin:0\">( Your access code)</p>");
+                body.Append("</td>");
+                body.Append("</tr>");
+                body.Append("</tbody>");
+                body.Append("</table>");
 
 
                 _ = _accountRepository.Update(account);
-                _ = _emailSender.SendEmailAsync(account.Email, "Access code", body); //$"<h1>Code: {value}</h1>"
+                _ = _emailSender.SendEmailAsync(account.Email, "Access code", body.ToString()); //$"<h1>Code: {value}</h1>"
 
             }
 

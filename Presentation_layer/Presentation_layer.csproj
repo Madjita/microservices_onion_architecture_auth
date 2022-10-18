@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
     <UserSecretsId>0153df14-c1b2-4ac4-8aaa-b109ec8c1ed3</UserSecretsId>
+    <ReleaseVersion>0.0.0</ReleaseVersion>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{3269B95F-57F1-4678-B705-A20C310FA958}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Infrastructure_layer/Services/User/UserService.cs">
+    <Files>
+      <File FileName="Controllers/AuthController.cs" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="../Infrastructure_layer/Services/User/UserService.cs" Line="107" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="microservices_onion_architecture_auth" expanded="True">
+            <Node name="Infrastructure_layer" expanded="True">
+              <Node name="Bearer" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="User" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Presentation__layer PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
