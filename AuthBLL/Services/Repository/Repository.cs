@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AuthDAL.Entities.Base;
 using MobileDrill.DataBase.Data;
-using MobileDrill_DAL.Repository.Base;
 using System.Linq.Expressions;
 using System.Threading;
 using Microsoft.Extensions.Logging;
+using AuthBLL.Repository.Base;
 
 namespace AuthBLL.Services.Repository
 {
@@ -16,7 +16,7 @@ namespace AuthBLL.Services.Repository
     {
         private readonly AuthDbContext _context;
 
-        public Repository(AuthDbContext context,ILogger<AuthDbContext> loggerDbContextAction):base(context,loggerDbContextAction)
+        public Repository(AuthDbContext context):base(context)
         {
             _context = context;
         }

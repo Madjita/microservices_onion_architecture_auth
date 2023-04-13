@@ -1,0 +1,214 @@
+{
+  "Bootstrap": {
+    "Using": [
+      "Serilog.Sinks.Console",
+      "Serilog.Sinks.File",
+      "Serilog.Enrichers.AssemblyName",
+      "Serilog.Enrichers.Environment",
+      "Serilog.Enrichers.GlobalLogContext",
+      "Serilog.Enrichers.Memory",
+      "Serilog.Enrichers.Process",
+      "Serilog.Enrichers.Thread"
+    ],
+    "Enrich": [
+      "FromLogContext",
+      "WithAssemblyName",
+      "WithEnvironmentName",
+      "WithMachineName",
+      "WithMemoryUsage",
+      "WithProcessId",
+      "WithProcessName",
+      "WithThreadId",
+      "WithThreadName"
+    ],
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "[Bootstrap] {Timestamp:o} [{Level:u3}] ({AssemblyName}/{MachineName}/{ThreadId}) [{CallerType}.{CallerMethod} {CallerFileName}:{CallerLineNo}] {Message}{NewLine}{Exception}",
+          "restrictedToMinimumLevel": "Information"
+        }
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs/Bootstrap_.txt",
+          "outputTemplate": "[Bootstrap] {Timestamp:o} [{Level:u3}] ({AssemblyName}/{MachineName}/{ThreadId}) [{CallerType}.{CallerMethod} {CallerFileName}:{CallerLineNo}] {Message}{NewLine}{Exception}",
+          "restrictedToMinimumLevel": "Information",
+          "rollingInterval": "Day",
+          "Shared": true
+        }
+      }
+    ],
+    "MinimumLevel": "Information"
+  },
+  "Default": {
+    "Using": [
+      "Serilog.Sinks.Console",
+      "Serilog.Sinks.File",
+      "Serilog.Enrichers.AssemblyName",
+      "Serilog.Enrichers.Environment",
+      "Serilog.Enrichers.GlobalLogContext",
+      "Serilog.Enrichers.Memory",
+      "Serilog.Enrichers.Process",
+      "Serilog.Enrichers.Thread"
+    ],
+    "Enrich": [
+      "FromLogContext",
+      "WithAssemblyName",
+      "WithEnvironmentName",
+      "WithMachineName",
+      "WithMemoryUsage",
+      "WithProcessId",
+      "WithProcessName",
+      "WithThreadId",
+      "WithThreadName"
+    ],
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "[Default] {Timestamp:o} [{Level:u3}] ({AssemblyName}/{MachineName}/{ThreadId}) {Message}{NewLine}{Exception}",
+          "restrictedToMinimumLevel": "Information"
+        }
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs/Default_.txt",
+          "outputTemplate": "[Default] {Timestamp:o} [{Level:u3}] ({AssemblyName}/{MachineName}/{ThreadId}) {Message}{NewLine}{Exception}",
+          "restrictedToMinimumLevel": "Information",
+          "rollingInterval": "Day",
+          "Shared": true
+        }
+      }
+    ],
+    "MinimumLevel": "Information"
+  },
+  "HttpControllerBase": {
+    "Using": [
+      "Serilog.Sinks.Console",
+      "Serilog.Enrichers.AssemblyName",
+      "Serilog.Enrichers.Environment",
+      "Serilog.Enrichers.GlobalLogContext",
+      "Serilog.Enrichers.Memory",
+      "Serilog.Enrichers.Process",
+      "Serilog.Enrichers.Thread"
+    ],
+    "Enrich": [
+      "FromLogContext",
+      "WithAssemblyName",
+      "WithEnvironmentName",
+      "WithMachineName",
+      "WithMemoryUsage",
+      "WithProcessId",
+      "WithProcessName",
+      "WithThreadId",
+      "WithThreadName"
+    ],
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "[HttpControllerBase] {Timestamp:o} [{Level:u3}] ({AssemblyName}/{MachineName}/{ThreadId}) [{CallerType}.{CallerMethod} {CallerFileName}:{CallerLineNo}] {Message}{NewLine}{Exception}",
+          "restrictedToMinimumLevel": "Information"
+        }
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs/HttpControllerBase_.txt",
+          "outputTemplate": "[HttpControllerBase] {Timestamp:o} [{Level:u3}] ({AssemblyName}/{MachineName}/{ThreadId}) [{CallerType}.{CallerMethod} {CallerFileName}:{CallerLineNo}] {Message}{NewLine}{Exception}",
+          "restrictedToMinimumLevel": "Information",
+          "rollingInterval": "Day",
+          "Shared": true
+        }
+      }
+    ],
+    "MinimumLevel": "Information"
+  },
+  "Auth": {
+    "Using": [
+      "Serilog.Sinks.Console",
+      "Serilog.Enrichers.AssemblyName",
+      "Serilog.Enrichers.Environment",
+      "Serilog.Enrichers.GlobalLogContext",
+      "Serilog.Enrichers.Memory",
+      "Serilog.Enrichers.Process",
+      "Serilog.Enrichers.Thread"
+    ],
+    "Enrich": [
+      "FromLogContext",
+      "WithAssemblyName",
+      "WithEnvironmentName",
+      "WithMachineName",
+      "WithMemoryUsage",
+      "WithProcessId",
+      "WithProcessName",
+      "WithThreadId",
+      "WithThreadName"
+    ],
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "[AUTH] {Timestamp:o} [{Level:u3}] ({AssemblyName}/{MachineName}/{ThreadId}) [{CallerType}.{CallerMethod} {CallerFileName}:{CallerLineNo}] {Message}{NewLine}{Exception}",
+          "restrictedToMinimumLevel": "Debug"
+        }
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs/Auth_.txt",
+          "outputTemplate": "[AUTH] {Timestamp:o} [{Level:u3}] ({AssemblyName}/{MachineName}/{ThreadId}) [{CallerType}.{CallerMethod} {CallerFileName}:{CallerLineNo}] {Message}{NewLine}{Exception}",
+          "restrictedToMinimumLevel": "Information",
+          "rollingInterval": "Day",
+          "Shared": true
+        }
+      }
+    ],
+    "MinimumLevel": "Debug"
+  },
+  "LoginManager": {
+    "Using": [
+      "Serilog.Sinks.Console",
+      "Serilog.Enrichers.AssemblyName",
+      "Serilog.Enrichers.Environment",
+      "Serilog.Enrichers.GlobalLogContext",
+      "Serilog.Enrichers.Memory",
+      "Serilog.Enrichers.Process",
+      "Serilog.Enrichers.Thread"
+    ],
+    "Enrich": [
+      "FromLogContext",
+      "WithAssemblyName",
+      "WithEnvironmentName",
+      "WithMachineName",
+      "WithMemoryUsage",
+      "WithProcessId",
+      "WithProcessName",
+      "WithThreadId",
+      "WithThreadName"
+    ],
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "[LOGINMANAGER] {Timestamp:o} [{Level:u3}] ({AssemblyName}/{MachineName}/{ThreadId}) [{CallerType}.{CallerMethod} {CallerFileName}:{CallerLineNo}] {Message}{NewLine}{Exception}",
+          "restrictedToMinimumLevel": "Debug"
+        }
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs/LoginManager_.txt",
+          "outputTemplate": "[LOGINMANAGER] {Timestamp:o} [{Level:u3}] ({AssemblyName}/{MachineName}/{ThreadId}) [{CallerType}.{CallerMethod} {CallerFileName}:{CallerLineNo}] {Message}{NewLine}{Exception}",
+          "restrictedToMinimumLevel": "Information",
+          "rollingInterval": "Day",
+          "Shared": true
+        }
+      }
+    ],
+    "MinimumLevel": "Debug"
+  }
+}

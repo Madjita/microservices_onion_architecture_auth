@@ -1,0 +1,12 @@
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/WritableConfig/bin/Release/net7.0/WritableConfig.deps.json
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/WritableConfig/bin/Release/net7.0/WritableConfig.dll
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/WritableConfig/bin/Release/net7.0/WritableConfig.pdb
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/WritableConfig/obj/Release/net7.0/WritableConfig.csproj.AssemblyReference.cache
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/WritableConfig/obj/Release/net7.0/WritableConfig.GeneratedMSBuildEditorConfig.editorconfig
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/WritableConfig/obj/Release/net7.0/WritableConfig.AssemblyInfoInputs.cache
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/WritableConfig/obj/Release/net7.0/WritableConfig.AssemblyInfo.cs
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/WritableConfig/obj/Release/net7.0/WritableConfig.csproj.CoreCompileInputs.cache
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/WritableConfig/obj/Release/net7.0/WritableConfig.dll
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/WritableConfig/obj/Release/net7.0/refint/WritableConfig.dll
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/WritableConfig/obj/Release/net7.0/WritableConfig.pdb
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/WritableConfig/obj/Release/net7.0/ref/WritableConfig.dll

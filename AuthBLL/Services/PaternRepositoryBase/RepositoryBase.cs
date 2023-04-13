@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using MobileDrill.DataBase.Data;
 
 
-namespace MobileDrill_DAL.Repository.Base;
+namespace AuthBLL.Repository.Base;
 
 public interface IRepositoryBase
 {
@@ -27,7 +27,7 @@ public interface IRepositoryBase
     string GetTableName();
 }
 
-public interface IRepositoryBase<TBase,TEntity> : IRepositoryBase, IDbContextEntityAction<TBase>
+public interface IRepositoryBase<TBase,TEntity> : IRepositoryBase, IAppDbContextEntityAction<TBase>
     where TBase : DbContext
     where TEntity : EntityBase
 {
@@ -149,9 +149,11 @@ public interface IRepositoryBase<TBase,TEntity> : IRepositoryBase, IDbContextEnt
     Task<List<TEntity>> WhereAsync(Expression<Func<TEntity, bool>> predicate, bool asNoTracking = false, CancellationToken cancellationToken = default);
     Task LoadCollectionAsync(TEntity entity, Expression<Func<TEntity, IEnumerable<object>>> collectionExpression);
     Task LoadReferenceAsync(TEntity entity, Expression<Func<TEntity, object?>> collectionExpression);
+
+    Task PurgeAsync(Expression<Func<TEntity, bool>> predicate,CancellationToken cancellationToken = default);
 }
 
-public class RepositoryBase<TBase,TEntity> : IRepositoryBase<TBase,TEntity>, IDbContextEntityAction<TBase>
+public class RepositoryBase<TBase,TEntity> : IRepositoryBase<TBase,TEntity>, IAppDbContextEntityAction<TBase>
     where TBase : DbContext
     where TEntity : EntityBase
 {
@@ -159,11 +161,11 @@ public class RepositoryBase<TBase,TEntity> : IRepositoryBase<TBase,TEntity>, IDb
     private readonly DbSet<TEntity> _dbSet;
     private readonly AppDbContextAction<TBase> _dbContextAction;
 
-    public RepositoryBase(TBase context, ILogger<TBase> loggerDbContextAction)
+    public RepositoryBase(TBase context)
     {
         _context = (DbContext)context;
         _dbSet = _context.Set<TEntity>();
-        _dbContextAction = new AppDbContextAction<TBase>(context, loggerDbContextAction);
+        _dbContextAction = new AppDbContextAction<TBase>(context);
     }
 
 
@@ -367,5 +369,10 @@ public class RepositoryBase<TBase,TEntity> : IRepositoryBase<TBase,TEntity>, IDb
         {
             await reference.LoadAsync();
         }
+    }
+
+    public async Task PurgeAsync(Expression<Func<TEntity, bool>> predicate, CancellationToken cancellationToken = default)
+    {
+        await QueryMany(predicate).ExecuteDeleteAsync(cancellationToken);
     }
 }

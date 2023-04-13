@@ -12,3 +12,8 @@ C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDA
 C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\AuthDAL.pdb
 C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\AuthDAL.genruntimeconfig.cache
 C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\ref\AuthDAL.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\bin\Debug\net7.0\Logging.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\bin\Debug\net7.0\WritableConfig.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\bin\Debug\net7.0\Logging.pdb
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\bin\Debug\net7.0\WritableConfig.pdb
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\AuthDAL.csproj.CopyComplete

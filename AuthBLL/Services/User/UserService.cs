@@ -55,8 +55,7 @@ namespace AuthBLL.Services.User
                 return null;
             }
 
-            _accountRepository.GetContext().Entry(account).Reference(x => x.Role).Load();
-
+            await _accountRepository.LoadReferenceAsync(account, _ => _.Role);
 
             if(account.twoFactorAuthentication)
             {
@@ -128,8 +127,9 @@ namespace AuthBLL.Services.User
             {
                 return null;
             }
-
-            _accountRepository.GetContext().Entry(account).Reference(x => x.Role).Load();
+            
+            await _accountRepository.LoadReferenceAsync(account, _ => _.Role);
+            //_accountRepository.GetContext().Entry(account).Reference(x => x.Role).Load();
 
             return account;
         }
@@ -142,7 +142,7 @@ namespace AuthBLL.Services.User
             }
 
             var account = await _accountRepository
-                .Get()
+                .QueryAll(false)
                 .AnyAsync(x => x.Email == register_model.Email);
 
             if (account)
@@ -159,7 +159,7 @@ namespace AuthBLL.Services.User
                 return null;
             }
 
-            register_model.Role = await _roleRepository.Get().Where(x => x.Name == "guest").FirstOrDefaultAsync();
+            register_model.Role = await _roleRepository.SingleOrDefaultAsync(x => x.Name == "guest");
 
             if(register_model.Role == null)
             {

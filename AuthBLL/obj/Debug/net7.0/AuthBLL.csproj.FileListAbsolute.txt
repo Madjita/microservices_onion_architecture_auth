@@ -13,3 +13,7 @@ C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBL
 C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\refint\AuthBLL.dll
 C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\AuthBLL.pdb
 c:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\ref\AuthBLL.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\bin\Debug\net7.0\Logging.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\bin\Debug\net7.0\WritableConfig.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\bin\Debug\net7.0\Logging.pdb
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\bin\Debug\net7.0\WritableConfig.pdb

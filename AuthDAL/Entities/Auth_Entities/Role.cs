@@ -7,12 +7,7 @@ namespace AuthDAL.Entities
     public class Role : EntityBase
     {
         public string Name { get; set; }
-        public List<Account> Accounts { get; set; }
-
-        public Role()
-        {
-            Accounts = new List<Account>();
-        }
+        public List<Account> Accounts { get; set; } = new();
 
     }
 }

@@ -1,0 +1,376 @@
+[Default] 2023-04-13T18:20:58.4013856+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T18:22:16.7850340+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T18:26:18.9290907+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T21:34:03.8056114+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T21:34:33.8041204+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T21:36:54.8560658+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T21:38:46.1448534+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T21:40:55.9272281+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T21:41:11.2236296+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T21:43:28.0721117+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T21:47:40.3343112+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T21:52:15.9971037+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T21:52:28.3095666+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) InitSettings...
+[Default] 2023-04-13T21:52:41.1840404+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-13T21:52:41.1875857+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-13T21:52:41.2770091+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-13T21:52:41.3345750+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-13T21:52:41.4223824+07:00 [ERR] (AuthDomain/DESKTOP-IMH6I3E/1) An error occurred while creating the database: Method 'Create' in type 'Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitorFactory' from assembly 'Microsoft.EntityFrameworkCore.Sqlite, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' does not have an implementation.
+[Default] 2023-04-13T21:52:41.4229080+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-13T21:52:41.5792706+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://192.168.0.3:5000"
+[Default] 2023-04-13T21:52:41.5802358+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-04-13T21:52:41.5814474+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-04-13T21:52:41.5834777+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-04-13T21:52:41.5845314+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-04-13T21:52:55.3912558+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/index.html - -
+[Default] 2023-04-13T21:52:55.5108843+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 121.0645ms
+[Default] 2023-04-13T21:52:55.6728308+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/favicon-16x16.png - -
+[Default] 2023-04-13T21:52:55.6855572+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"'
+[Default] 2023-04-13T21:52:55.6870139+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/favicon-16x16.png - - - 0 665 image/png 14.1368ms
+[Default] 2023-04-13T21:52:55.7029437+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/v1/swagger.json - -
+[Default] 2023-04-13T21:52:55.8174793+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.5245ms
+[Default] 2023-04-13T21:56:30.6516224+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/18) Request starting HTTP/2 POST https://192.168.0.3:5000/login application/json 71
+[Default] 2023-04-13T21:57:30.4223478+07:00 [ERR] (AuthDomain/DESKTOP-IMH6I3E/18) An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Method 'Create' in type 'Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitorFactory' from assembly 'Microsoft.EntityFrameworkCore.Sqlite, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' does not have an implementation.
+   at Microsoft.Extensions.DependencyInjection.SqliteServiceCollectionExtensions.AddEntityFrameworkSqlite(IServiceCollection serviceCollection)
+   at Microsoft.EntityFrameworkCore.Sqlite.Infrastructure.Internal.SqliteOptionsExtension.ApplyServices(IServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.ApplyServices(IDbContextOptions options, ServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<GetOrAdd>g__BuildServiceProvider|4_1(IDbContextOptions _, ValueTuple`2 arguments)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<>c.<GetOrAdd>b__4_0(IDbContextOptions contextOptions, ValueTuple`2 tuples)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at MobileDrill.DataBase.Data.AuthDbContext..ctor(DbContextOptions`1 options) in C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\contexts\AuthDbContext\AuthDbContext.cs:line 13
+   at InvokeStub_AuthDbContext..ctor(Object, Object, IntPtr*)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[Default] 2023-04-13T21:57:30.4303271+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/18) CORS policy execution successful.
+[Default] 2023-04-13T21:57:30.4540091+07:00 [ERR] (AuthDomain/DESKTOP-IMH6I3E/18) ["00-a79c56671412e0933847709f0cc2c560-4c76650556338f4c-00"] "HTTP/2" "POST" "/login" responded 500 in 59781.7467 ms
+System.InvalidOperationException: The exception handler configured on ExceptionHandlerOptions produced a 404 status response. This InvalidOperationException containing the original exception was thrown since this is often due to a misconfigured ExceptionHandlingPath. If the exception handler is expected to return 404 status responses then set AllowStatusCode404Response to true.
+ ---> System.TypeLoadException: Method 'Create' in type 'Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitorFactory' from assembly 'Microsoft.EntityFrameworkCore.Sqlite, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' does not have an implementation.
+   at Microsoft.Extensions.DependencyInjection.SqliteServiceCollectionExtensions.AddEntityFrameworkSqlite(IServiceCollection serviceCollection)
+   at Microsoft.EntityFrameworkCore.Sqlite.Infrastructure.Internal.SqliteOptionsExtension.ApplyServices(IServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.ApplyServices(IDbContextOptions options, ServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<GetOrAdd>g__BuildServiceProvider|4_1(IDbContextOptions _, ValueTuple`2 arguments)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<>c.<GetOrAdd>b__4_0(IDbContextOptions contextOptions, ValueTuple`2 tuples)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at MobileDrill.DataBase.Data.AuthDbContext..ctor(DbContextOptions`1 options) in C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\contexts\AuthDbContext\AuthDbContext.cs:line 13
+   at InvokeStub_AuthDbContext..ctor(Object, Object, IntPtr*)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[Default] 2023-04-13T21:57:30.4569436+07:00 [ERR] (AuthDomain/DESKTOP-IMH6I3E/18) An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The exception handler configured on ExceptionHandlerOptions produced a 404 status response. This InvalidOperationException containing the original exception was thrown since this is often due to a misconfigured ExceptionHandlingPath. If the exception handler is expected to return 404 status responses then set AllowStatusCode404Response to true.
+ ---> System.TypeLoadException: Method 'Create' in type 'Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitorFactory' from assembly 'Microsoft.EntityFrameworkCore.Sqlite, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' does not have an implementation.
+   at Microsoft.Extensions.DependencyInjection.SqliteServiceCollectionExtensions.AddEntityFrameworkSqlite(IServiceCollection serviceCollection)
+   at Microsoft.EntityFrameworkCore.Sqlite.Infrastructure.Internal.SqliteOptionsExtension.ApplyServices(IServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.ApplyServices(IDbContextOptions options, ServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<GetOrAdd>g__BuildServiceProvider|4_1(IDbContextOptions _, ValueTuple`2 arguments)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<>c.<GetOrAdd>b__4_0(IDbContextOptions contextOptions, ValueTuple`2 tuples)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at MobileDrill.DataBase.Data.AuthDbContext..ctor(DbContextOptions`1 options) in C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\contexts\AuthDbContext\AuthDbContext.cs:line 13
+   at InvokeStub_AuthDbContext..ctor(Object, Object, IntPtr*)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[Default] 2023-04-13T21:57:30.4689464+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/22) Request finished HTTP/2 POST https://192.168.0.3:5000/login application/json 71 - 500 - text/plain;+charset=utf-8 59817.3711ms
+[Default] 2023-04-13T21:57:56.9000001+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-13T21:57:56.9040545+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-13T21:57:56.9872493+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-13T21:57:57.0372572+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-13T21:57:57.1285893+07:00 [ERR] (AuthDomain/DESKTOP-IMH6I3E/1) An error occurred while creating the database: Method 'Create' in type 'Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitorFactory' from assembly 'Microsoft.EntityFrameworkCore.Sqlite, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' does not have an implementation.
+[Default] 2023-04-13T21:57:57.1291417+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-13T21:57:57.2558740+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://192.168.0.3:5000"
+[Default] 2023-04-13T21:57:57.2566386+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-04-13T21:57:57.2580451+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-04-13T21:57:57.2589696+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-04-13T21:57:57.2595188+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-04-13T21:58:15.0269418+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-13T21:58:15.0324689+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-13T21:58:15.1350987+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-13T21:58:17.9732883+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-13T22:03:16.5430790+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-13T22:03:16.5478933+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-13T22:03:16.6248730+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-13T22:03:41.8467515+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-13T22:03:49.4645152+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-13T22:03:49.4951782+07:00 [ERR] (AuthDomain/DESKTOP-IMH6I3E/1) An error occurred while creating the database: The seed entity for entity type 'Account' cannot be added because a non-zero value is required for property 'Id'. Consider providing a negative value to avoid collisions with non-seed data.
+[Default] 2023-04-13T22:03:49.4963763+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-13T22:03:49.6294296+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://192.168.0.3:5000"
+[Default] 2023-04-13T22:03:49.6305802+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-04-13T22:03:49.6322409+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-04-13T22:03:49.6335998+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-04-13T22:03:49.6343388+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-04-13T22:04:33.1587576+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-13T22:04:33.1625845+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-13T22:04:33.2573012+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-13T22:04:36.4863093+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-13T22:04:49.3014581+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-13T22:05:31.2541546+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-13T22:05:31.2607152+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-13T22:05:31.3653884+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-13T22:05:33.9890906+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-13T22:05:40.0979181+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-13T22:05:40.1778582+07:00 [ERR] (AuthDomain/DESKTOP-IMH6I3E/1) An error occurred while creating the database: The seed entity for entity type 'Role' cannot be added because a non-zero value is required for property 'Id'. Consider providing a negative value to avoid collisions with non-seed data.
+[Default] 2023-04-13T22:05:40.1784628+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-13T22:05:40.2864682+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://192.168.0.3:5000"
+[Default] 2023-04-13T22:05:40.2874917+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-04-13T22:05:40.2897530+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-04-13T22:05:40.2907898+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-04-13T22:05:40.2918243+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-04-13T22:05:54.1667169+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-13T22:05:54.1707587+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-13T22:05:54.2688127+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-13T22:05:57.4694992+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-13T22:06:06.0655973+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-13T22:06:31.3586256+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-13T22:06:31.3641528+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-13T22:06:31.4811607+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-13T22:06:34.0363787+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-13T22:06:39.4814377+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-13T22:06:39.7903058+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Executed DbCommand ("101"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""PRAGMA journal_mode = 'wal';"
+[Default] 2023-04-13T22:06:40.1421952+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"Roles\" (
+    \"ID\" INTEGER NOT NULL CONSTRAINT \"PK_Roles\" PRIMARY KEY AUTOINCREMENT,
+    \"Name\" TEXT NULL,
+    \"CreatedAt\" TEXT NOT NULL,
+    \"UpdatedAt\" TEXT NOT NULL
+);"
+[Default] 2023-04-13T22:06:40.1429970+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"Accounts\" (
+    \"ID\" INTEGER NOT NULL CONSTRAINT \"PK_Accounts\" PRIMARY KEY AUTOINCREMENT,
+    \"Name\" TEXT NULL,
+    \"Surname\" TEXT NULL,
+    \"Patronymic\" TEXT NULL,
+    \"Email\" TEXT NULL,
+    \"Password\" TEXT NULL,
+    \"Code\" INTEGER NOT NULL,
+    \"twoFactorAuthentication\" INTEGER NOT NULL,
+    \"RoleId\" INTEGER NOT NULL,
+    \"LastSignIn\" TEXT NOT NULL,
+    \"CreatedAt\" TEXT NOT NULL,
+    \"UpdatedAt\" TEXT NOT NULL,
+    CONSTRAINT \"FK_Accounts_Roles_RoleId\" FOREIGN KEY (\"RoleId\") REFERENCES \"Roles\" (\"ID\") ON DELETE CASCADE
+);"
+[Default] 2023-04-13T22:06:40.1436246+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"JsonWebTokens\" (
+    \"ID\" INTEGER NOT NULL CONSTRAINT \"PK_JsonWebTokens\" PRIMARY KEY AUTOINCREMENT,
+    \"Token\" TEXT NULL,
+    \"ExpiresAt\" TEXT NOT NULL,
+    \"DeleteAfter\" TEXT NOT NULL,
+    \"AccountId\" INTEGER NOT NULL,
+    \"CreatedAt\" TEXT NOT NULL,
+    \"UpdatedAt\" TEXT NOT NULL,
+    CONSTRAINT \"FK_JsonWebTokens_Accounts_AccountId\" FOREIGN KEY (\"AccountId\") REFERENCES \"Accounts\" (\"ID\") ON DELETE CASCADE
+);"
+[Default] 2023-04-13T22:06:40.1448002+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Roles\" (\"ID\", \"CreatedAt\", \"Name\", \"UpdatedAt\")
+VALUES (1, '0001-01-01 00:00:00+00:00', 'admin', '0001-01-01 00:00:00+00:00');
+INSERT INTO \"Roles\" (\"ID\", \"CreatedAt\", \"Name\", \"UpdatedAt\")
+VALUES (2, '0001-01-01 00:00:00+00:00', 'guest', '0001-01-01 00:00:00+00:00');"
+[Default] 2023-04-13T22:06:40.1453965+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Accounts\" (\"ID\", \"Code\", \"CreatedAt\", \"Email\", \"LastSignIn\", \"Name\", \"Password\", \"Patronymic\", \"RoleId\", \"Surname\", \"UpdatedAt\", \"twoFactorAuthentication\")
+VALUES (1, 504478, '0001-01-01 00:00:00+00:00', 'xok-s@yandex.ru', '0001-01-01 00:00:00', NULL, '$2a$11$ezH182iSNWBe8MmC7p1z0u5QcZhqnQhwR/boLWCzhp9X2v/Dpl3wS', NULL, 1, NULL, '0001-01-01 00:00:00+00:00', 1);"
+[Default] 2023-04-13T22:06:40.1461604+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_Accounts_RoleId\" ON \"Accounts\" (\"RoleId\");"
+[Default] 2023-04-13T22:06:40.1468096+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_JsonWebTokens_AccountId\" ON \"JsonWebTokens\" (\"AccountId\");"
+[Default] 2023-04-13T22:06:40.1475197+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE UNIQUE INDEX \"IX_JsonWebTokens_Token\" ON \"JsonWebTokens\" (\"Token\");"
+[Default] 2023-04-13T22:06:40.2056075+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-04-13T22:06:40.2079707+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-13T22:06:40.3166493+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://192.168.0.3:5000"
+[Default] 2023-04-13T22:06:40.3176009+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-04-13T22:06:40.3197592+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-04-13T22:06:40.3206700+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-04-13T22:06:40.3216080+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-04-13T22:06:57.8425603+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request starting HTTP/2 POST https://192.168.0.3:5000/login application/json 66
+[Default] 2023-04-13T22:07:05.9200932+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) CORS policy execution successful.
+[Default] 2023-04-13T22:07:05.9238313+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-04-13T22:07:05.9467894+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-04-13T22:08:12.9712827+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-13T22:08:12.9764147+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-13T22:08:13.0689091+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-13T22:08:15.4510596+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-13T22:08:18.8742643+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-13T22:08:19.1037180+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-04-13T22:08:19.1065625+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-13T22:08:19.2441424+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://192.168.0.3:5000"
+[Default] 2023-04-13T22:08:19.2450670+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-04-13T22:08:19.2470114+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-04-13T22:08:19.2479022+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-04-13T22:08:19.2484997+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-04-13T22:08:24.1964700+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/2 POST https://192.168.0.3:5000/login application/json 66
+[Default] 2023-04-13T22:08:24.3236834+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) CORS policy execution successful.
+[Default] 2023-04-13T22:08:24.3271734+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-04-13T22:08:24.3448986+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-04-13T22:08:55.9499750+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-13T22:08:55.9564409+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-13T22:08:56.0631600+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-13T22:08:56.1188049+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-13T22:08:56.7868319+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-13T22:08:56.9669963+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-04-13T22:08:56.9686464+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-13T22:08:57.0734186+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://192.168.0.3:5000"
+[Default] 2023-04-13T22:08:57.0742641+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-04-13T22:08:57.0756890+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-04-13T22:08:57.0768261+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-04-13T22:08:57.0774561+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-04-13T22:09:04.4371115+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request starting HTTP/2 POST https://192.168.0.3:5000/login application/json 66
+[Default] 2023-04-13T22:09:04.5468215+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) CORS policy execution successful.
+[Default] 2023-04-13T22:09:04.5517851+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-04-13T22:09:04.5737513+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-04-13T22:09:43.6378122+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-13T22:09:43.6417270+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-13T22:09:43.7320958+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-13T22:09:43.7867217+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-13T22:09:44.4966068+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-13T22:09:44.6510930+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-04-13T22:09:44.6529792+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-13T22:09:44.7955102+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://192.168.0.3:5000"
+[Default] 2023-04-13T22:09:44.7965996+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-04-13T22:09:44.7984535+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-04-13T22:09:44.7998205+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-04-13T22:09:44.8007692+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-04-13T22:09:52.1237928+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/2 POST https://192.168.0.3:5000/login application/json 66
+[Default] 2023-04-13T22:09:52.2370363+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) CORS policy execution successful.
+[Default] 2023-04-13T22:09:52.2423012+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-04-13T22:09:52.2626919+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-04-13T22:09:56.4800276+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed DbCommand ("4"ms) [Parameters=["@__data_Email_0='xok-s@yandex.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"Code\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"UpdatedAt\", \"a\".\"twoFactorAuthentication\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__data_Email_0
+LIMIT 2"
+[Default] 2023-04-13T22:10:07.4842304+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/11) HandledExceptionHttpResponseException
+AuthDAL.Exceptions.HttpResponseException: UserNotFoundOrWrongCredentials
+   at AuthBLL.Handlers.AuthHandler.SignIn(Login data, CancellationToken cancellationToken) in C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\Handlers\AuthHandler.cs:line 92
+   at AuthBLL.Handlers.AuthHandler.SignIn(Login data, CancellationToken cancellationToken) in C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\Handlers\AuthHandler.cs:line 135
+   at AuthDomain.Controllers.AuthController.LoginAsync(Login login_request) in C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain\Controllers\AuthController.cs:line 83
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[Default] 2023-04-13T22:10:07.4930917+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing "ObjectResult", writing value of type '"AuthDAL.Models.ErrorModelResult"'.
+[Default] 2023-04-13T22:10:07.5465176+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 15275.4156ms
+[Default] 2023-04-13T22:10:07.5485252+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-04-13T22:10:07.5584914+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) ["00-be98d8d8b186bc1728a51b20856427ed-6bcb2bb4b05ee554-00"] "HTTP/2" "POST" "/login" responded 400 in 15404.0357 ms
+[Default] 2023-04-13T22:10:07.5640538+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/2 POST https://192.168.0.3:5000/login application/json 66 - 400 - application/json;+charset=utf-8 15442.3621ms
+[Default] 2023-04-13T22:10:11.5640412+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/2 POST https://192.168.0.3:5000/login application/json 66
+[Default] 2023-04-13T22:10:11.6122068+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) CORS policy execution successful.
+[Default] 2023-04-13T22:10:11.6128444+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-04-13T22:10:11.6136852+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-04-13T22:10:19.9613724+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed DbCommand ("0"ms) [Parameters=["@__data_Email_0='xok-s@yandex.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"Code\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"UpdatedAt\", \"a\".\"twoFactorAuthentication\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__data_Email_0
+LIMIT 2"
+[Default] 2023-04-13T22:13:17.4924380+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-13T22:13:17.4966978+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-13T22:13:17.5926560+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-13T22:13:17.6738653+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-13T22:13:18.3391324+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-13T22:13:18.4906750+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-04-13T22:13:18.4923011+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-13T22:13:18.5981890+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://192.168.0.3:5000"
+[Default] 2023-04-13T22:13:18.5990398+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-04-13T22:13:18.6004625+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-04-13T22:13:18.6014759+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-04-13T22:13:18.6021107+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-04-13T22:13:56.2888993+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/2 POST https://192.168.0.3:5000/login application/json 66
+[Default] 2023-04-13T22:13:56.3944702+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) CORS policy execution successful.
+[Default] 2023-04-13T22:13:56.3992755+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-04-13T22:13:56.4185722+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-04-13T22:14:03.9654940+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed DbCommand ("4"ms) [Parameters=["@__data_Email_0='xok-s@yandex.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"Code\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"UpdatedAt\", \"a\".\"twoFactorAuthentication\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__data_Email_0
+LIMIT 2"
+[Default] 2023-04-13T22:14:10.2316214+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed DbCommand ("1"ms) [Parameters=["@p0='1', @p1='2023-04-13T15:14:10.1876405+00:00', @p2='2023-04-14T03:14:03.3209683+00:00', @p3='2023-04-14T03:14:03.3209683+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiUmFuZG9tVG9rZW4iOiIzZWZiOGVjMy0xZmYzLTQwMjMtOTdhYS00YWNhMDg5YjlmMDkiLCJleHAiOjE2ODE0NDIwNDN9.NLWiNOAm6xdbkQHepENQ5_EN8mSd9kQMUh8_JDF-4GQ' (Size = 193), @p5='2023-04-13T15:14:10.1876405+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-04-13T22:14:12.5052257+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed DbCommand ("0"ms) [Parameters=["@p11='1', @p0='504478', @p1='0001-01-01T00:00:00.0000000+00:00', @p2='xok-s@yandex.ru' (Size = 15), @p3='2023-04-13T15:14:03.3209683Z' (DbType = DateTime), @p4=NULL, @p5='$2a$11$ezH182iSNWBe8MmC7p1z0u5QcZhqnQhwR/boLWCzhp9X2v/Dpl3wS' (Size = 60), @p6=NULL, @p7='1', @p8=NULL, @p9='2023-04-13T15:14:12.5001733+00:00', @p10='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"Code\" = @p0, \"CreatedAt\" = @p1, \"Email\" = @p2, \"LastSignIn\" = @p3, \"Name\" = @p4, \"Password\" = @p5, \"Patronymic\" = @p6, \"RoleId\" = @p7, \"Surname\" = @p8, \"UpdatedAt\" = @p9, \"twoFactorAuthentication\" = @p10
+WHERE \"ID\" = @p11
+RETURNING 1;"
+[Default] 2023-04-13T22:14:15.1053511+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-04-13T22:14:15.1328788+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 18705.89ms
+[Default] 2023-04-13T22:14:15.1347896+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-04-13T22:14:15.1427199+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) ["00-0f3beeac7eed700ca37223c5f84bbc80-600f7324762fafa3-00"] "HTTP/2" "POST" "/login" responded 200 in 18827.0071 ms
+[Default] 2023-04-13T22:14:15.1479557+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/2 POST https://192.168.0.3:5000/login application/json 66 - 200 - application/json;+charset=utf-8 18862.0791ms

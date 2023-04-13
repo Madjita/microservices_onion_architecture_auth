@@ -19,7 +19,7 @@ public partial class AuthDbContext : DbContext
     }
 
     public virtual DbSet<Account> Accounts { get; set; }
-    // public virtual DbSet<JsonWebToken> JsonWebTokens { get; set; }
+    public virtual DbSet<JsonWebToken> JsonWebTokens { get; set; }
     public virtual DbSet<Role> Roles { get; set; }
 
     protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
@@ -42,6 +42,7 @@ public partial class AuthDbContext : DbContext
 
         builder.Entity<Role>(_ => { _.HasData(seedDbSets.Roles); });
         builder.Entity<Account>(_ => { _.HasData(seedDbSets.Accounts); });
+        builder.Entity<JsonWebToken>(_ => { _.HasIndex(__ => __.Token).IsUnique(); });
     }
 
     #region Helpers

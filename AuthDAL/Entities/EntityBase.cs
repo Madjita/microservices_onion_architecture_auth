@@ -18,8 +18,10 @@ public abstract class EntityBase
     [JsonProperty(PropertyName = "ID")]
     public virtual int Id { get; set; }
 
+    [DataType(DataType.Date)]
     public DateTimeOffset CreatedAt { get; set; }
 
+    [DataType(DataType.Date)]
     public DateTimeOffset UpdatedAt { get; set; }
 
     public bool IsNew()

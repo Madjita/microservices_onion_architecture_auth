@@ -19,7 +19,7 @@ where TBase : DbContext
     Task RollbackTransactionAsync(CancellationToken cancellationToken = default, bool shouldThrow = false);
 }
 
-public interface IDbContextEntityAction<TBase>
+public interface IAppDbContextEntityAction<TBase>
 where TBase : DbContext 
 {
     void Commit();
@@ -32,16 +32,15 @@ where TBase : DbContext
 ///     All repositories implement interfaces to control their own DbContext transaction.
 ///     If the passed DbContext in repository is created via ServiceLifetime.Transient or via DbContext Factory
 /// </summary>
-public class AppDbContextAction<TBase> : IDbContextEntityAction<TBase>, IAppDbContextTransactionAction<TBase>
+public class AppDbContextAction<TBase> : IAppDbContextEntityAction<TBase>, IAppDbContextTransactionAction<TBase>
     where TBase : DbContext 
 {
     private readonly DbContext _appDbContext;
     private readonly ILogger<TBase> _logger;
 
-    public AppDbContextAction(TBase appDbContext, ILogger<TBase> logger)
+    public AppDbContextAction(TBase appDbContext)
     {
         _appDbContext = (DbContext)appDbContext;
-        _logger = logger;
     }
 
     private bool TransactionInProgress { get; set; }

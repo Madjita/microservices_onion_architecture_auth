@@ -28,6 +28,7 @@ public partial class AuthDbContext
         {
             new()
             {
+                Id = 1,
                 Email = "xok-s@yandex.ru",
                 Password = BCrypt.Net.BCrypt.HashPassword("123"),
                 RoleId = 1,
@@ -40,8 +41,8 @@ public partial class AuthDbContext
 
         result.Roles = new List<Role>
         {
-            new() { Name = "admin" },
-            new() { Name = "guest" }
+            new() { Id = 1, Name = "admin" },
+            new() { Id = 2, Name = "guest" }
         };
 
         return result;

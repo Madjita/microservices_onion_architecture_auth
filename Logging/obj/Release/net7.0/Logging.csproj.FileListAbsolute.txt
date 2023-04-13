@@ -1,0 +1,12 @@
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/Logging/bin/Release/net7.0/Logging.deps.json
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/Logging/bin/Release/net7.0/Logging.dll
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/Logging/bin/Release/net7.0/Logging.pdb
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/Logging/obj/Release/net7.0/Logging.csproj.AssemblyReference.cache
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/Logging/obj/Release/net7.0/Logging.GeneratedMSBuildEditorConfig.editorconfig
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/Logging/obj/Release/net7.0/Logging.AssemblyInfoInputs.cache
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/Logging/obj/Release/net7.0/Logging.AssemblyInfo.cs
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/Logging/obj/Release/net7.0/Logging.csproj.CoreCompileInputs.cache
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/Logging/obj/Release/net7.0/Logging.dll
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/Logging/obj/Release/net7.0/refint/Logging.dll
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/Logging/obj/Release/net7.0/Logging.pdb
+/home/vboxuser/Desktop/scripts/test_refactoring/drillautomation/Logging/obj/Release/net7.0/ref/Logging.dll

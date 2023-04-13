@@ -1,0 +1,11 @@
+﻿{
+  "AuthServiceSettings": {
+    "JsonWebTokenIssuer": "",
+    "JsonWebTokenValidateIssuer": false,
+    "JsonWebTokenAudience": "",
+    "JsonWebTokenValidateAudience": false,
+    "JsonWebTokenIssuerSigningKey": "KBp5vHlvOGWhhzsHMxunT89jrjBCFgbo4sAARpgVxhzxi3BzwN58i4SiiEViT2n6zg1cjZgGrJkS8WbuQ1X0YgzPTPvw1ayHIR6T3tkA247rq3MjjpuWf6ByQSm6j2kU",
+    "JsonWebTokenValidateIssuerSigningKey": true,
+    "JsonWebTokenExpirySeconds": 43200
+  }
+}

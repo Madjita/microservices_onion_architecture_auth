@@ -1,38 +1,78 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using AuthBLL.Handlers;
+using AuthBLL.Services.User;
+using AuthDAL.Models;
 using AuthDAL.response_models;
 using AuthDAL.send_models;
-using AuthBLL.Bearer.Auth.Auth.JWT;
-using AuthBLL.Services.User;
-using Microsoft.AspNetCore.Authentication.OAuth;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Options;
+using Swashbuckle.AspNetCore.Annotations;
+using AuthenticationSchemes = AuthDAL.Auth.AuthService.AuthenticationSchemes;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace AuthDomain.Controllers
 {
+    [Authorize(AuthenticationSchemes = AuthenticationSchemes.JsonWebToken)]
     public class AuthController : Controller
     {
         private readonly IConfiguration _configuration;
-        private readonly IOptions<AuthOptions> _authOptrions;
-
+        // private readonly IOptions<AuthOptions> _authOptrions;
+        private readonly IAuthHandler _authHandler;
         private readonly IUserService _userService;
 
 
-        public AuthController(IOptions<AuthOptions> authOptrions, IConfiguration configuration,IUserService userService)
+        public AuthController(
+            IConfiguration configuration,
+            // IOptions<AuthOptions> authOptrions, 
+            IUserService userService,
+            IAuthHandler authHandler
+        )
         {
-            _authOptrions = authOptrions;
+            // _authOptrions = authOptrions;
             _configuration = configuration;
 
             _userService = userService;
+            _authHandler = authHandler;
         }
+
+        // [Route("login")]
+        // [HttpPost]
+        // [AllowAnonymous]
+        // [SwaggerOperation(Summary = "Signs in as a User account", Description = "You must use User account in order to interact with the rest of the API")]
+        // [ProducesResponseType(typeof(LoginSend_model), StatusCodes.Status200OK)]
+        // public async Task<IActionResult> LoginAsync([FromBody] Login login_request)
+        // {
+        //     if(login_request == null)
+        //     {
+        //         return Unauthorized();
+        //     }
+            
+        //     var response = await _userService.AuthenticateAsync(login_request.GetEntity());
+
+        //     if (response == null)
+        //     {
+        //         return Unauthorized();
+        //     }
+
+
+        //     var jwt = response.twoFactorAuthentication ? null: _configuration.GenerateJwtToken(_authOptrions, response);
+
+        //     return Ok(new LoginSend_model
+        //     {
+        //         Email = response.Email,
+        //         Role  = new RoleSend_model
+        //         {
+        //             Name = response.Role.Name,
+        //         },
+        //         Access_token = jwt
+        //     });
+        // }
 
         [Route("login")]
         [HttpPost]
+        [AllowAnonymous]
+        [SwaggerOperation(Summary = "Signs in as a User account", Description = "You must use User account in order to interact with the rest of the API")]
+        [ProducesResponseType(typeof(LoginSend_model), StatusCodes.Status200OK)]
         public async Task<IActionResult> LoginAsync([FromBody] Login login_request)
         {
             if(login_request == null)
@@ -40,25 +80,14 @@ namespace AuthDomain.Controllers
                 return Unauthorized();
             }
 
-            var response = await _userService.AuthenticateAsync(login_request.GetEntity());
+            var response = await _authHandler.SignIn(login_request);
 
-            if (response == null)
+            if (response.Item1 == null)
             {
                 return Unauthorized();
             }
 
-
-            var jwt = response.twoFactorAuthentication ? null: _configuration.GenerateJwtToken(_authOptrions, response);
-
-            return Ok(new LoginSend_model
-            {
-                Email = response.Email,
-                Role  = new RoleSend_model
-                {
-                    Name = response.Role.Name,
-                },
-                Access_token = jwt
-            });
+            return Ok(response.Item1);
         }
 
         [Route("login")]
@@ -73,18 +102,7 @@ namespace AuthDomain.Controllers
                 return BadRequest(new { message = "Didn't register!" });
             }
 
-
-            var jwt = _configuration.GenerateJwtToken(_authOptrions, response);
-
-            return Ok(new LoginSend_model
-            {
-                Email = response.Email,
-                Role = new RoleSend_model
-                {
-                    Name = response.Role.Name,
-                },
-                Access_token = jwt
-            });
+            return Ok();
         }
 
 
