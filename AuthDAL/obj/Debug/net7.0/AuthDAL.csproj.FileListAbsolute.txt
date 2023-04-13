@@ -1,0 +1,14 @@
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\bin\Debug\net7.0\AuthDAL.deps.json
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\bin\Debug\net7.0\AuthDAL.runtimeconfig.json
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\bin\Debug\net7.0\AuthDAL.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\bin\Debug\net7.0\AuthDAL.pdb
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\AuthDAL.csproj.AssemblyReference.cache
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\AuthDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\AuthDAL.AssemblyInfoInputs.cache
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\AuthDAL.AssemblyInfo.cs
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\AuthDAL.csproj.CoreCompileInputs.cache
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\AuthDAL.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\refint\AuthDAL.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\AuthDAL.pdb
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\AuthDAL.genruntimeconfig.cache
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDAL\obj\Debug\net7.0\ref\AuthDAL.dll

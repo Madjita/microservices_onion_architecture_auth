@@ -7,7 +7,7 @@
     <ReleaseVersion>0.0.0</ReleaseVersion>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
-    <DockerServiceName>presentation_layer</DockerServiceName>
+    <DockerServiceName>AuthDomain</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

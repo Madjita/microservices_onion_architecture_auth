@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  presentation_layer:
+  AuthDomain:
     image: ${DOCKER_REGISTRY-}presentationlayer
     build:
       context: .

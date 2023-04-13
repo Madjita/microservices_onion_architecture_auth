@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{3269B95F-57F1-4678-B705-A20C310FA958}|Default">
   <DisabledProjects>
-    <String>Data/Data_layer.csproj</String>
+    <String>Data/AuthDAL.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/AuthController.cs">
     <Files>
@@ -14,7 +14,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="microservis_onion_architecture_auth" expanded="True">
-            <Node name="Presentation_layer" expanded="True" selected="True">
+            <Node name="AuthDomain" expanded="True" selected="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>

@@ -1,0 +1,15 @@
+c:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\bin\Debug\net7.0\AuthBLL.deps.json
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\bin\Debug\net7.0\AuthBLL.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\bin\Debug\net7.0\AuthBLL.pdb
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\bin\Debug\net7.0\AuthDAL.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\bin\Debug\net7.0\AuthDAL.pdb
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\AuthBLL.csproj.AssemblyReference.cache
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\AuthBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\AuthBLL.AssemblyInfoInputs.cache
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\AuthBLL.AssemblyInfo.cs
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\AuthBLL.csproj.CoreCompileInputs.cache
+c:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\AuthBLL.csproj.CopyComplete
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\AuthBLL.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\refint\AuthBLL.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\AuthBLL.pdb
+c:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthBLL\obj\Debug\net7.0\ref\AuthBLL.dll

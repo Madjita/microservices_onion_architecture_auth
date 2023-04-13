@@ -24,18 +24,18 @@ RUN apt-get install -y nodejs
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["Presentation_layer/Presentation_layer.csproj", "Presentation_layer/"]
-COPY ["Data_layer/Data_layer.csproj", "Data_layer/"]
-COPY ["Infrastructure_layer/Infrastructure_layer.csproj", "Infrastructure_layer/"]
-RUN dotnet restore "Presentation_layer/Presentation_layer.csproj"
+COPY ["AuthDomain/AuthDomain.csproj", "AuthDomain/"]
+COPY ["AuthDAL/AuthDAL.csproj", "AuthDAL/"]
+COPY ["AuthBLL/AuthBLL.csproj", "AuthBLL/"]
+RUN dotnet restore "AuthDomain/AuthDomain.csproj"
 COPY . .
-WORKDIR "/src/Presentation_layer"
-RUN dotnet build "Presentation_layer.csproj" -c Release -o /app/build
+WORKDIR "/src/AuthDomain"
+RUN dotnet build "AuthDomain.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Presentation_layer.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "AuthDomain.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Presentation_layer.dll"]
+ENTRYPOINT ["dotnet", "AuthDomain.dll"]
