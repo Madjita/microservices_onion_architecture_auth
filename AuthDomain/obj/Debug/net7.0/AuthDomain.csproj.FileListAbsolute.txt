@@ -77,3 +77,6 @@ C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDo
 C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain\obj\Debug\net7.0\AuthDomain.pdb
 C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain\obj\Debug\net7.0\AuthDomain.genruntimeconfig.cache
 C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain\obj\Debug\net7.0\ref\AuthDomain.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

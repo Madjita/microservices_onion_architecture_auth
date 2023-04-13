@@ -1,6 +1,6 @@
 ﻿using System;
-using AuthDAL.EF_entities;
 using System.Threading.Tasks;
+using AuthDAL.Entities;
 
 namespace AuthBLL.Services.User
 {

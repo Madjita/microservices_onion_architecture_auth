@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using AuthDAL.EF_entities;
 
 namespace AuthDAL.send_models
 {

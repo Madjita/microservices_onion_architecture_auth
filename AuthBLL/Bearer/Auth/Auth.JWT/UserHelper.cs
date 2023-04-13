@@ -4,9 +4,9 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using AuthDAL.EF_entities;
 using Microsoft.Extensions.Options;
 using System.Collections.Generic;
+using AuthDAL.Entities;
 
 namespace AuthBLL.Bearer.Auth.Auth.JWT
 {

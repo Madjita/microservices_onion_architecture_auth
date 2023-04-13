@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using AuthDAL.EF_entities;
 using Microsoft.Extensions.Configuration;
 using AuthBLL.Services.Repository;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +9,7 @@ using System.Linq;
 using System.Net.Mail;
 using AuthBLL.Services.SmtpEmailSender;
 using System.Text;
+using AuthDAL.Entities;
 
 namespace AuthBLL.Services.User
 {
@@ -17,8 +17,6 @@ namespace AuthBLL.Services.User
     {
         private readonly IRepository<Account> _accountRepository;
         private readonly IRepository<Role> _roleRepository;
-
-
         private readonly IEmailSender _emailSender;
 
         public UserService(
@@ -62,10 +60,6 @@ namespace AuthBLL.Services.User
 
             if(account.twoFactorAuthentication)
             {
-
-                
-
-
                 //Сгенерировать случайный код
                 //Создание объекта для генерации чисел
                 Random rnd = new Random();

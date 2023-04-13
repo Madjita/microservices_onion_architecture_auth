@@ -1,20 +1,22 @@
 ﻿using System;
+using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
-using System.Linq;
-
-
 using System.Threading.Tasks;
-using AuthDAL.EF_entities;
-using AuthDAL.Data;
+using AuthDAL.Entities.Base;
+using MobileDrill.DataBase.Data;
+using MobileDrill_DAL.Repository.Base;
+using System.Linq.Expressions;
+using System.Threading;
+using Microsoft.Extensions.Logging;
 
 namespace AuthBLL.Services.Repository
 {
-    public class Repository<T> : IRepository<T> where T : BaseEntity
+    public class Repository<T> : RepositoryBase<AuthDbContext,T>, IRepository<T> where T : EntityBase
     {
-        private readonly Context _context;
+        private readonly AuthDbContext _context;
 
-        public Repository(Context context)
+        public Repository(AuthDbContext context,ILogger<AuthDbContext> loggerDbContextAction):base(context,loggerDbContextAction)
         {
             _context = context;
         }
@@ -29,7 +31,7 @@ namespace AuthBLL.Services.Repository
             return await _context.Set<T>().ToListAsync();
         }
 
-        public Context GetContext()
+        public AuthDbContext GetContext()
         {
             return _context;
         }

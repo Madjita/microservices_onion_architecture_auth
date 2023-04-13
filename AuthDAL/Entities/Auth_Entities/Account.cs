@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Numerics;
+using AuthDAL.Entities.Base;
 
-namespace AuthDAL.EF_entities
+namespace AuthDAL.Entities
 {
-    public class Account : BaseEntity
+    public class Account : EntityBase
     {
 
         public string Email { get; set; }

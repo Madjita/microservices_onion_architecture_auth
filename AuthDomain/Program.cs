@@ -1,12 +1,12 @@
 ﻿using System.Net;
 using System.Net.Mail;
-using AuthDAL.Data;
 using AuthBLL.Bearer.Auth.Auth.JWT;
 using AuthBLL.Services.Repository;
 using AuthBLL.Services.SmtpEmailSender;
 using AuthBLL.Services.User;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using MobileDrill.DataBase.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 var authOptionsConfiguration = builder.Configuration.GetSection("Auth");
 builder.Services.Configure<AuthOptions>(authOptionsConfiguration);
 
-builder.Services.AddDbContext<Context>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), b=> b.MigrationsAssembly("AuthDAL")));
+builder.Services.AddDbContext<AuthDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), b=> b.MigrationsAssembly("AuthDAL")));
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddTransient<IUserService, UserService>();

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using AuthDAL.EF_entities;
+using AuthDAL.Entities;
 
 namespace AuthDAL.response_models
 {

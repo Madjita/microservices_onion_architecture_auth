@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using AuthDAL.Entities.Base;
 
-namespace AuthDAL.EF_entities
+namespace AuthDAL.Entities
 {
-    public class Role : BaseEntity
+    public class Role : EntityBase
     {
         public string Name { get; set; }
         public List<Account> Accounts { get; set; }
