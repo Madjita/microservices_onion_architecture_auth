@@ -1844,3 +1844,17 @@ RETURNING 1;"
 [Default] 2023-05-07T17:26:42.2899716+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request finished HTTP/2 GET https://localhost:5000/swagger/favicon-16x16.png - - - 0 665 image/png 10.3514ms
 [Default] 2023-05-07T17:26:42.3051240+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request starting HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - -
 [Default] 2023-05-07T17:26:42.4483479+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request finished HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 143.1839ms
+[Default] 2023-05-07T17:30:49.5862265+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-05-07T17:30:49.5920227+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-05-07T17:30:49.6689805+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-05-07T17:30:49.7185364+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-05-07T17:30:50.4351240+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-05-07T17:30:50.5922114+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-05-07T17:30:50.5942360+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-05-07T17:30:50.7146674+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://192.168.0.3:5000"
+[Default] 2023-05-07T17:30:50.7168510+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-05-07T17:30:50.7177013+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://localhost:5000"
+[Default] 2023-05-07T17:30:50.7190196+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://localhost:5001"
+[Default] 2023-05-07T17:30:50.7216557+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-05-07T17:30:50.7232072+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-05-07T17:30:50.7243502+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
