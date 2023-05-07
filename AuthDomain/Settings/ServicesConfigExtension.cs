@@ -3,8 +3,8 @@ using AuthDAL.Settings;
 using Logging.Factories;
 using Logging.Models;
 using Microsoft.Extensions.Options;
-using AuthDomain.Settings;
 using WritableConfig;
+using WritableConfig.Services.SystemTextJson;
 
 namespace AuthDomain.Settings
 {
@@ -119,7 +119,7 @@ namespace AuthDomain.Settings
                 var configuration = (IConfigurationRoot)provider.GetService<IConfiguration>();
                 var environment = provider.GetService<IWebHostEnvironment>();
                 var options = provider.GetService<IOptionsMonitor<T>>();
-                return new WritableJsonConfig<T>(environment, options, configuration, section.Key, file);
+                return new WritableSystemTextJsonConfig<T>(environment, options, configuration, section.Key, file);
             });
         }
         

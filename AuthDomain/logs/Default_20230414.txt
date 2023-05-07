@@ -1,0 +1,22 @@
+[Default] 2023-04-14T23:40:43.4202537+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-14T23:40:43.4260757+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-14T23:40:43.4880106+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-14T23:40:43.5367434+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-14T23:40:44.4102038+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-14T23:40:44.6867617+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-04-14T23:40:44.6904192+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-14T23:40:44.7679943+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://192.168.0.3:5000"
+[Default] 2023-04-14T23:40:44.7728667+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-04-14T23:40:44.7755468+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-04-14T23:40:44.7783454+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-04-14T23:40:44.7798803+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-04-14T23:40:45.1785661+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/index.html - -
+[Default] 2023-04-14T23:40:45.3133549+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 136.5510ms
+[Default] 2023-04-14T23:40:45.3470914+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/swagger-ui.css - -
+[Default] 2023-04-14T23:40:45.3733070+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[Default] 2023-04-14T23:40:45.4117512+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/swagger-ui.css - - - 0 143632 text/css 64.6158ms
+[Default] 2023-04-14T23:40:45.5382589+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/favicon-16x16.png - -
+[Default] 2023-04-14T23:40:45.5416128+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"'
+[Default] 2023-04-14T23:40:45.5438722+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/favicon-16x16.png - - - 0 665 image/png 5.6037ms
+[Default] 2023-04-14T23:40:45.5618177+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/v1/swagger.json - -
+[Default] 2023-04-14T23:40:45.7006771+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.7919ms

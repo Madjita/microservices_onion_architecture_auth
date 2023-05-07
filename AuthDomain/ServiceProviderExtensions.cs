@@ -20,6 +20,7 @@ using AuthBLL.Services;
 using AuthBLL.Services.Advanced;
 using AuthService.Services.Advanced;
 using AuthBLL.Repository.Base;
+using AuthDAL.Auth.AuthService;
 
 namespace AuthDomain
 {
@@ -262,6 +263,7 @@ namespace AuthDomain
                     options.JsonSerializerOptions.PropertyNamingPolicy = null;
 
                     options.JsonSerializerOptions.Converters.Add(new StringTrimmingConverter());
+                    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
                 });
         }
         

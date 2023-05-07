@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OAU2ELeIg8Bo5DVUXLLBCJTWSRCLQXNzkQhWI7sS8Yn1pcMgK3YF9HW5ERRYD+42Psx7huCiIg8QJOfkBnkiYw==",
+  "dgSpecHash": "whYt2aOJ7XKNQ+FEixodRKPCnYjxIN9VhcTYRswymy8dLCPSBf1UDDC1aGd06CjPeyAXY1jpvNMZ10SCdtb6hg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\WritableConfig\\WritableConfig.csproj",
+  "projectFilePath": "C:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\WritableConfig\\WritableConfig.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sergey\\.nuget\\packages\\microsoft.aspnetcore.hosting\\2.2.7\\microsoft.aspnetcore.hosting.2.2.7.nupkg.sha512",
     "C:\\Users\\Sergey\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",

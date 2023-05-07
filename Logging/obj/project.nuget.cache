@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+4UgxQGgJxq+CYJalBkU3LfF8DnWoS4a4BtXz7h352zZk6YtCMYftUvzMsydCtwln3uAm4gjMyx+MZ6dgZV/LQ==",
+  "dgSpecHash": "sLybqoHJpeFtdjqr4bVObH9QUfWKW5f9MQoYWuJ1C99RyRrYDKfdLO0BQChBnhshMvVLn1Zk8L1eIts7rfAjXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\Logging\\Logging.csproj",
   "expectedPackageFiles": [

@@ -30,7 +30,7 @@ namespace AuthBLL.Handlers;
 
 public interface IAuthHandler
 {
-    Task<(IDtoResultBase, Account)> SignIn(Login data, CancellationToken cancellationToken = default);
+    Task<(IDtoResultBase, Account)> SignIn(Account data, CancellationToken cancellationToken = default);
     Task<IDtoResultBase> SignOut(CancellationToken cancellationToken = default);
 
 }
@@ -73,27 +73,15 @@ public class AuthHandler : HandlerBase, IAuthHandler
     }
 
     public async Task<(IDtoResultBase, Account)> SignIn(
-        Login data,
+        Account user,
         CancellationToken cancellationToken = default
     )
     {
-
-        if (ValidateModel(data) is { } validationResult)
-            return (validationResult, null);
-
         try
         {
             await _appDbContextTransactionAction.BeginTransactionAsync(cancellationToken);
 
             var dateTimeOffsetUtcNow = DateTimeOffset.UtcNow;
-
-            var user = await _accountRepository.SingleOrDefaultAsync(_ => _.Email == data.Email);
-            
-            if (user == null || 
-                !BCrypt.Net.BCrypt.Verify(data.Password, user.Password) &&
-                !BCrypt.Net.BCrypt.Verify(data.Email, user.Email)
-            )
-                throw new HttpResponseException(StatusCodes.Status400BadRequest, ErrorType.Generic, Localize.Error.UserNotFoundOrWrongCredentials.ToString());
 
             var authServiceSettingsConfig = _authServiceSettings.GetConfigObject();
 

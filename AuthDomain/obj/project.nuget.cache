@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lBLqXSVo/zq850ktcxnobrs5+b0tQe0x9WjZfUYXfe4xFiv13TIqmEdMz782z4Faedwu/rokZ6ypf22xnVW90A==",
+  "dgSpecHash": "jkeHlOG15lynMPOYiBACYI5EXyO1pZhC0VwOba+feR8NvTR8/jAIGqMa8ac/WTs+1JUIZGdKk1lFasfwOxx1bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\AuthDomain\\AuthDomain.csproj",
   "expectedPackageFiles": [

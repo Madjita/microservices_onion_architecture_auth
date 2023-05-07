@@ -9,13 +9,17 @@ namespace WritableConfig
 {
     public class WritableJsonConfig<T> : IWritableConfig<T> where T : class, new()
     {
-        private readonly IWebHostEnvironment _environment;
-        private readonly IOptionsMonitor<T> _options;
-        private readonly IConfigurationRoot _configuration;
-        private readonly string _section;
-        private readonly string _file;
-        private List<EventHandler> NotifyHandlers = new List<EventHandler>();
-        private readonly SemaphoreSlim _semaphoreSlim = new SemaphoreSlim(1, 1);
+        protected readonly IWebHostEnvironment _environment;
+        protected readonly IOptionsMonitor<T> _options;
+        protected readonly IConfigurationRoot _configuration;
+        protected readonly string _section;
+        protected readonly string _file;
+        protected List<EventHandler> _updateEventSubscribers = new List<EventHandler>();
+        protected readonly SemaphoreSlim _semaphoreSlim = new SemaphoreSlim(1, 1);
+
+        protected T Value => _options.CurrentValue;
+
+        T IOptions<T>.Value => throw new NotImplementedException();
 
         public WritableJsonConfig(
             IWebHostEnvironment environment,
@@ -33,25 +37,12 @@ namespace WritableConfig
 
         public T GetConfigObject()
         {
-            var PossibleNull = _configuration.GetSection(_section).Get<T>();
-            if (PossibleNull == null) 
-            {
-                throw new InvalidCastException();
-            }
-            return PossibleNull;
+            return _configuration.GetSection(_section).Get<T>() ?? throw new Exception($"Failed to get configuration section {_section} of type {typeof(T).FullName}");
         }
         
-        public void SetConfig(T config)
-        {
-            Update(opt =>
-            {
-                opt.CopyFieldsFromObject(config);
-            });
-        }
-
         public void AddHandlerToNotification(EventHandler eventHandler)
         {
-            NotifyHandlers.Add(eventHandler);
+            _updateEventSubscribers.Add(eventHandler);
         }
         
         public string GetSection()
@@ -61,79 +52,15 @@ namespace WritableConfig
 
         public void NotifyAllHandlers()
         {
-            foreach (var eve in NotifyHandlers) 
+            foreach (var eve in _updateEventSubscribers) 
             {
                 eve.Invoke(this, new EventArgs());
             }
         }
 
-        private T Value => _options.CurrentValue;
-
-        T IOptions<T>.Value => throw new NotImplementedException();
-
-        private void Update(Action<T> applyChanges)
+        public void SetConfig(T config)
         {
-            //Добавлен семафор т.к. запись в файл это критическая секция.
-            _semaphoreSlim.Wait();
-
-            try
-            {
-                var fileInfo = new FileInfo(_file);
-                if (!File.Exists(fileInfo.FullName))
-                {
-                    _semaphoreSlim.Release();
-                    return;
-                }
-
-                var jObject = JsonConvert.DeserializeObject<JObject>(File.ReadAllText(fileInfo.FullName));
-                if (jObject == null)
-                {
-                    _semaphoreSlim.Release();
-                    return;
-                }
-
-                var sectionObject = jObject.TryGetValue(_section, out JToken? section) ? JsonConvert.DeserializeObject<T>(section.ToString()) : (Value ?? new T());
-                if (sectionObject == null)
-                {
-                    throw new InvalidCastException();
-                }
-
-                applyChanges(sectionObject);
-
-                jObject[_section] = JObject.Parse(JsonConvert.SerializeObject(sectionObject));
-                File.WriteAllText(fileInfo.FullName, JsonConvert.SerializeObject(jObject, Formatting.Indented));
-                _configuration.Reload();
-
-                NotifyAllHandlers();
-            }
-            finally
-            {
-                _semaphoreSlim.Release();
-            }
-        }
-    }   
-    
-    public static class WritableJsonConfigUtil
-    {
-        /// <summary>
-        /// Copy all fields from objFrom to objTo, if objTo or objFrom == null throws exception
-        /// </summary>
-        /// <param name="objTo"> Object copy to </param>
-        /// <param name="objFrom"> Object copy from </param>
-        public static void CopyFieldsFromObject<T>(this T objTo, T objFrom)
-        {
-            if (objTo == null || objFrom == null)
-            {
-                throw new InvalidCastException();
-            }
-            
-            var propInfo = objFrom.GetType().GetProperties();
-            foreach (var item in propInfo)
-            {
-                var tmp = objTo.GetType().GetProperty(item.Name);
-                if (tmp == null) continue;
-                tmp.SetValue(objTo, item.GetValue(objFrom, null), null);
-            }
+            throw new NotImplementedException();
         }
     }
 }

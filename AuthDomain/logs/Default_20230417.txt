@@ -1,0 +1,73 @@
+[Default] 2023-04-17T11:32:50.0018665+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-17T11:32:50.0067042+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-17T11:32:50.0717277+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-17T11:32:50.1216714+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-17T11:32:50.9290481+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-17T11:32:51.1637781+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-04-17T11:32:51.1676365+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-17T11:32:51.2470906+07:00 [FTL] (AuthDomain/DESKTOP-IMH6I3E/1) An unhandled exception occured during bootstrapping!
+System.Net.Sockets.SocketException (10049): Требуемый адрес для своего контекста неверен.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass30_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain\Program.cs:line 103
+[Default] 2023-04-17T11:32:51.2608931+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Flushing logs...
+[Default] 2023-04-17T11:33:43.7550978+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-17T11:33:43.7627599+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-17T11:33:43.8148010+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-17T11:33:43.8518163+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-17T11:33:44.5582197+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-17T11:33:44.7868206+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-04-17T11:33:44.7906345+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-17T11:33:44.8564318+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://localhost:5000"
+[Default] 2023-04-17T11:33:44.8600279+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://localhost:5001"
+[Default] 2023-04-17T11:33:44.8660814+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-04-17T11:33:44.8697830+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-04-17T11:33:44.8716649+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-04-17T11:33:48.6918584+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/2 GET https://localhost:5000/swagger - -
+[Default] 2023-04-17T11:33:48.7358833+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/2 GET https://localhost:5000/swagger - - - 301 0 - 45.6488ms
+[Default] 2023-04-17T11:33:48.7446081+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/2 GET https://localhost:5000/swagger/index.html - -
+[Default] 2023-04-17T11:33:48.8462393+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/2 GET https://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 101.6015ms
+[Default] 2023-04-17T11:33:48.8630444+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/2 GET https://localhost:5000/swagger/swagger-ui.css - -
+[Default] 2023-04-17T11:33:48.8795456+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[Default] 2023-04-17T11:33:48.8827059+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request finished HTTP/2 GET https://localhost:5000/swagger/swagger-ui.css - - - 200 143632 text/css 19.5836ms
+[Default] 2023-04-17T11:33:48.8854190+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/2 GET https://localhost:5000/swagger/swagger-ui-bundle.js - -
+[Default] 2023-04-17T11:33:48.8854374+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/2 GET https://localhost:5000/swagger/swagger-ui-standalone-preset.js - -
+[Default] 2023-04-17T11:33:48.9012135+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[Default] 2023-04-17T11:33:48.9043793+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/2 GET https://localhost:5000/swagger/swagger-ui-standalone-preset.js - - - 200 337162 text/javascript 18.9542ms
+[Default] 2023-04-17T11:33:48.9150218+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[Default] 2023-04-17T11:33:48.9177602+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request finished HTTP/2 GET https://localhost:5000/swagger/swagger-ui-bundle.js - - - 200 1092889 text/javascript 32.3664ms
+[Default] 2023-04-17T11:33:49.0285937+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/2 GET https://localhost:5000/swagger/favicon-32x32.png - -
+[Default] 2023-04-17T11:33:49.0311568+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[Default] 2023-04-17T11:33:49.0345257+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/2 GET https://localhost:5000/swagger/favicon-32x32.png - - - 200 628 image/png 5.9097ms
+[Default] 2023-04-17T11:33:49.0531289+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - -
+[Default] 2023-04-17T11:33:49.1726822+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.4927ms
+[Default] 2023-04-17T12:31:20.2024414+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-04-17T12:31:20.2069745+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-04-17T12:31:20.3090981+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-04-17T12:31:20.3855853+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-04-17T12:31:21.1975772+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-04-17T12:31:21.3577650+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-04-17T12:31:21.3596876+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-04-17T12:31:21.4864226+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://localhost:5000"
+[Default] 2023-04-17T12:31:21.5124345+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://localhost:5001"
+[Default] 2023-04-17T12:31:21.5145869+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-04-17T12:31:21.5161354+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-04-17T12:31:21.5168439+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"

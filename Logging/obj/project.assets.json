@@ -1773,11 +1773,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\Logging\\Logging.csproj",
+      "projectUniqueName": "C:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\Logging\\Logging.csproj",
       "projectName": "Logging",
-      "projectPath": "c:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\Logging\\Logging.csproj",
+      "projectPath": "C:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\Logging\\Logging.csproj",
       "packagesPath": "C:\\Users\\Sergey\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\Logging\\obj\\",
+      "outputPath": "C:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\Logging\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1798,8 +1798,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\WritableConfig\\WritableConfig.csproj": {
-              "projectPath": "c:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\WritableConfig\\WritableConfig.csproj"
+            "C:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\WritableConfig\\WritableConfig.csproj": {
+              "projectPath": "C:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\WritableConfig\\WritableConfig.csproj"
             }
           }
         }
@@ -1891,7 +1891,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

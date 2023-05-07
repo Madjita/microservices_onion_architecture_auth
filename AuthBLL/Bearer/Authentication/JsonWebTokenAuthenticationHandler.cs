@@ -6,6 +6,7 @@ using System.Security.Claims;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 using AuthBLL.Services.Repository;
+using AuthDAL.Auth.AuthService;
 using AuthDAL.Entities;
 using AuthDAL.Models;
 using Microsoft.AspNetCore.Authentication;
@@ -30,7 +31,7 @@ public class JsonWebTokenAuthenticationHandler : AuthenticationHandler<JsonWebTo
         IRepository<JsonWebToken> _jsonWebTokenRepository
     ) : base(options, logger, encoder, clock)
     {
-        _jsonWebTokenAuthenticationSchemeOptions = options.Get(AuthenticationSchemes.JsonWebToken.ToString());
+        _jsonWebTokenAuthenticationSchemeOptions = options.Get(AuthenticationSchemes.JsonWebToken);
     }
 
     protected override async Task<AuthenticateResult> HandleAuthenticateAsync()

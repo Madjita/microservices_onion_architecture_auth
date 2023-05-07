@@ -32,8 +32,10 @@ public partial class AuthDbContext
                 Email = "xok-s@yandex.ru",
                 Password = BCrypt.Net.BCrypt.HashPassword("123"),
                 RoleId = 1,
-                twoFactorAuthentication = true,
-                Code = new Random().Next(0, 999999)
+                TwoFactorAuthentication = true,
+                CodeTwoFactorAuthentication = new Random().Next(0, 999999),
+                UserAuthenticated = true,
+
             }
         };
 

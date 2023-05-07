@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B6RICFhh44+7Zk1DuR7q7tD+tlLujw5UPTM17hIG5/tHKf5Wz/hQB4i4KU5aau/vL5+vU3KMrvqiTxdI8wSlhg==",
+  "dgSpecHash": "EnVvPPEvKRfYSrfYjCi/KwSWS9UNLTQIHk0uQxp+E0ZliroR0/TV62rrN63bAgj9dDia0utFrf8C4BBTQQrBIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\AuthBLL\\AuthBLL.csproj",
   "expectedPackageFiles": [

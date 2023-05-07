@@ -1,10 +1,13 @@
-﻿using AuthBLL.Handlers;
+﻿using System.Threading.Tasks;
+using AuthBLL.Handlers;
 using AuthBLL.Services.User;
 using AuthDAL.Models;
 using AuthDAL.response_models;
 using AuthDAL.send_models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Swashbuckle.AspNetCore.Annotations;
 using AuthenticationSchemes = AuthDAL.Auth.AuthService.AuthenticationSchemes;
 
@@ -75,57 +78,67 @@ namespace AuthDomain.Controllers
         [ProducesResponseType(typeof(LoginSend_model), StatusCodes.Status200OK)]
         public async Task<IActionResult> LoginAsync([FromBody] Login login_request)
         {
-            if(login_request == null)
+            try
             {
-                return Unauthorized();
+                var response = await _userService.AuthenticateAsync(login_request.GetEntity());
+                return Ok(response.Item1);
             }
-
-            var response = await _authHandler.SignIn(login_request);
-
-            if (response.Item1 == null)
+            catch (System.Exception e)
             {
-                return Unauthorized();
+                return Unauthorized(e.Message);
             }
-
-            return Ok(response.Item1);
         }
 
         [Route("login")]
         [HttpPatch]
-        public async Task<IActionResult> GetLoginCodeAsync([FromBody] Login login_request)
+        [AllowAnonymous]
+        public async Task<IActionResult> GetLoginCodeAsync([FromBody] LoginTwoFactorAuthentication login_request)
         {
-        
-            var response = await _userService.TwoFactorAuthenticationAsync(login_request.GetEntity());
-
-            if (response == null)
+            
+            try
             {
-                return BadRequest(new { message = "Didn't register!" });
+                var response = await _userService.TwoFactorAuthenticationAsync(login_request.GetEntity());
+                return Ok(response.Item1);
             }
-
-            return Ok();
+            catch (System.Exception e)
+            {
+                return BadRequest(new { message = $"Didn't register! : {e.Message}" });
+            }
         }
 
 
-        [Route("register")]
+        [Route("registration")]
         [HttpPost]
-        public async Task<IActionResult> RegisterAsync([FromBody] Login loginRegister_request)
+        [AllowAnonymous]
+        public async Task<IActionResult> RegisterAsync([FromBody] Register loginRegister_request)
         {
-            if (loginRegister_request == null)
+            try
             {
-                return BadRequest(new { message = "Didn't register!" });
+                await _userService.RegisterAsync(loginRegister_request.GetEntity());
+                return Ok();
             }
-
-            var response = await _userService.RegisterAsync(loginRegister_request.GetEntity());
-
-            if (response == null)
+            catch (System.Exception e)
             {
-                return BadRequest(new { message = "Didn't register!" });
+                return BadRequest(new { message = $"Didn't register! : {e.Message}" });
             }
-
-            return Ok();
         }
 
-
+        [Route("registration")]
+        [HttpGet]
+        [AllowAnonymous]
+        public async Task<IActionResult> GetRegisterCodeAsync(int accessCode) //RegisterApproveRegistration loginRegister_request
+        {
+            try
+            {
+                await _userService.ApproveRegistrationAsync(accessCode);
+                return Ok();
+            }
+            catch (System.Exception e)
+            {
+                return BadRequest(new { message = $"Didn't register! : {e.Message}" });
+            }
+        }
+        
     }
 }
 

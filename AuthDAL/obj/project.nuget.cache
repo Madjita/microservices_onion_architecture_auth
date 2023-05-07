@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jsceR+R+V+7B+a3xZegBulxsO80gWcrn7RIm5SuzIgZtZgA8jvWZjPUXURtKnQf5j3I5uus06gkfEn3YPvMohg==",
+  "dgSpecHash": "tK5fIpFmdRyaDXpYAxyWxDyY2j7x40810WKdiBjoIp5Y31tzWMID6pskohVokt6P/6XRqwY9oIEEXolUuW64EA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sergey\\Documents\\MyProject\\microservices_onion_architecture_auth\\AuthDAL\\AuthDAL.csproj",
   "expectedPackageFiles": [

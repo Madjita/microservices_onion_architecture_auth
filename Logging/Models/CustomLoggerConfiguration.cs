@@ -1,4 +1,6 @@
-﻿namespace Logging.Models;
+﻿using System.Collections.Generic;
+
+namespace Logging.Models;
 
 /// <summary>
 /// Маппинг структуры конфигов Serilog
