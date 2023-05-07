@@ -80,7 +80,7 @@ namespace AuthDomain.Controllers
         [Route("confirm-registration")]
         [HttpGet]
         [AllowAnonymous]
-        public async Task<IActionResult> GetRegisterCodeAsync(int accessCode) //RegisterApproveRegistration loginRegister_request
+        public async Task<IActionResult> GetRegisterCodeAsync(int accessCode)
         {
             try
             {
