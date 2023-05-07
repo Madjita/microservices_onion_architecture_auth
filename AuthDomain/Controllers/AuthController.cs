@@ -123,7 +123,7 @@ namespace AuthDomain.Controllers
             }
         }
 
-        [Route("registration")]
+        [Route("confirm-registration")]
         [HttpGet]
         [AllowAnonymous]
         public async Task<IActionResult> GetRegisterCodeAsync(int accessCode) //RegisterApproveRegistration loginRegister_request

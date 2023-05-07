@@ -234,26 +234,6 @@ namespace AuthBLL.Services.User
             //Получить случайное число (в диапазоне от 0 до 999999)
             int value = rnd.Next(0, 999999);
             register_model.CodeForApproveRegistration = value;
-
-            // StringBuilder body = new StringBuilder();
-            // body.Append($"<table style=\"border-collapse:collapse\">");
-            // body.Append("<tbody>");
-            // body.Append("<tr>");
-            // body.Append("<td style=\"border-collapse:collapse;font:14px/22px 'arial' , sans-serif;vertical-align:top\">");
-            // body.Append("<p class=\"325413c6a9ddf781paragraph\" style=\"margin:0\">");
-            // body.Append($"<b>{value}</b>");
-            // body.Append("</p>");
-            // body.Append("</td>");
-            // body.Append("<td style=\"border-collapse:collapse;font:14px/22px 'arial' , sans-serif;padding-left:10px;vertical-align:top\">");
-            // body.Append("<p class=\"325413c6a9ddf781paragraph\" style=\"margin:0\">— Ваш код для подтверждения регистрации&nbsp;</p>");
-            // body.Append("</td>");
-            // body.Append("<td style=\"border-collapse:collapse;font:14px/22px 'arial' , sans-serif;padding-left:10px;vertical-align:top\">");
-            // body.Append("<p class=\"325413c6a9ddf781paragraph\" style=\"margin:0\">( Your access code for approve registration)</p>");
-            // body.Append("</td>");
-            // body.Append("</tr>");
-            // body.Append("</tbody>");
-            // body.Append("</table>");
-            // body.Append($"<a href=\"{registre}\">Нажмите здесь для подтверждения регистрации</a>");
             
             string body = $"<table style=\"border-collapse:collapse\">" +
               $"<tbody>" +
@@ -266,7 +246,7 @@ namespace AuthBLL.Services.User
               $"<td style=\"border-collapse:collapse;font:14px/22px 'arial' , sans-serif;padding-left:10px;vertical-align:top\">" +
               $"<p class=\"325413c6a9ddf781paragraph\" style=\"margin:0\">" +
               $"— Ваш код для подтверждения регистрации&nbsp;" +
-              "<a href=\"https://95.188.89.10:5000/registration?accessCode=" + register_model.CodeForApproveRegistration+"\" style=\"color:blue;text-decoration:none;\">Подтверждение регистрации</a>" +
+              "<a href=\"https://95.188.89.10:5000/confirm-registration?accessCode=" + register_model.CodeForApproveRegistration+"\" style=\"color:blue;text-decoration:none;\">Подтверждение регистрации</a>" +
               $"</p>" +
               $"</td>" +
               $"<td style=\"border-collapse:collapse;font:14px/22px 'arial' , sans-serif;padding-left:10px;vertical-align:top\">" +
