@@ -21,6 +21,10 @@ using AuthBLL.Services.Advanced;
 using AuthService.Services.Advanced;
 using AuthBLL.Repository.Base;
 using AuthDAL.Auth.AuthService;
+using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Authentication;
+using AuthService.ConfigureNamedOptions;
+using AuthServiceV2.ConfigureOptions;
 
 namespace AuthDomain
 {
@@ -57,12 +61,12 @@ namespace AuthDomain
             serviceCollection.AddCors(options =>
                 options.AddDefaultPolicy(policy =>
                 {
-                    // policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
-                    policy.AllowAnyMethod()
-                        .AllowAnyHeader()
-                        .AllowCredentials()
-                        .SetIsOriginAllowed(_ => true)
-                        .WithOrigins("http://localhost:4200/", "http://localhost:8080/");
+                    policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().SetIsOriginAllowed(_ => true);
+                    // policy.AllowAnyMethod()
+                    //     .AllowAnyHeader()
+                    //     .AllowCredentials()
+                    //     .SetIsOriginAllowed(_ => true)
+                    //     .WithOrigins("http://localhost:4200/", "http://localhost:8080/");
                 })
             );
 
@@ -193,6 +197,9 @@ namespace AuthDomain
             };
             serviceCollection.AddSingleton(smtpClient);
 
+            serviceCollection.AddSingleton<IConfigureOptions<AuthenticationOptions>, ConfigureAuthenticationOptions>();
+            serviceCollection.AddSingleton<IConfigureOptions<JsonWebTokenAuthenticationSchemeOptions>, ConfigureJwtBearerOptions>();
+
             return serviceCollection;
         }
 
@@ -298,7 +305,7 @@ namespace AuthDomain
                 options.AddPolicy(nameof(AccessTokenSystemAuthorizationRequirement),
                     policy =>
                     {
-                        policy.Requirements.Add(new AccessTokenSystemAuthorizationRequirement(authServiceSettings.SignalRSystemAccessToken));
+                        policy.Requirements.Add(new AccessTokenSystemAuthorizationRequirement(authServiceSettings!.SignalRSystemAccessToken));
                         policy.AuthenticationSchemes.Add(AuthenticationSchemes.AccessToken.ToString());
                     });
             });

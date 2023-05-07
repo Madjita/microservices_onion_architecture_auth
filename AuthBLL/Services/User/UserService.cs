@@ -293,6 +293,11 @@ namespace AuthBLL.Services.User
             //TODO: информировать front о том что аунтификация прошла успешно.
             _ = _authHandler.SignIn(account);
         }
+
+        public Task<IDtoResultBase> LogoutAsync()
+        {
+           return _authHandler.SignOut();
+        }
     }
 }
 

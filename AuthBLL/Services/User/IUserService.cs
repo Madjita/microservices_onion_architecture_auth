@@ -22,6 +22,7 @@ namespace AuthBLL.Services.User
     public interface IUserServiceAuthenticate
     {
         Task<(IDtoResultBase, Account)> AuthenticateAsync((StringType,Account) model);
+        Task<IDtoResultBase> LogoutAsync();
         Task RegisterAsync(Account register_model);
     }
 

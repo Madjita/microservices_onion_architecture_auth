@@ -36,6 +36,17 @@ public partial class AuthDbContext
                 CodeTwoFactorAuthentication = new Random().Next(0, 999999),
                 UserAuthenticated = true,
 
+            },
+            new()
+            {
+                Id = 2,
+                Email = "madjita@mail.ru",
+                Password = BCrypt.Net.BCrypt.HashPassword("1234"),
+                RoleId = 2,
+                TwoFactorAuthentication = false,
+                CodeTwoFactorAuthentication = new Random().Next(0, 999999),
+                UserAuthenticated = true,
+
             }
         };
 

@@ -11,9 +11,12 @@ using AuthDomain.Settings;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using MobileDrill.DataBase.Data;
-using AuthDomain.Settings;
 using Serilog;
 using Serilog.Enrichers.WithCaller;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Text.RegularExpressions;
+using Swashbuckle.AspNetCore.SwaggerUI;
 
 InitRootLoger();
 Log.Information("Application root starting...");
@@ -43,7 +46,33 @@ serviceCollection.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 serviceCollection.AddEndpointsApiExplorer();
 
+// X509Certificate2 cert = new X509Certificate2("localhost.cer");
 
+// X509Store store = new X509Store(StoreName.My, StoreLocation.LocalMachine);
+// store.Open(OpenFlags.ReadOnly);
+// foreach (X509Certificate2 certificate in store.Certificates)
+// {
+//         // Экспорт сертификата в формате PEM
+//     byte[] certData = certificate.Export(X509ContentType.Cert);
+    
+//     // Match the CN field with regex
+//     Match match = Regex.Match(certificate.Subject, @"CN=([^,]+)");
+//     if (match.Success)
+//     {
+//         // Extract the value of the CN field
+//         string cn = match.Groups[1].Value.Trim();
+//         File.WriteAllBytes($"{cn}.cer", certData);
+//         // Output: Sergei Smoglyuk
+//     }
+
+//     Console.WriteLine($"Subject: {certificate.Subject}");
+//     Console.WriteLine($"Issuer: {certificate.Issuer}");
+//     Console.WriteLine($"Thumbprint: {certificate.Thumbprint}");
+//     Console.WriteLine();
+
+   
+// }
+// store.Close();
 
 var app = builder.Build();
 
@@ -53,6 +82,18 @@ Log.Information($"Environment: {app.Environment.EnvironmentName}");
 if (app.Environment.IsDevelopment())
 {
     Log.Information("Add Swagger & SwaggerUI");
+    // app.UseSwagger().UseSwaggerUI(c =>
+    // {
+    //     c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    //     // c.RoutePrefix = string.Empty;
+    //     // c.EnableValidator(null);
+    //     // c.EnableFilter(null);
+    //     // c.DocExpansion(DocExpansion.None);
+    //     // c.DefaultModelsExpandDepth(-1);
+    //     // c.DisplayRequestDuration();
+    //     // c.EnableDeepLinking();
+    //     // c.ShowExtensions();
+    // });
     app.UseSwagger().UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
 }
 else
@@ -63,7 +104,7 @@ else
 app.UseSerilogRequestLogging(options =>
 {
     options.MessageTemplate =
-        "[{httpContextTraceIdentifier}] {httpContextRequestProtocol} {httpContextRequestMethod} {httpContextRequestPath} responded {StatusCode} in {Elapsed:0.0000} ms";
+        "[{httpContextTraceIdentifier}][{httpContextRequestScheme}] {httpContextRequestProtocol} {httpContextRequestMethod} {httpContextRequestPath} responded {StatusCode} in {Elapsed:0.0000} ms";
     options.EnrichDiagnosticContext = (diagnosticContext, httpContext) =>
     {
         diagnosticContext.Set("httpContextTraceIdentifier", Activity.Current?.Id ?? httpContext.TraceIdentifier);
@@ -95,7 +136,7 @@ app.MapControllers();
 app.UseHttpsRedirection();
 
 
-await SyncOrCreateDbAsync(app);
+SyncOrCreateDbAsync(app);
 
 try
 {
@@ -159,7 +200,7 @@ static void InitHostSettings(ConfigureHostBuilder host)
 
 }
 
-async Task SyncOrCreateDbAsync(WebApplication app)
+void SyncOrCreateDbAsync(WebApplication app)
 {
     Log.Information("Starting synchronization with the global database...");
     var services = app.Services;

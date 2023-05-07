@@ -60,6 +60,23 @@ namespace AuthDomain.Controllers
             }
         }
 
+        [Route("logout")]
+        [HttpPost]
+        [SwaggerOperation(Summary = "Signs out as a User account", Description = "You must use User account in order to interact with the rest of the API")]
+        [ProducesResponseType(typeof(LoginSend_model), StatusCodes.Status200OK)]
+        public async Task<IActionResult> LogoutAsync()
+        {
+            try
+            {
+                var response = await _userService.LogoutAsync();
+                return Ok(response);
+            }
+            catch (System.Exception e)
+            {
+                return Unauthorized(e.Message);
+            }
+        }
+
 
         [Route("registration")]
         [HttpPost]

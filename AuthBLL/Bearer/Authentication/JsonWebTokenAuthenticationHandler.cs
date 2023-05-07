@@ -28,10 +28,11 @@ public class JsonWebTokenAuthenticationHandler : AuthenticationHandler<JsonWebTo
         ILoggerFactory logger,
         UrlEncoder encoder,
         ISystemClock clock,
-        IRepository<JsonWebToken> _jsonWebTokenRepository
+        IRepository<JsonWebToken> jsonWebTokenRepository
     ) : base(options, logger, encoder, clock)
     {
         _jsonWebTokenAuthenticationSchemeOptions = options.Get(AuthenticationSchemes.JsonWebToken);
+        _jsonWebTokenRepository = jsonWebTokenRepository;
     }
 
     protected override async Task<AuthenticateResult> HandleAuthenticateAsync()
@@ -41,8 +42,7 @@ public class JsonWebTokenAuthenticationHandler : AuthenticationHandler<JsonWebTo
         if (executingEndpoint == null)
             return AuthenticateResult.Fail(new NullReferenceException(nameof(executingEndpoint)));
 
-        if (executingEndpoint.Metadata.OfType<AllowAnonymousAttribute>().Any()
-            || executingEndpoint.Metadata.OfType<AllowAnonymousAttribute>().Any())
+        if (executingEndpoint.Metadata.OfType<AllowAnonymousAttribute>().Any())
             return AuthenticateResult.Success(new AuthenticationTicket(new ClaimsPrincipal(), Scheme.Name));
 
         var authorizationBearerPayloads = new[]

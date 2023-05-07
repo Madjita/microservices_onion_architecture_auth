@@ -10,7 +10,7 @@ namespace AuthDomain.Settings
 {
     public static class ServicesConfigExtension
     {
-        private static ISettingPathConfig _settingsPath;
+        private static ISettingPathConfig? _settingsPath;
 
         public static void AddConfigServices(this IServiceCollection services)
         {
@@ -42,9 +42,9 @@ namespace AuthDomain.Settings
 
         private static void AddJsonFilesFromSettings(ISettingPathConfig settingsPath, ConfigurationManager config)
         {
-            List<string> _inputSettings = config.GetSection("SettingsPaths").Get<List<string>>();
+            List<string> _inputSettings = config.GetSection("SettingsPaths").Get<List<string>>()!;
 
-            foreach (var fileName in _inputSettings)
+            foreach (var fileName in _inputSettings!)
             {
                 if (settingsPath.CheckSettingFile(fileName))
                 {
@@ -111,15 +111,15 @@ namespace AuthDomain.Settings
              IConfigurationSection section,
              string file) where T : class, new()
         {
-            _settingsPath.CheckSettingFile(file, false);
+            _settingsPath!.CheckSettingFile(file, false);
 
             services.Configure<T>(section);
             services.AddSingleton<IWritableConfig<T>>(provider =>
             {
-                var configuration = (IConfigurationRoot)provider.GetService<IConfiguration>();
+                var configuration = provider.GetService<IConfiguration>() as IConfigurationRoot;
                 var environment = provider.GetService<IWebHostEnvironment>();
                 var options = provider.GetService<IOptionsMonitor<T>>();
-                return new WritableSystemTextJsonConfig<T>(environment, options, configuration, section.Key, file);
+                return new WritableSystemTextJsonConfig<T>(environment!, options!, configuration!, section.Key, file);
             });
         }
         
@@ -129,7 +129,7 @@ namespace AuthDomain.Settings
         )
             where T : class, new()
         {
-            _settingsPath.CheckSettingFile(configFilePath, false);
+            _settingsPath!.CheckSettingFile(configFilePath, false);
             
             if (!File.Exists(configFilePath))
                 throw new FileNotFoundException("Config file not found!", configFilePath);
@@ -148,7 +148,7 @@ namespace AuthDomain.Settings
                 {
                     var environment = provider.GetService<IWebHostEnvironment>();
                     var options = provider.GetService<IOptionsMonitor<T>>();
-                    return new WritableJsonConfig<T>(environment, options, configuration, section.Path, configFilePath);
+                    return new WritableJsonConfig<T>(environment!, options!, configuration, section.Path, configFilePath);
                 });
             }
 
