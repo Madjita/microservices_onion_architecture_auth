@@ -24,6 +24,7 @@ namespace AuthDomain.Controllers
         {
             _userService = userService;
         }
+        
 
         [Route("login")]
         [HttpPost]

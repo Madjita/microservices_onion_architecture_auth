@@ -20,7 +20,7 @@ public class DefaultAuthenticationHandler : AuthenticationHandler<DefaultAuthent
     {
     }
 
-    protected override Task<AuthenticateResult> HandleAuthenticateAsync()
+    protected override async Task<AuthenticateResult> HandleAuthenticateAsync()
     {
         // return Task.FromResult(AuthenticateResult.NoResult());
 
@@ -30,6 +30,6 @@ public class DefaultAuthenticationHandler : AuthenticationHandler<DefaultAuthent
         }, nameof(DefaultAuthenticationHandler));
         var ticket = new AuthenticationTicket(new ClaimsPrincipal(claimsIdentity), Scheme.Name);
 
-        return Task.FromResult(AuthenticateResult.Success(ticket));
+        return AuthenticateResult.Success(ticket);
     }
 }

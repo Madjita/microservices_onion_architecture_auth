@@ -1052,3 +1052,1190 @@ WHERE \"j\".\"AccountId\" = @__user_Id_0"
 [Default] 2023-05-08T00:46:08.6672272+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/19) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
 [Default] 2023-05-08T00:46:08.6675747+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/19) ["00-059b169a3feafb1ffaacf37ae1f6e934-ed1254ac998d320d-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 26.8757 ms
 [Default] 2023-05-08T00:46:08.6678636+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/19) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 27.6998ms
+[Default] 2023-05-08T09:44:05.7817124+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-05-08T09:44:05.7884776+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-05-08T09:44:05.9360173+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-05-08T09:44:06.0275558+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-05-08T09:44:07.5343597+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-05-08T09:44:07.7183223+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-05-08T09:44:07.7198818+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-05-08T09:44:07.8025333+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-05-08T09:44:07.8042647+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-05-08T09:44:07.8051735+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-05-08T09:44:07.8056546+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-05-08T09:44:26.8673869+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-05-08T09:44:26.8713061+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-05-08T09:44:26.9724468+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-05-08T09:44:27.0405489+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-05-08T09:44:28.2414358+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-05-08T09:44:28.4042941+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-05-08T09:44:28.4057627+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-05-08T09:44:28.5396147+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://192.168.0.3:5000"
+[Default] 2023-05-08T09:44:28.5409510+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-05-08T09:44:28.5417071+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "https://localhost:5000"
+[Default] 2023-05-08T09:44:28.5423113+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://localhost:5001"
+[Default] 2023-05-08T09:44:28.5446244+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-05-08T09:44:28.5454668+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-05-08T09:44:28.5460761+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-05-08T09:44:31.2556950+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/index.html - -
+[Default] 2023-05-08T09:44:31.3657703+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 111.4701ms
+[Default] 2023-05-08T09:44:31.4093327+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/swagger-ui.css - -
+[Default] 2023-05-08T09:44:31.4216350+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[Default] 2023-05-08T09:44:31.4228359+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/swagger-ui.css - - - 0 143632 text/css 13.5134ms
+[Default] 2023-05-08T09:44:31.5355993+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/favicon-16x16.png - -
+[Default] 2023-05-08T09:44:31.5377261+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"'
+[Default] 2023-05-08T09:44:31.5382497+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/favicon-16x16.png - - - 0 665 image/png 2.6739ms
+[Default] 2023-05-08T09:44:31.5936831+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/v1/swagger.json - -
+[Default] 2023-05-08T09:44:31.7018181+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.0900ms
+[Default] 2023-05-08T09:53:13.3874814+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/35) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T09:53:13.5166261+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/35) ["00-4d0f5747b8b6c3b467ac802df0aff11f-7800c7d22364d227-00"]["http"] "HTTP/1.1" "POST" "/login" responded 307 in 110.0790 ms
+[Default] 2023-05-08T09:53:13.5205052+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/35) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 307 0 - 133.0937ms
+[Default] 2023-05-08T09:53:35.9814005+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T09:53:36.0219560+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) ["00-f969b015654d270ab9e7290befee563e-0b4aae62332bc749-00"]["http"] "HTTP/1.1" "POST" "/login" responded 307 in 39.9257 ms
+[Default] 2023-05-08T09:53:36.0225149+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 307 0 - 41.0933ms
+[Default] 2023-05-08T09:56:58.8000184+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/47) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T09:56:58.8032450+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/47) ["00-a30ec22dff3ce8063624194cb4fabc03-e1c24494eec15ac1-00"]["http"] "HTTP/1.1" "POST" "/login" responded 307 in 2.5536 ms
+[Default] 2023-05-08T09:56:58.8036598+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/47) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 307 0 - 3.6138ms
+[Default] 2023-05-08T09:57:51.7489290+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/50) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T09:57:51.7499586+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/50) ["00-8b853f822dfc364b56c8f28f9fe1a14f-16f261bad06a3917-00"]["http"] "HTTP/1.1" "POST" "/login" responded 307 in 0.4257 ms
+[Default] 2023-05-08T09:57:51.7503552+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/50) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 307 0 - 1.5097ms
+[Default] 2023-05-08T09:58:41.8769654+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/54) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/index.html - -
+[Default] 2023-05-08T09:58:41.8833177+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/56) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 6.3410ms
+[Default] 2023-05-08T09:58:42.0673698+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/55) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/v1/swagger.json - -
+[Default] 2023-05-08T09:58:42.0716218+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/52) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.1784ms
+[Default] 2023-05-08T10:04:06.3865896+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/68) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/favicon-32x32.png - -
+[Default] 2023-05-08T10:04:06.3880409+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/68) Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[Default] 2023-05-08T10:04:06.3884317+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/68) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/favicon-32x32.png - - - 200 628 image/png 2.8929ms
+[Default] 2023-05-08T10:06:55.3481018+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/79) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/index.html - -
+[Default] 2023-05-08T10:06:55.3547949+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/78) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 6.7004ms
+[Default] 2023-05-08T10:06:55.5901966+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/79) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/favicon-16x16.png - -
+[Default] 2023-05-08T10:06:55.5912015+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/79) Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"'
+[Default] 2023-05-08T10:06:55.5916139+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/79) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/favicon-16x16.png - - - 0 665 image/png 1.5359ms
+[Default] 2023-05-08T10:06:55.6109583+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/82) Request starting HTTP/2 GET https://192.168.0.3:5000/swagger/v1/swagger.json - -
+[Default] 2023-05-08T10:06:55.6152253+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/79) Request finished HTTP/2 GET https://192.168.0.3:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.2785ms
+[Default] 2023-05-08T10:10:17.3683133+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/83) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T10:10:17.3697396+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/83) ["00-89ccdb67dcd7d9d93d904d348932e140-ce36b3f68bc3a3d2-00"]["http"] "HTTP/1.1" "POST" "/login" responded 307 in 0.9190 ms
+[Default] 2023-05-08T10:10:17.3702830+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/83) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 307 0 - 2.0420ms
+[Default] 2023-05-08T10:10:17.3717135+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/83) Connection id ""0HMQFDOJ5LMKI"", Request id ""0HMQFDOJ5LMKI:00000001"": the application completed without reading the entire request body.
+[Default] 2023-05-08T10:11:00.9619337+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/87) Request starting HTTP/2 GET https://95.188.89.10:5000/swagger/index.html - -
+[Default] 2023-05-08T10:11:00.9633643+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/87) Request finished HTTP/2 GET https://95.188.89.10:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 1.4342ms
+[Default] 2023-05-08T10:11:01.2794972+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/88) Request starting HTTP/2 GET https://95.188.89.10:5000/swagger/v1/swagger.json - -
+[Default] 2023-05-08T10:11:01.2842250+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/86) Request finished HTTP/2 GET https://95.188.89.10:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.6427ms
+[Default] 2023-05-08T10:11:43.6931618+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/91) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T10:11:43.6942637+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/91) ["00-dab9576fdd1a2434134368c9febcb5b5-666e9ba8af43fa65-00"]["http"] "HTTP/1.1" "POST" "/login" responded 307 in 0.5742 ms
+[Default] 2023-05-08T10:11:43.6945963+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/91) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 307 0 - 1.5149ms
+[Default] 2023-05-08T10:11:43.6949436+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/91) Connection id ""0HMQFDOJ5LMKL"", Request id ""0HMQFDOJ5LMKL:00000001"": the application completed without reading the entire request body.
+[Default] 2023-05-08T10:19:20.2720621+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/76) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T10:19:20.2736588+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/76) ["00-e74974b89fd1d72d208e6c781b9b012b-1f513b18b5ed7a37-00"]["http"] "HTTP/1.1" "POST" "/login" responded 307 in 1.0313 ms
+[Default] 2023-05-08T10:19:20.2740000+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/76) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 307 0 - 1.9716ms
+[Default] 2023-05-08T10:19:20.2743112+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/76) Connection id ""0HMQFDOJ5LMKO"", Request id ""0HMQFDOJ5LMKO:00000001"": the application completed without reading the entire request body.
+[Default] 2023-05-08T10:22:40.3030905+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/67) Request starting HTTP/2 GET https://95.188.89.10:5000/swagger/index.html - -
+[Default] 2023-05-08T10:22:40.3049963+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/65) Request finished HTTP/2 GET https://95.188.89.10:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 1.7111ms
+[Default] 2023-05-08T10:22:40.4647522+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/64) Request starting HTTP/2 GET https://95.188.89.10:5000/swagger/swagger-ui.css - -
+[Default] 2023-05-08T10:22:40.4655471+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Request starting HTTP/2 GET https://95.188.89.10:5000/swagger/swagger-ui-bundle.js - -
+[Default] 2023-05-08T10:22:40.4655491+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/61) Request starting HTTP/2 GET https://95.188.89.10:5000/swagger/swagger-ui-standalone-preset.js - -
+[Default] 2023-05-08T10:22:40.5627999+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/57) Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[Default] 2023-05-08T10:22:40.5639084+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/57) Request finished HTTP/2 GET https://95.188.89.10:5000/swagger/swagger-ui.css - - - 200 143632 text/css 98.8299ms
+[Default] 2023-05-08T10:22:40.6057174+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/61) Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[Default] 2023-05-08T10:22:40.6062960+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/61) Request finished HTTP/2 GET https://95.188.89.10:5000/swagger/swagger-ui-standalone-preset.js - - - 200 337162 text/javascript 140.8394ms
+[Default] 2023-05-08T10:22:40.6933348+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[Default] 2023-05-08T10:22:40.6937281+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Request finished HTTP/2 GET https://95.188.89.10:5000/swagger/swagger-ui-bundle.js - - - 200 1092889 text/javascript 228.2693ms
+[Default] 2023-05-08T10:22:41.0374976+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Request starting HTTP/2 GET https://95.188.89.10:5000/swagger/v1/swagger.json - -
+[Default] 2023-05-08T10:22:41.0405391+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/67) Request finished HTTP/2 GET https://95.188.89.10:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.9916ms
+[Default] 2023-05-08T10:22:41.0691197+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Request starting HTTP/2 GET https://95.188.89.10:5000/swagger/favicon-32x32.png - -
+[Default] 2023-05-08T10:22:41.0697191+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[Default] 2023-05-08T10:22:41.0699891+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Request finished HTTP/2 GET https://95.188.89.10:5000/swagger/favicon-32x32.png - - - 200 628 image/png 0.8751ms
+[Default] 2023-05-08T10:34:02.5605006+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-05-08T10:34:02.5643195+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-05-08T10:34:02.6418486+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-05-08T10:34:02.6924288+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-05-08T10:34:03.7365043+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-05-08T10:34:03.9061431+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-05-08T10:34:03.9078154+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-05-08T10:34:03.9830280+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-05-08T10:34:03.9844332+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-05-08T10:34:03.9850374+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-05-08T10:34:03.9857481+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-05-08T10:34:25.5314424+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T10:34:25.6281004+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/7) Failed to determine the https port for redirect.
+[Default] 2023-05-08T10:34:25.6320079+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T10:34:25.6463297+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T10:34:25.9395264+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed DbCommand ("14"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T10:34:26.1702245+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed DbCommand ("1"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T10:34:26.3866393+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed DbCommand ("1"ms) [Parameters=["@p0='2', @p1='2023-05-08T03:34:26.3472596+00:00', @p2='2023-05-08T15:34:26.1945225+00:00', @p3='2023-05-08T15:34:26.1945225+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJkZTY2YjgxOS0yZmVkLTRlNzYtYWQ5MS04ZmViMWFiMWFiYTQiLCJleHAiOjE2ODM1NjAwNjZ9.VhmJZmtJF6KYDNpBuQC75bygBE-c4yJH7h6yHMoSw5E' (Size = 193), @p5='2023-05-08T03:34:26.3472596+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T10:34:26.4039706+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T03:34:26.1945225Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T03:34:26.4003916+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T10:34:26.4343202+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T10:34:26.4519563+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 800.7868ms
+[Default] 2023-05-08T10:34:26.4531429+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T10:34:26.4595019+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) ["00-43dadffbd5a803e15d83331939c308ea-f3fa389b27582b8f-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 911.6131 ms
+[Default] 2023-05-08T10:34:26.4630619+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 932.9819ms
+[Default] 2023-05-08T10:34:30.2415206+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T10:34:30.3161992+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJkZTY2YjgxOS0yZmVkLTRlNzYtYWQ5MS04ZmViMWFiMWFiYTQiLCJleHAiOjE2ODM1NjAwNjZ9.VhmJZmtJF6KYDNpBuQC75bygBE-c4yJH7h6yHMoSw5E' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T10:34:30.3195907+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T10:34:30.3224835+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T10:34:30.3463574+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T10:34:30.3548211+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed DbCommand ("1"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T10:34:30.3754609+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T10:34:30.3779786+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 54.9036ms
+[Default] 2023-05-08T10:34:30.3784004+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T10:34:30.3792889+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) ["00-7337f8919711444fe738086bea06cb1b-7c9bb8d54c3b64aa-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 136.6857 ms
+[Default] 2023-05-08T10:34:30.3800112+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 138.3465ms
+[Default] 2023-05-08T10:34:34.5024468+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T10:34:34.5055853+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T10:34:34.5061826+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T10:34:34.5160757+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T10:34:34.6486078+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T10:34:34.6511575+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T03:34:34.6507418+00:00', @p2='2023-05-08T15:34:34.6497860+00:00', @p3='2023-05-08T15:34:34.6497860+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJkMWQ2N2QwMy1lZmFhLTRlODQtOGIyOC1kMzczNDRhYjNmZmEiLCJleHAiOjE2ODM1NjAwNzR9.zwauQWjjUx9Q3tElR2jWfPKAwj5OPuviqCXubU9snJQ' (Size = 193), @p5='2023-05-08T03:34:34.6507418+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T10:34:34.6526558+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T03:34:34.6497860Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T03:34:34.6522056+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T10:34:34.6734603+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T10:34:34.6744438+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 167.6571ms
+[Default] 2023-05-08T10:34:34.6748789+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T10:34:34.6755943+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) ["00-3b5ad7397ef7cc4c043b44b7679d1709-73a985eed96cd7f6-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 172.0491 ms
+[Default] 2023-05-08T10:34:34.6763251+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 173.9293ms
+[Default] 2023-05-08T10:34:37.4098940+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T10:34:37.4112753+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJkMWQ2N2QwMy1lZmFhLTRlODQtOGIyOC1kMzczNDRhYjNmZmEiLCJleHAiOjE2ODM1NjAwNzR9.zwauQWjjUx9Q3tElR2jWfPKAwj5OPuviqCXubU9snJQ' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T10:34:37.4123845+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T10:34:37.4126567+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T10:34:37.4161985+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T10:34:37.4171378+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T10:34:37.4379680+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T10:34:37.4385373+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 25.6249ms
+[Default] 2023-05-08T10:34:37.4388495+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T10:34:37.4391762+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) ["00-308d56c56489e4cc31796bb46b03b434-f4c621edae178c58-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 28.8946 ms
+[Default] 2023-05-08T10:34:37.4394608+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 29.5857ms
+[Default] 2023-05-08T11:11:41.4291233+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/95) Request starting HTTP/1.1 GET http://95.188.89.10:5001/ - -
+[Default] 2023-05-08T11:11:41.4344855+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/95) No cached response available for this request.
+[Default] 2023-05-08T11:11:41.4356870+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/95) The response could not be cached for this request.
+[Default] 2023-05-08T11:11:41.4359471+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/95) ["00-14230cdaae3867cceac7916f717c3b7a-69bc1fe29705591b-00"]["http"] "HTTP/1.1" "GET" "/" responded 404 in 3.3788 ms
+[Default] 2023-05-08T11:11:41.4364877+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/95) Request finished HTTP/1.1 GET http://95.188.89.10:5001/ - - - 404 0 - 7.3668ms
+[Default] 2023-05-08T11:47:26.2870638+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/129) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T11:47:26.3196990+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/129) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T11:47:26.3203004+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/129) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T11:47:26.3250427+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/129) Executed DbCommand ("1"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T11:47:26.4564364+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/129) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T11:47:26.4578657+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/129) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T04:47:26.4575724+00:00', @p2='2023-05-08T16:47:26.4571900+00:00', @p3='2023-05-08T16:47:26.4571900+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiI2YzU3NzIyZC02YzFkLTQ5NmEtYjYyMS1iN2QzYWU4YjEwMTMiLCJleHAiOjE2ODM1NjQ0NDZ9.VRjIDfmod69hyTg_3Q6LblUhRJkpezrS0X1MVM8YrI4' (Size = 193), @p5='2023-05-08T04:47:26.4575724+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T11:47:26.4586514+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/129) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T04:47:26.4571900Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T04:47:26.4583216+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T11:47:26.5168227+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/129) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T11:47:26.5175091+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/129) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 196.9628ms
+[Default] 2023-05-08T11:47:26.5179021+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/129) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T11:47:26.5182872+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/129) ["00-a59d30098d1d3822428f7008f5f318be-2bf55bd7250e79e5-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 199.5001 ms
+[Default] 2023-05-08T11:47:26.5187248+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/129) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 231.7257ms
+[Default] 2023-05-08T11:47:28.1023086+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/132) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T11:47:28.1037377+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/132) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiI2YzU3NzIyZC02YzFkLTQ5NmEtYjYyMS1iN2QzYWU4YjEwMTMiLCJleHAiOjE2ODM1NjQ0NDZ9.VRjIDfmod69hyTg_3Q6LblUhRJkpezrS0X1MVM8YrI4' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T11:47:28.1045274+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/132) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T11:47:28.1048119+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/132) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T11:47:28.1083257+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/132) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T11:47:28.1091568+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/132) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T11:47:28.1300353+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/132) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T11:47:28.1305963+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/132) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 25.5176ms
+[Default] 2023-05-08T11:47:28.1309469+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/132) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T11:47:28.1312667+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/132) ["00-2a665f9fc7f88974f59735eefef3da02-cd89988a813e6850-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 28.5429 ms
+[Default] 2023-05-08T11:47:28.1316262+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/132) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 29.2658ms
+[Default] 2023-05-08T17:34:47.2546165+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-05-08T17:34:47.2602593+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-05-08T17:34:47.3617482+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-05-08T17:34:47.4297275+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-05-08T17:34:48.6018118+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-05-08T17:34:48.7843316+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-05-08T17:34:48.7860318+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-05-08T17:34:48.9154886+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-05-08T17:34:48.9170766+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-05-08T17:34:48.9185338+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-05-08T17:34:48.9190443+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-05-08T17:35:19.9877536+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T17:35:20.1394031+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/12) Failed to determine the https port for redirect.
+[Default] 2023-05-08T17:35:20.1443903+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:35:20.1664651+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:35:20.4723442+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed DbCommand ("17"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T17:35:20.7154880+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed DbCommand ("1"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T17:35:20.9170100+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed DbCommand ("1"ms) [Parameters=["@p0='2', @p1='2023-05-08T10:35:20.8726359+00:00', @p2='2023-05-08T22:35:20.7453245+00:00', @p3='2023-05-08T22:35:20.7453245+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJmYmQ1ZjllZC1kMDg3LTRmNTItOWQ3MS1lOWFiZjY1OWZjYjQiLCJleHAiOjE2ODM1ODUzMjB9.yMkU2yNZ_sfIeyxD51ojeEC0f2ChKXUM01nxZAjf8io' (Size = 193), @p5='2023-05-08T10:35:20.8726359+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T17:35:20.9376180+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T10:35:20.7453245Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T10:35:20.9333534+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T17:35:21.0048777+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T17:35:21.0442140+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 870.6209ms
+[Default] 2023-05-08T17:35:21.0471967+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:35:21.0548489+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) ["00-9ef867d333b0fed17cd055a3783c5740-2cd80b9dd90866ce-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 1038.9968 ms
+[Default] 2023-05-08T17:35:21.0593945+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 1073.6453ms
+[Default] 2023-05-08T17:43:23.1757684+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T17:43:23.2633543+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executed DbCommand ("2"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJmYmQ1ZjllZC1kMDg3LTRmNTItOWQ3MS1lOWFiZjY1OWZjYjQiLCJleHAiOjE2ODM1ODUzMjB9.yMkU2yNZ_sfIeyxD51ojeEC0f2ChKXUM01nxZAjf8io' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T17:43:23.2700471+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T17:43:23.2732601+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:43:23.3000467+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T17:43:23.3103802+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executed DbCommand ("1"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T17:43:23.3718288+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T17:43:23.3744932+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 100.8295ms
+[Default] 2023-05-08T17:43:23.3749238+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T17:43:23.3756270+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) ["00-f7673f06d472a9187ee0ceaada428463-b01f347fa49c0119-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 198.5803 ms
+[Default] 2023-05-08T17:43:23.3762928+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 200.5490ms
+[Default] 2023-05-08T17:44:30.4305135+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T17:44:30.4392175+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:44:30.4398909+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:44:30.4520275+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T17:44:30.5907998+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T17:44:30.5940083+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T10:44:30.5935934+00:00', @p2='2023-05-08T22:44:30.5925835+00:00', @p3='2023-05-08T22:44:30.5925835+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiIxNzg2YWYzMy01MmUzLTQ1ODItOTMxOC1mNzY4NmRlMzQ3MTIiLCJleHAiOjE2ODM1ODU4NzB9.f79aIY7CghyWrgADE9LKj6I1xbkXGoiZJgJfXD6yvfQ' (Size = 193), @p5='2023-05-08T10:44:30.5935934+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T17:44:30.5958213+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T10:44:30.5925835Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T10:44:30.5954557+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T17:44:30.6174015+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T17:44:30.6186392+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 178.3707ms
+[Default] 2023-05-08T17:44:30.6190947+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:44:30.6196523+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) ["00-bf318eb4910bb4b8cec5f8356a868f1c-4df1eea7c43032ae-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 187.1880 ms
+[Default] 2023-05-08T17:44:30.6201574+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 189.6707ms
+[Default] 2023-05-08T17:44:46.7314870+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T17:44:46.7349402+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiIxNzg2YWYzMy01MmUzLTQ1ODItOTMxOC1mNzY4NmRlMzQ3MTIiLCJleHAiOjE2ODM1ODU4NzB9.f79aIY7CghyWrgADE9LKj6I1xbkXGoiZJgJfXD6yvfQ' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T17:44:46.7375354+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T17:44:46.7381830+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:44:46.7435178+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T17:44:46.7454305+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T17:44:46.7669636+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T17:44:46.7680190+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 29.1943ms
+[Default] 2023-05-08T17:44:46.7683634+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T17:44:46.7688331+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) ["00-bb192de416da5baaf50d55788ed1ca49-a9fd98a874cde089-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 36.4273 ms
+[Default] 2023-05-08T17:44:46.7691789+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/42) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 37.7821ms
+[Default] 2023-05-08T17:44:56.8534356+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T17:44:56.8546084+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:44:56.8552736+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:44:56.8592197+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T17:44:57.0468368+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T17:44:57.0494595+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T10:44:57.0488628+00:00', @p2='2023-05-08T22:44:57.0484012+00:00', @p3='2023-05-08T22:44:57.0484012+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJkOWZhNDYxYS05YTE3LTQ4ODMtYjgyYi1iZDIzZTYyNjY2N2QiLCJleHAiOjE2ODM1ODU4OTd9.1D6V4IyaT1pjdyXTCqJuE7vdrJOrz1P4iwArMyqZz3U' (Size = 193), @p5='2023-05-08T10:44:57.0488628+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T17:44:57.0506360+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T10:44:57.0484012Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T10:44:57.0502610+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T17:44:57.0709506+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T17:44:57.0717988+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 216.0975ms
+[Default] 2023-05-08T17:44:57.0723164+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:44:57.0729751+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) ["00-91e2006355eb941005f6bbea7cd39e07-5123ccf1d6c4da88-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 218.8865 ms
+[Default] 2023-05-08T17:44:57.0734325+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 220.0579ms
+[Default] 2023-05-08T17:45:03.4144596+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T17:45:03.4155251+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJkOWZhNDYxYS05YTE3LTQ4ODMtYjgyYi1iZDIzZTYyNjY2N2QiLCJleHAiOjE2ODM1ODU4OTd9.1D6V4IyaT1pjdyXTCqJuE7vdrJOrz1P4iwArMyqZz3U' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T17:45:03.4162928+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T17:45:03.4166842+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:45:03.4196470+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T17:45:03.4203678+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T17:45:03.4400127+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T17:45:03.4405933+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 23.623ms
+[Default] 2023-05-08T17:45:03.4408634+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T17:45:03.4412244+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) ["00-5796305c45d5b030e24ff6bbbc201e05-d458099b86cd0e74-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 26.3531 ms
+[Default] 2023-05-08T17:45:03.4415636+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/44) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 27.0907ms
+[Default] 2023-05-08T17:45:23.7042235+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T17:45:23.7061713+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:45:23.7066114+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:45:23.7103404+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T17:45:23.8504102+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T17:45:23.8522916+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T10:45:23.8519763+00:00', @p2='2023-05-08T22:45:23.8516733+00:00', @p3='2023-05-08T22:45:23.8516733+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJiNTg0MGQxYy0xYWI4LTQxNjktYWQ1YS0zMmE4YjkxZmFhOTgiLCJleHAiOjE2ODM1ODU5MjN9.h_m_YU9QZhzvpkUwIUut71yYA7bAH1HdnYEPUPLcVL0' (Size = 193), @p5='2023-05-08T10:45:23.8519763+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T17:45:23.8530323+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T10:45:23.8516733Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T10:45:23.8528024+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T17:45:23.8729120+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T17:45:23.8736935+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 166.6974ms
+[Default] 2023-05-08T17:45:23.8740228+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:45:23.8744069+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) ["00-7b66d9d6a37971309ede29fbb489ea5b-77059f15fa2509e3-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 168.5392 ms
+[Default] 2023-05-08T17:45:23.8747549+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 170.5798ms
+[Default] 2023-05-08T17:45:26.7175668+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T17:45:26.7188662+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJiNTg0MGQxYy0xYWI4LTQxNjktYWQ1YS0zMmE4YjkxZmFhOTgiLCJleHAiOjE2ODM1ODU5MjN9.h_m_YU9QZhzvpkUwIUut71yYA7bAH1HdnYEPUPLcVL0' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T17:45:26.7195862+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T17:45:26.7199726+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:45:26.7233484+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T17:45:26.7239317+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T17:45:26.7433651+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T17:45:26.7439303+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 23.5581ms
+[Default] 2023-05-08T17:45:26.7443352+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T17:45:26.7446419+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) ["00-d73bd9449365c08ee5635ab6e812bac3-44df2868e84662ad-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 26.7203 ms
+[Default] 2023-05-08T17:45:26.7449942+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 27.3749ms
+[Default] 2023-05-08T17:45:27.7157123+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T17:45:27.7165734+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:45:27.7170081+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:45:27.7200683+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T17:45:27.8603705+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T17:45:27.8617647+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T10:45:27.8614978+00:00', @p2='2023-05-08T22:45:27.8611969+00:00', @p3='2023-05-08T22:45:27.8611969+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJiOTUyNmM0Ni0yY2MyLTQ0MDUtOTgzMi1mZmM0YmFhODg2MDAiLCJleHAiOjE2ODM1ODU5Mjd9.9s5cHvfZ5gjWK3G1YuZ6O6zlIXba2qpczVuZ620jwgs' (Size = 193), @p5='2023-05-08T10:45:27.8614978+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T17:45:27.8624487+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T10:45:27.8611969Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T10:45:27.8622442+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T17:45:27.8831789+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T17:45:27.8838309+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 166.5474ms
+[Default] 2023-05-08T17:45:27.8841321+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:45:27.8844702+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) ["00-00f3ef295a892819bf1e41c20020e8d5-028caa52bc769cc1-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 168.2680 ms
+[Default] 2023-05-08T17:45:27.8847536+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 169.0555ms
+[Default] 2023-05-08T17:45:28.8620343+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T17:45:28.8634433+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJiOTUyNmM0Ni0yY2MyLTQ0MDUtOTgzMi1mZmM0YmFhODg2MDAiLCJleHAiOjE2ODM1ODU5Mjd9.9s5cHvfZ5gjWK3G1YuZ6O6zlIXba2qpczVuZ620jwgs' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T17:45:28.8641626+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T17:45:28.8644877+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:45:28.8673764+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T17:45:28.8682449+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T17:45:28.8888251+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T17:45:28.8893244+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 24.5219ms
+[Default] 2023-05-08T17:45:28.8896164+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T17:45:28.8899049+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) ["00-a35080069e42b9401089b3a7e3bd3364-451860a07049e184-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 27.4634 ms
+[Default] 2023-05-08T17:45:28.8902668+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 28.1785ms
+[Default] 2023-05-08T17:47:56.1614357+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/53) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T17:47:56.1717199+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/53) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:47:56.1721401+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/53) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:47:56.1756876+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/53) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T17:47:56.3143843+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/53) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T17:47:56.3158252+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/53) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T10:47:56.3155714+00:00', @p2='2023-05-08T22:47:56.3152636+00:00', @p3='2023-05-08T22:47:56.3152636+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJkZWNhZDc2Ni0yMDQ2LTQ2MmMtOTQ2My1lYTVkZjNjMGRjNDAiLCJleHAiOjE2ODM1ODYwNzZ9.blSLdL6mWjjcEq_puUJ2t108ObRUtTz3BCH5tB-GM8U' (Size = 193), @p5='2023-05-08T10:47:56.3155714+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T17:47:56.3167822+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/53) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T10:47:56.3152636Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T10:47:56.3162973+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T17:47:56.3360644+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/53) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T17:47:56.3368051+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/53) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 164.3927ms
+[Default] 2023-05-08T17:47:56.3373322+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/53) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:47:56.3377233+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/53) ["00-5ce0aa424853140ea4431f90f4de7843-8995fb9a534e540d-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 167.3011 ms
+[Default] 2023-05-08T17:47:56.3379632+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/53) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 176.6190ms
+[Default] 2023-05-08T17:54:19.5763793+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T17:54:19.5833877+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executed DbCommand ("1"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJkZWNhZDc2Ni0yMDQ2LTQ2MmMtOTQ2My1lYTVkZjNjMGRjNDAiLCJleHAiOjE2ODM1ODYwNzZ9.blSLdL6mWjjcEq_puUJ2t108ObRUtTz3BCH5tB-GM8U' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T17:54:19.5845159+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T17:54:19.5849857+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:54:19.5884822+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T17:54:19.5892022+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T17:54:19.6467026+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T17:54:19.6473132+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 61.8803ms
+[Default] 2023-05-08T17:54:19.6477458+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T17:54:19.6479976+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) ["00-41250d0ba2777ce94a68f71199059273-aaac1d00cb6df9a4-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 67.9339 ms
+[Default] 2023-05-08T17:54:19.6484205+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 72.1653ms
+[Default] 2023-05-08T17:54:20.9569191+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T17:54:20.9576221+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:54:20.9579552+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T17:54:20.9613421+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T17:54:21.1323012+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T17:54:21.1340878+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T10:54:21.1337868+00:00', @p2='2023-05-08T22:54:21.1334446+00:00', @p3='2023-05-08T22:54:21.1334446+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiI3ZGI3NmU5NS03YWVmLTQ4ZDEtODlmNy00ZjEyNzUwN2ViMWYiLCJleHAiOjE2ODM1ODY0NjF9.I8Vb38wgDqTdqIiLPmbg31o9nlq5PbceTBoAGsSqVPo' (Size = 193), @p5='2023-05-08T10:54:21.1337868+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T17:54:21.1350747+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T10:54:21.1334446Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T10:54:21.1346930+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T17:54:21.1547353+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T17:54:21.1553420+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 197.1188ms
+[Default] 2023-05-08T17:54:21.1556421+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T17:54:21.1559997+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) ["00-6baddbd307572cd74e0356ccad1c091a-22498208d093c997-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 198.7330 ms
+[Default] 2023-05-08T17:54:21.1563470+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/81) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 199.4474ms
+[Default] 2023-05-08T18:04:55.1386167+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T18:04:55.1396397+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:04:55.1400402+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:04:55.1486007+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Executed DbCommand ("2"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T18:04:55.3783470+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T18:04:55.3803722+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T11:04:55.3798057+00:00', @p2='2023-05-08T23:04:55.3793730+00:00', @p3='2023-05-08T23:04:55.3793730+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJjZWNhOWI1Ni0xY2FiLTQzOGQtOGQwNS02OWZkMjY4M2I2NDAiLCJleHAiOjE2ODM1ODcwOTV9.EFPbwpbZCIo8Rn8UdFxja5oWhdsRNoaFf1I2rd60TZ8' (Size = 193), @p5='2023-05-08T11:04:55.3798057+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T18:04:55.3813269+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T11:04:55.3793730Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T11:04:55.3810695+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T18:04:55.4374052+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T18:04:55.4383470+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 298.0202ms
+[Default] 2023-05-08T18:04:55.4387964+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:04:55.4390910+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) ["00-0c55d7d2a03a6469b1927b958569fed6-359ca0f420082984-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 299.9646 ms
+[Default] 2023-05-08T18:04:55.4395034+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 300.7692ms
+[Default] 2023-05-08T18:04:56.8388548+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/128) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T18:04:56.8410384+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/128) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJjZWNhOWI1Ni0xY2FiLTQzOGQtOGQwNS02OWZkMjY4M2I2NDAiLCJleHAiOjE2ODM1ODcwOTV9.EFPbwpbZCIo8Rn8UdFxja5oWhdsRNoaFf1I2rd60TZ8' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T18:04:56.8417970+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/128) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T18:04:56.8420786+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/128) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:04:56.8448829+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/128) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T18:04:56.8456006+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/128) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T18:04:56.8664317+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/128) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T18:04:56.8671551+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/128) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 24.8654ms
+[Default] 2023-05-08T18:04:56.8680303+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/128) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T18:04:56.8684223+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/128) ["00-1d350cf03519d7b775bbcad9a26b3d0e-6471a1eb56a4fddf-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 28.7568 ms
+[Default] 2023-05-08T18:04:56.8686441+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/128) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 29.8585ms
+[Default] 2023-05-08T18:05:17.8030716+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T18:05:17.8041036+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:05:17.8043933+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/126) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:05:17.8236583+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T18:05:17.9668032+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T18:05:17.9681284+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T11:05:17.9679355+00:00', @p2='2023-05-08T23:05:17.9674970+00:00', @p3='2023-05-08T23:05:17.9674970+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiI2OGY4ZmE5OC0xNTQ3LTRlODMtOTY3Ny04Nzc1MTM5ZjkwN2YiLCJleHAiOjE2ODM1ODcxMTd9.XKPnhTv9A4RsmxRLtpsdPU1J3NbRSBOKsUDPLBrRXPQ' (Size = 193), @p5='2023-05-08T11:05:17.9679355+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T18:05:17.9686606+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T11:05:17.9674970Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T11:05:17.9684566+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T18:05:17.9894859+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T18:05:17.9905101+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 185.8792ms
+[Default] 2023-05-08T18:05:17.9909626+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:05:17.9928298+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) ["00-d62630b271d9677e599cb12299e4150a-2bdd71968975184c-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 189.1490 ms
+[Default] 2023-05-08T18:05:17.9949057+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 191.8796ms
+[Default] 2023-05-08T18:05:22.1405162+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T18:05:22.1418115+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiI2OGY4ZmE5OC0xNTQ3LTRlODMtOTY3Ny04Nzc1MTM5ZjkwN2YiLCJleHAiOjE2ODM1ODcxMTd9.XKPnhTv9A4RsmxRLtpsdPU1J3NbRSBOKsUDPLBrRXPQ' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T18:05:22.1425446+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T18:05:22.1428200+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:05:22.1457067+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T18:05:22.1465089+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T18:05:22.1669236+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T18:05:22.1679615+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 24.8342ms
+[Default] 2023-05-08T18:05:22.1682697+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T18:05:22.1685857+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) ["00-3fcb100c6b81c0cacd8dc881b180b87e-6492ee058c25cdfa-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 27.4773 ms
+[Default] 2023-05-08T18:05:22.1690000+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/122) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 28.5330ms
+[Default] 2023-05-08T18:06:19.6792649+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T18:06:19.6803360+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:06:19.6811325+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:06:19.6841786+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T18:06:19.8231585+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T18:06:19.8243333+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T11:06:19.8241317+00:00', @p2='2023-05-08T23:06:19.8238920+00:00', @p3='2023-05-08T23:06:19.8238920+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJmZDQzNWM2OS1kOTYwLTQ1YTItYTE3Ni0xMWYyOWRhNzEzMTgiLCJleHAiOjE2ODM1ODcxNzl9.fkfdChxNsUEARBSvwNkJjf_yi5Cm1BbuJabkewNd0PU' (Size = 193), @p5='2023-05-08T11:06:19.8241317+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T18:06:19.8250443+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T11:06:19.8238920Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T11:06:19.8248185+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T18:06:19.8455948+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T18:06:19.8467239+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 165.251ms
+[Default] 2023-05-08T18:06:19.8470801+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:06:19.8473670+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) ["00-0a9429a1e03a7820e46c13204628e8cd-4926372ed25df0af-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 167.5763 ms
+[Default] 2023-05-08T18:06:19.8477219+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 168.4553ms
+[Default] 2023-05-08T18:06:43.5625208+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T18:06:43.5634850+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJmZDQzNWM2OS1kOTYwLTQ1YTItYTE3Ni0xMWYyOWRhNzEzMTgiLCJleHAiOjE2ODM1ODcxNzl9.fkfdChxNsUEARBSvwNkJjf_yi5Cm1BbuJabkewNd0PU' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T18:06:43.5639731+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T18:06:43.5642502+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:06:43.5672259+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T18:06:43.5678802+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T18:06:43.5879856+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T18:06:43.5885525+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 24.0208ms
+[Default] 2023-05-08T18:06:43.5889815+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T18:06:43.5892221+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) ["00-9329b497c6a2c8b228c1de7d96919aae-1557b088a41e7cb8-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 26.3768 ms
+[Default] 2023-05-08T18:06:43.5894565+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 26.9204ms
+[Default] 2023-05-08T18:06:47.0253993+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T18:06:47.0260369+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:06:47.0263719+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:06:47.0294697+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T18:06:47.2042774+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T18:06:47.2054467+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T11:06:47.2052691+00:00', @p2='2023-05-08T23:06:47.2050377+00:00', @p3='2023-05-08T23:06:47.2050377+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiI5MzA5MGQ0Ni04ZmI2LTQzM2EtOGUwOS1mY2Q5ODQ3ZTU5MjIiLCJleHAiOjE2ODM1ODcyMDd9.OA2ypnJeEQLrURfn0yPM64W9YuLJz3y8Mp3V0A-WU2o' (Size = 193), @p5='2023-05-08T11:06:47.2052691+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T18:06:47.2061658+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T11:06:47.2050377Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T11:06:47.2059437+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T18:06:47.2259056+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T18:06:47.2265386+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 199.7756ms
+[Default] 2023-05-08T18:06:47.2269652+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:06:47.2274457+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) ["00-904763eea6e2c386efc21845a5722bcf-21a52954164b9226-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 201.6489 ms
+[Default] 2023-05-08T18:06:47.2278543+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/114) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 202.4221ms
+[Default] 2023-05-08T18:25:36.7159928+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T18:25:36.7171129+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:25:36.7176309+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:25:36.7249986+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("3"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T18:25:36.8895530+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T18:25:36.8910172+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T11:25:36.8907034+00:00', @p2='2023-05-08T23:25:36.8903893+00:00', @p3='2023-05-08T23:25:36.8903893+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJhZGY1Mzk2ZS1kYjY3LTQ0YWYtYWVmNS05OTRjOGIzZjVhMTEiLCJleHAiOjE2ODM1ODgzMzZ9.t6lcgjPrs5YX0XveLgXqFKlKYmQqoHIkJ_D873FFzVk' (Size = 193), @p5='2023-05-08T11:25:36.8907034+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T18:25:36.8919223+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T11:25:36.8903893Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T11:25:36.8916915+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T18:25:36.9499694+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T18:25:36.9506161+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 232.7133ms
+[Default] 2023-05-08T18:25:36.9510260+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:25:36.9512550+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) ["00-14b4df3cd3a1c32e3f4d0bfff3299ff0-ceb79ee83f266da7-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 234.8563 ms
+[Default] 2023-05-08T18:25:36.9519605+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/36) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 236.0511ms
+[Default] 2023-05-08T18:25:56.4484367+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T18:25:56.4498119+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJhZGY1Mzk2ZS1kYjY3LTQ0YWYtYWVmNS05OTRjOGIzZjVhMTEiLCJleHAiOjE2ODM1ODgzMzZ9.t6lcgjPrs5YX0XveLgXqFKlKYmQqoHIkJ_D873FFzVk' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T18:25:56.4504903+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T18:25:56.4507387+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:25:56.4535963+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T18:25:56.4541984+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T18:25:56.4747315+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T18:25:56.4753328+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 24.3433ms
+[Default] 2023-05-08T18:25:56.4759997+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T18:25:56.4764509+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) ["00-25363a02db6d4ee6a113540cb7879903-b0f8a961ba96b9e1-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 27.5952 ms
+[Default] 2023-05-08T18:25:56.4768429+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/37) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 28.3684ms
+[Default] 2023-05-08T18:26:02.9528812+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/39) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T18:26:02.9539080+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/39) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:26:02.9542365+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/39) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:26:02.9598642+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/39) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T18:26:03.1747125+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/39) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T18:26:03.1767623+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/39) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T11:26:03.1763412+00:00', @p2='2023-05-08T23:26:03.1758886+00:00', @p3='2023-05-08T23:26:03.1758886+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiIwOTJjYTI0Ny01ZTM3LTRkYjUtYTYxMC0xOTY3MjE3ZjlkYTEiLCJleHAiOjE2ODM1ODgzNjN9.3d-7mNJjbq6XILd6E58ywVQSEioOrKIvHJFat00ftP8' (Size = 193), @p5='2023-05-08T11:26:03.1763412+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T18:26:03.1779056+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/39) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T11:26:03.1758886Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T11:26:03.1776263+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T18:26:03.1984150+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/39) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T18:26:03.1991325+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/39) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 244.6357ms
+[Default] 2023-05-08T18:26:03.1995439+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/39) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:26:03.1998835+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/39) ["00-376b4b8ba820c7185670ac98697a2ccd-5ffb59b9004495a4-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 246.4891 ms
+[Default] 2023-05-08T18:26:03.2001032+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/39) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 247.2562ms
+[Default] 2023-05-08T18:41:08.4577145+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/167) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T18:41:08.4588149+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/167) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:41:08.4592254+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/167) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:41:08.4696358+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/167) Executed DbCommand ("1"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T18:41:08.6176748+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/167) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T18:41:08.6191426+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/167) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T11:41:08.6188750+00:00', @p2='2023-05-08T23:41:08.6184617+00:00', @p3='2023-05-08T23:41:08.6184617+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiI0OWRmZjljZS05MzlmLTQ2MGItOGNlNy01NDkxZTVmOTlmZjEiLCJleHAiOjE2ODM1ODkyNjh9.R90pr3wky1UMFv-m2oiUE0a1I3U5q8cYOueQHyVXLf8' (Size = 193), @p5='2023-05-08T11:41:08.6188750+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T18:41:08.6200075+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/167) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T11:41:08.6184617Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T11:41:08.6196699+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T18:41:08.6770131+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/167) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T18:41:08.6776750+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/167) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 218.2258ms
+[Default] 2023-05-08T18:41:08.6781306+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/167) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:41:08.6786186+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/167) ["00-70ed5c25f4a50b3ccab22eb986c747db-4b50188f248b66ac-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 220.3795 ms
+[Default] 2023-05-08T18:41:08.6789801+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/167) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 221.2252ms
+[Default] 2023-05-08T18:41:46.2345788+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/162) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T18:41:46.2358241+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/162) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiI0OWRmZjljZS05MzlmLTQ2MGItOGNlNy01NDkxZTVmOTlmZjEiLCJleHAiOjE2ODM1ODkyNjh9.R90pr3wky1UMFv-m2oiUE0a1I3U5q8cYOueQHyVXLf8' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T18:41:46.2364648+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/162) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T18:41:46.2367524+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/162) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:41:46.2407910+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/162) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T18:41:46.2415365+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/162) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T18:41:46.2610913+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/162) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T18:41:46.2616577+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/162) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 24.5444ms
+[Default] 2023-05-08T18:41:46.2619377+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/162) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T18:41:46.2622723+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/162) ["00-fe4159b9a4f6683d22a6c835fb550fa4-7a9acd3d8f6e82e7-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 27.3448 ms
+[Default] 2023-05-08T18:41:46.2625095+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/162) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 27.9577ms
+[Default] 2023-05-08T18:42:20.2005942+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T18:42:20.2050469+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:42:20.2053834+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:42:20.2088998+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T18:42:20.3522303+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T18:42:20.3539012+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T11:42:20.3537097+00:00', @p2='2023-05-08T23:42:20.3529446+00:00', @p3='2023-05-08T23:42:20.3529446+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiIwYjE5ZmE3OC03MzExLTQ3ZTktYjljOS0yNmM2MDlhZTUzODciLCJleHAiOjE2ODM1ODkzNDB9.xDpM02q58qYTfuLQKCNO3SLv9wnHMzVFliEkl9OHE-U' (Size = 193), @p5='2023-05-08T11:42:20.3537097+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T18:42:20.3546002+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T11:42:20.3529446Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T11:42:20.3543263+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T18:42:20.3749466+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T18:42:20.3755007+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 169.8163ms
+[Default] 2023-05-08T18:42:20.3757595+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T18:42:20.3761533+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) ["00-43894f52ce1ed17b7c84deed4242f60e-a4efa8aa4d6503d5-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 174.3471 ms
+[Default] 2023-05-08T18:42:20.3765220+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 175.9553ms
+[Default] 2023-05-08T18:42:27.0202817+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Request starting HTTP/1.1 POST http://95.188.89.10:5001/logout application/json -
+[Default] 2023-05-08T18:42:27.0216665+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executed DbCommand ("0"ms) [Parameters=["@__authorizationBearerPayload_0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiIwYjE5ZmE3OC03MzExLTQ3ZTktYjljOS0yNmM2MDlhZTUzODciLCJleHAiOjE2ODM1ODkzNDB9.xDpM02q58qYTfuLQKCNO3SLv9wnHMzVFliEkl9OHE-U' (Size = 193)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"j\".\"ID\", \"j\".\"AccountId\", \"j\".\"CreatedAt\", \"j\".\"DeleteAfter\", \"j\".\"ExpiresAt\", \"j\".\"Token\", \"j\".\"UpdatedAt\"
+FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"Token\" = @__authorizationBearerPayload_0
+LIMIT 2"
+[Default] 2023-05-08T18:42:27.0225881+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executing endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T18:42:27.0229933+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogoutAsync()" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T18:42:27.0261588+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executed DbCommand ("0"ms) [Parameters=["@__id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"ID\" = @__id_0
+LIMIT 2"
+[Default] 2023-05-08T18:42:27.0267058+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='2'"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"JsonWebTokens\" AS \"j\"
+WHERE \"j\".\"AccountId\" = @__user_Id_0"
+[Default] 2023-05-08T18:42:27.0477846+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executing "OkObjectResult", writing value of type '"AuthDAL.Dto.Generic.OkResultDto"'.
+[Default] 2023-05-08T18:42:27.0483710+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executed action "AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)" in 25.027ms
+[Default] 2023-05-08T18:42:27.0487710+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Executed endpoint '"AuthDomain.Controllers.AuthController.LogoutAsync (AuthDomain)"'
+[Default] 2023-05-08T18:42:27.0491154+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) ["00-b3c4410029fb5535d921faf5988e9dbb-2df3b80d53706549-00"]["http"] "HTTP/1.1" "POST" "/logout" responded 200 in 28.3857 ms
+[Default] 2023-05-08T18:42:27.0494437+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/157) Request finished HTTP/1.1 POST http://95.188.89.10:5001/logout application/json - - 200 - application/json;+charset=utf-8 29.0790ms
+[Default] 2023-05-08T19:00:49.7691767+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/72) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T19:00:49.7704701+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/72) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:00:49.7711498+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/72) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T19:00:49.7787710+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/72) Executed DbCommand ("3"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T19:00:49.9434564+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/72) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T19:00:49.9449157+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/72) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T12:00:49.9446501+00:00', @p2='2023-05-09T00:00:49.9442327+00:00', @p3='2023-05-09T00:00:49.9442327+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiI0ZjE0NTU3NS02N2JmLTRkNzAtYjdhZC03NDg1YmFkNDcyMDYiLCJleHAiOjE2ODM1OTA0NDl9.P5BfqroiYbYn82LVuN2KoJygV0UNQKWu3mOSTETEXdw' (Size = 193), @p5='2023-05-08T12:00:49.9446501+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T19:00:49.9458428+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/72) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T12:00:49.9442327Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T12:00:49.9454152+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T19:00:50.0029663+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/72) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T19:00:50.0038149+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/72) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 232.2436ms
+[Default] 2023-05-08T19:00:50.0042764+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/72) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:00:50.0045972+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/72) ["00-5cb66c3eb8c9cbf2db601d4a98b2274b-12a800c45181af07-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 235.0346 ms
+[Default] 2023-05-08T19:00:50.0048436+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/72) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 235.7012ms
+[Default] 2023-05-08T19:01:11.9635570+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/70) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T19:01:11.9647167+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/70) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:01:11.9651621+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/70) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T19:01:11.9691850+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/70) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T19:01:12.1197563+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/70) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T19:01:12.1215088+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/70) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T12:01:12.1212183+00:00', @p2='2023-05-09T00:01:12.1206011+00:00', @p3='2023-05-09T00:01:12.1206011+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiI2NjU2MmEwNS1lMmMzLTRjMTAtYTIyNS1lMTVmMTk4MmZlZjIiLCJleHAiOjE2ODM1OTA0NzJ9.KfgvUfyxBvEY9TmWE3cwiVlodweeA-r7B61Cppi5hhc' (Size = 193), @p5='2023-05-08T12:01:12.1212183+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T19:01:12.1227080+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/70) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T12:01:12.1206011Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T12:01:12.1223950+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T19:01:12.1435106+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/70) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T19:01:12.1443600+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/70) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 178.6879ms
+[Default] 2023-05-08T19:01:12.1447861+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/70) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:01:12.1452752+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/70) ["00-7a3f672150e6bea8092c21831ab5767c-75817f3dced3494a-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 180.9988 ms
+[Default] 2023-05-08T19:01:12.1457227+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/70) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 182.4167ms
+[Default] 2023-05-08T19:24:03.8510738+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T19:24:03.8526606+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:24:03.8531887+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T19:24:03.8607575+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executed DbCommand ("1"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T19:24:04.0030436+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T19:24:04.0045969+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T12:24:04.0042936+00:00', @p2='2023-05-09T00:24:04.0039704+00:00', @p3='2023-05-09T00:24:04.0039704+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiIyODc2MzRiYS1hN2ZmLTQ0MDgtOWEyMS00ZmYxMzk5ZmFiYTAiLCJleHAiOjE2ODM1OTE4NDR9.IpxyWwWLR-skFnzGygtFRZNZNDePH3utwMPoGkf3xiw' (Size = 193), @p5='2023-05-08T12:24:04.0042936+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T19:24:04.0055530+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T12:24:04.0039704Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T12:24:04.0052541+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T19:24:04.0658518+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T19:24:04.0664285+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 212.7967ms
+[Default] 2023-05-08T19:24:04.0668072+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:24:04.0671163+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) ["00-17d70e304d3a47bcd1a172769b12e002-964f93913f4ce326-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 215.3720 ms
+[Default] 2023-05-08T19:24:04.0676640+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 216.5822ms
+[Default] 2023-05-08T19:24:20.5746146+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/105) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T19:24:20.5758184+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/105) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:24:20.5763376+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/105) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T19:24:20.5797100+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/105) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T19:24:20.7301290+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/105) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T19:24:20.7313848+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/105) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T12:24:20.7312173+00:00', @p2='2023-05-09T00:24:20.7309332+00:00', @p3='2023-05-09T00:24:20.7309332+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJkNzM5ZjEyZi1lYTJlLTRlYTYtYTEzNi03MDk0MWU2ZTkyMGUiLCJleHAiOjE2ODM1OTE4NjB9.zI6Yey1H9PvyxPxfaDpj7sz6jd6x8-l3vj9qdBMmyhk' (Size = 193), @p5='2023-05-08T12:24:20.7312173+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T19:24:20.7320982+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/105) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T12:24:20.7309332Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T12:24:20.7319013+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T19:24:20.7526615+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/105) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T19:24:20.7534100+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/105) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 176.7668ms
+[Default] 2023-05-08T19:24:20.7537678+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/105) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:24:20.7541701+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/105) ["00-d68a5c9a1a6881e18d21b6ec00dc3a61-94040ecaa7881668-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 178.8693 ms
+[Default] 2023-05-08T19:24:20.7545002+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/105) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 179.9112ms
+[Default] 2023-05-08T19:24:39.3922536+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T19:24:39.3930624+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:24:39.3935328+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T19:24:39.3973244+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T19:24:39.5356508+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T19:24:39.5368269+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T12:24:39.5366556+00:00', @p2='2023-05-09T00:24:39.5364568+00:00', @p3='2023-05-09T00:24:39.5364568+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJmOTUwOTU4NC0wNjM4LTRiOTUtOWQ4Zi1kYWIxOTU5OWExMjkiLCJleHAiOjE2ODM1OTE4Nzl9.wFe0f1f98A0F6UHHCsFLGQ5XwvZY1RpPHvSt-PgqxNA' (Size = 193), @p5='2023-05-08T12:24:39.5366556+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T19:24:39.5375734+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T12:24:39.5364568Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T12:24:39.5372900+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T19:24:39.5592885+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T19:24:39.5602498+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 166.1833ms
+[Default] 2023-05-08T19:24:39.5605582+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:24:39.5609386+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) ["00-475e879cdb04c681d6c39d73cfee567b-01894fda5da9b2ca-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 168.3299 ms
+[Default] 2023-05-08T19:24:39.5612149+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/100) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 168.9936ms
+[Default] 2023-05-08T19:34:25.9749865+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T19:34:25.9758992+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:34:25.9762030+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T19:34:25.9844390+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Executed DbCommand ("4"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T19:34:26.1306679+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T19:34:26.1324977+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T12:34:26.1318532+00:00', @p2='2023-05-09T00:34:26.1314032+00:00', @p3='2023-05-09T00:34:26.1314032+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJhYTAyMjQ4MC02M2UxLTQ5YzYtOWZkNS1hNGY0NWQyZGNjNDIiLCJleHAiOjE2ODM1OTI0NjZ9.giet9-WIw1SikSmUq8Ue38iq6Qj-kcyiOxm0lOe3Zjs' (Size = 193), @p5='2023-05-08T12:34:26.1318532+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T19:34:26.1335116+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T12:34:26.1314032Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T12:34:26.1332553+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T19:34:26.1897734+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T19:34:26.1905524+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 213.9478ms
+[Default] 2023-05-08T19:34:26.1909191+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:34:26.1911803+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) ["00-46d8f25245dcd7a8f4d7fcc0d6de290c-d6c56c2d3656ed3c-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 215.7871 ms
+[Default] 2023-05-08T19:34:26.1913659+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/60) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 216.4126ms
+[Default] 2023-05-08T19:34:39.5656809+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T19:34:39.5663998+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:34:39.5666425+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T19:34:39.5696289+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T19:34:39.7232290+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T19:34:39.7244671+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T12:34:39.7242176+00:00', @p2='2023-05-09T00:34:39.7239698+00:00', @p3='2023-05-09T00:34:39.7239698+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiIwNmM3MDljMy02Y2YwLTQ3OTYtYTQ1ZS01NmYyMDA2MmQ4ZjYiLCJleHAiOjE2ODM1OTI0Nzl9.hP_JiUy_KY-9As_XrfZALQrBGIUWv26ENOGgTQwFBc8' (Size = 193), @p5='2023-05-08T12:34:39.7242176+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T19:34:39.7252409+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T12:34:39.7239698Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T12:34:39.7249850+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T19:34:39.7455848+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T19:34:39.7462128+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 179.2405ms
+[Default] 2023-05-08T19:34:39.7465631+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:34:39.7468955+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) ["00-f2feb0946732a602600cd0c8381d4f68-6c1e7c103972862e-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 180.8395 ms
+[Default] 2023-05-08T19:34:39.7471249+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/62) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 181.4574ms
+[Default] 2023-05-08T19:34:54.1165737+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/58) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T19:34:54.1173574+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/58) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:34:54.1176632+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/58) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T19:34:54.1212231+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/58) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T19:34:54.2610780+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/58) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T19:34:54.2625899+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/58) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T12:34:54.2622609+00:00', @p2='2023-05-09T00:34:54.2618215+00:00', @p3='2023-05-09T00:34:54.2618215+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJmMGFlMTMwOS1iM2U0LTQ2NDktOWVlNi03NGIyZWUzY2Q1MjYiLCJleHAiOjE2ODM1OTI0OTR9.4NXZyrA0RK1QPXbCDPzFKRAn52jF-Kjnb7L_HyqNkYY' (Size = 193), @p5='2023-05-08T12:34:54.2622609+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T19:34:54.2636457+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/58) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T12:34:54.2618215Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T12:34:54.2633697+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T19:34:54.2837434+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/58) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T19:34:54.2842716+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/58) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 166.2996ms
+[Default] 2023-05-08T19:34:54.2846724+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/58) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:34:54.2849849+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/58) ["00-521d1516a98fddb970091551a3f776e7-5516be10c33046c2-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 168.0799 ms
+[Default] 2023-05-08T19:34:54.2853239+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/58) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 168.7642ms
+[Default] 2023-05-08T19:37:42.9955343+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T19:37:42.9966569+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:37:42.9971539+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T19:37:43.0005737+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T19:37:43.1388026+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T19:37:43.1400900+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T12:37:43.1398724+00:00', @p2='2023-05-09T00:37:43.1395907+00:00', @p3='2023-05-09T00:37:43.1395907+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJmZGVlNzU0MC1lYWE0LTQ3NjktYWQ4ZS1iNjQ2MTE1ZmY0ZjYiLCJleHAiOjE2ODM1OTI2NjN9.oL3fePAD6NUiVeNAZtK_veetyU54wZ6A_B0sPjxLqC0' (Size = 193), @p5='2023-05-08T12:37:43.1398724+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T19:37:43.1407603+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T12:37:43.1395907Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T12:37:43.1405154+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T19:37:43.1606580+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T19:37:43.1612756+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 163.8125ms
+[Default] 2023-05-08T19:37:43.1617152+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:37:43.1621067+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) ["00-38ee2202c94634ba1d4368abb50eb93b-2c416e5f9d71e92a-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 166.1448 ms
+[Default] 2023-05-08T19:37:43.1623475+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 166.8354ms
+[Default] 2023-05-08T19:38:18.1802719+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T19:38:18.1808393+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:38:18.1811714+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T19:38:18.1851582+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T19:38:18.3271200+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T19:38:18.3282558+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T12:38:18.3280481+00:00', @p2='2023-05-09T00:38:18.3277266+00:00', @p3='2023-05-09T00:38:18.3277266+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiJmOWI4YjM1ZS1jMmZiLTRkNWEtYTI0OC1mNjRkZWYyMThmZTEiLCJleHAiOjE2ODM1OTI2OTh9.7v4t0Ao9Sfzx713gsZSKmdytLs8LLUgWbvzF36nawag' (Size = 193), @p5='2023-05-08T12:38:18.3280481+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T19:38:18.3290423+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T12:38:18.3277266Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T12:38:18.3286497+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T19:38:18.3506265+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T19:38:18.3511964+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 169.8272ms
+[Default] 2023-05-08T19:38:18.3517074+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:38:18.3519735+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) ["00-8a2e1bfeb2499de27affdce499b486ab-a9b5f1b5cec4f0fa-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 171.3187 ms
+[Default] 2023-05-08T19:38:18.3523109+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/48) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 172.0516ms
+[Default] 2023-05-08T19:38:41.3270280+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T19:38:41.3277038+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:38:41.3281518+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T19:38:41.3315231+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T19:38:41.4741277+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T19:38:41.4752418+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T12:38:41.4750803+00:00', @p2='2023-05-09T00:38:41.4747668+00:00', @p3='2023-05-09T00:38:41.4747668+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiIxOTgzNjgyYS05YjAxLTRlMDctYTgxZS1mOTgzYmM5YThiOGEiLCJleHAiOjE2ODM1OTI3MjF9.qmUnbAziuhZ9qMAnyV6Dwruf8l6Qb4osjOVI7Pm4-44' (Size = 193), @p5='2023-05-08T12:38:41.4750803+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T19:38:41.4758706+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T12:38:41.4747668Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T12:38:41.4756509+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T19:38:41.4973840+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T19:38:41.4980082+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 169.4992ms
+[Default] 2023-05-08T19:38:41.4983507+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:38:41.4988023+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) ["00-c4dd31f89dd50805340ffae5deb2778d-eec62d234f57ffb5-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 171.3527 ms
+[Default] 2023-05-08T19:38:41.4990913+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 172.0890ms
+[Default] 2023-05-08T19:39:00.7661089+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-08T19:39:00.7670375+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:39:00.7673197+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-08T19:39:00.7715220+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed DbCommand ("0"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-08T19:39:00.9155624+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed DbCommand ("0"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-08T19:39:00.9169144+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed DbCommand ("0"ms) [Parameters=["@p0='2', @p1='2023-05-08T12:39:00.9166621+00:00', @p2='2023-05-09T00:39:00.9163712+00:00', @p3='2023-05-09T00:39:00.9163712+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiIwNTM0MGM1MC1jMDRlLTQ2ZDgtOWM1NC02MTIxZjI4NmY4ZjUiLCJleHAiOjE2ODM1OTI3NDB9.fIARvZMxcD3ejzwMbjfjf104vrsyELUwXN_fClq0OEE' (Size = 193), @p5='2023-05-08T12:39:00.9166621+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-08T19:39:00.9177034+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-08T12:39:00.9163712Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-08T12:39:00.9174281+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-08T19:39:00.9384599+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-08T19:39:00.9391643+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 171.4883ms
+[Default] 2023-05-08T19:39:00.9395312+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-08T19:39:00.9398035+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) ["00-7b0c2368d1b0a22618caf260e6ad4dc6-a8fb5cc1cf507df8-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 173.3423 ms
+[Default] 2023-05-08T19:39:00.9403638+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/46) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 174.3120ms
