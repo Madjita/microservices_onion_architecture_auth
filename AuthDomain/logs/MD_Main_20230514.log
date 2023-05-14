@@ -1,0 +1,183 @@
+[MD_Main] 2023-05-14T11:55:13.7882559+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub connect
+[MD_Main] 2023-05-14T11:55:16.8947542+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T11:55:58.8052940+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub connect
+[MD_Main] 2023-05-14T11:55:58.8347485+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T13:19:49.2282894+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/40) [. :] App hub disconnect
+[MD_Main] 2023-05-14T17:38:34.8584790+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/16) [. :] App hub connect
+[MD_Main] 2023-05-14T17:38:34.8868446+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/16) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T17:41:53.1699371+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/21) [. :] App hub connect
+[MD_Main] 2023-05-14T17:41:54.8889392+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/21) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T17:43:56.8840427+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub connect
+[MD_Main] 2023-05-14T17:43:56.9177227+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T17:51:00.4500727+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub connect
+[MD_Main] 2023-05-14T17:51:00.4809254+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T17:54:33.6697383+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] App hub connect
+[MD_Main] 2023-05-14T17:54:35.2462806+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T17:55:25.9442010+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub disconnect
+[MD_Main] 2023-05-14T17:55:30.0671381+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] App hub connect
+[MD_Main] 2023-05-14T17:55:30.0714548+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T17:56:25.8362864+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub connect
+[MD_Main] 2023-05-14T17:56:26.8092072+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T17:56:30.8747789+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub disconnect
+[MD_Main] 2023-05-14T17:58:11.0720516+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub connect
+[MD_Main] 2023-05-14T17:58:11.0761653+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T17:58:21.0786820+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub disconnect
+[MD_Main] 2023-05-14T18:03:13.7926316+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub connect
+[MD_Main] 2023-05-14T18:03:13.8278631+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:03:23.8294371+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub disconnect
+[MD_Main] 2023-05-14T18:04:45.2556708+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub disconnect
+[MD_Main] 2023-05-14T18:05:04.2549293+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub connect
+[MD_Main] 2023-05-14T18:05:04.2589779+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:05:14.2600340+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub disconnect
+[MD_Main] 2023-05-14T18:06:44.4773551+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub connect
+[MD_Main] 2023-05-14T18:06:44.5137283+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:06:54.5185495+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub disconnect
+[MD_Main] 2023-05-14T18:07:36.0436331+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub disconnect
+[MD_Main] 2023-05-14T18:07:38.1395488+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] App hub connect
+[MD_Main] 2023-05-14T18:07:38.1434407+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:07:48.1443460+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] App hub disconnect
+[MD_Main] 2023-05-14T18:07:49.7786704+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] App hub disconnect
+[MD_Main] 2023-05-14T18:07:51.8574923+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub connect
+[MD_Main] 2023-05-14T18:07:51.8614875+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:08:01.8621696+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub disconnect
+[MD_Main] 2023-05-14T18:09:07.1744591+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub disconnect
+[MD_Main] 2023-05-14T18:09:19.3095793+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub connect
+[MD_Main] 2023-05-14T18:09:19.3135071+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:09:29.3139095+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub disconnect
+[MD_Main] 2023-05-14T18:16:16.5251947+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub connect
+[MD_Main] 2023-05-14T18:16:16.5638907+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:18:29.6824323+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub connect
+[MD_Main] 2023-05-14T18:18:29.7207183+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:19:48.0315403+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub connect
+[MD_Main] 2023-05-14T18:19:48.0766034+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:32:11.2288658+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub connect
+[MD_Main] 2023-05-14T18:32:11.2587607+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:37:04.8038404+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub connect
+[MD_Main] 2023-05-14T18:37:04.8389117+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:38:43.3882218+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub connect
+[MD_Main] 2023-05-14T18:38:43.4141755+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:40:55.6991191+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub connect
+[MD_Main] 2023-05-14T18:40:55.7362781+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:45:19.1163345+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub connect
+[MD_Main] 2023-05-14T18:45:19.1486664+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:48:06.7781423+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/3) [. :] App hub connect
+[MD_Main] 2023-05-14T18:48:06.8191060+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/3) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:48:41.6906623+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub connect
+[MD_Main] 2023-05-14T18:48:41.7162896+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:49:07.7768408+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] App hub disconnect
+[MD_Main] 2023-05-14T18:49:12.8699445+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub connect
+[MD_Main] 2023-05-14T18:49:12.8750995+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:49:38.8841525+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub connect
+[MD_Main] 2023-05-14T18:49:38.9194289+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:51:15.0876335+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub connect
+[MD_Main] 2023-05-14T18:51:15.1243769+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T18:52:32.5273198+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub disconnect
+[MD_Main] 2023-05-14T19:14:08.5924025+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub connect
+[MD_Main] 2023-05-14T19:14:08.6221794+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T19:14:21.1888644+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) [. :] App hub disconnect
+[MD_Main] 2023-05-14T19:14:25.5068628+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:14:29.2304782+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:14:29.2410571+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:14:29.3201390+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:14:29.3244803+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/3) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:15:53.9489970+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub hub disconnect
+[MD_Main] 2023-05-14T19:15:53.9489969+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) [. :] TelemetryHub hub disconnect
+[MD_Main] 2023-05-14T19:15:53.9489969+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub hub disconnect
+[MD_Main] 2023-05-14T19:15:53.9489968+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] TelemetryHub hub disconnect
+[MD_Main] 2023-05-14T19:15:53.9597710+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/16) [. :] TelemetryHub hub disconnect
+[MD_Main] 2023-05-14T19:18:22.1890681+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub connect
+[MD_Main] 2023-05-14T19:18:22.2223744+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] App hub send version: 1.0.0.0
+[MD_Main] 2023-05-14T19:18:35.2888528+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] App hub disconnect
+[MD_Main] 2023-05-14T19:18:35.4518019+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:18:35.4533926+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:18:35.4930666+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:18:35.4998913+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:18:35.5192135+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:18:38.4314399+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub ${"longitude":92.9280949,"latitude":56.0594265,"timestamp":1684066713408,"accuracy":20.698999404907227,"altitude":156.39999389648438,"floor":null,"heading":0.0,"speed":0.0,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:18:40.0512877+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub ${"longitude":92.9280949,"latitude":56.0594265,"timestamp":1684066717900,"accuracy":21.672000885009766,"altitude":156.39999389648438,"floor":null,"heading":0.0,"speed":0.0,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:18:48.3586560+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) [. :] TelemetryHub ${"longitude":92.9280635,"latitude":56.0594079,"timestamp":1684066723448,"accuracy":22.28499984741211,"altitude":156.39999389648438,"floor":null,"heading":168.22976684570312,"speed":0.1240077018737793,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:18:49.0430124+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub ${"longitude":92.9280699,"latitude":56.0594094,"timestamp":1684066726901,"accuracy":21.909000396728516,"altitude":156.39999389648438,"floor":null,"heading":0.0,"speed":0.09851733595132828,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:18:58.2994919+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub ${"longitude":92.9279562,"latitude":56.0593656,"timestamp":1684066733472,"accuracy":22.158000946044922,"altitude":156.39999389648438,"floor":null,"heading":254.78041076660156,"speed":0.35950711369514465,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:18:59.0419194+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub ${"longitude":92.9279667,"latitude":56.0593723,"timestamp":1684066736901,"accuracy":22.395000457763672,"altitude":156.39999389648438,"floor":null,"heading":27.982952117919922,"speed":0.17426609992980957,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:19:08.4311783+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub ${"longitude":92.928187,"latitude":56.0594591,"timestamp":1684066743478,"accuracy":22.7549991607666,"altitude":155.6999969482422,"floor":null,"heading":55.72820281982422,"speed":2.6806445121765137,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:19:09.0821960+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub ${"longitude":92.928219,"latitude":56.0594704,"timestamp":1684066746901,"accuracy":24.832000732421875,"altitude":155.6999969482422,"floor":null,"heading":56.72095489501953,"speed":1.1378198862075806,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:19:18.3701095+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub ${"longitude":92.9282017,"latitude":56.0594671,"timestamp":1684066753519,"accuracy":23.583999633789062,"altitude":155.6999969482422,"floor":null,"heading":49.878662109375,"speed":0.43055224418640137,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:19:19.0337947+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub ${"longitude":92.9282108,"latitude":56.059471,"timestamp":1684066756901,"accuracy":22.72599983215332,"altitude":155.6999969482422,"floor":null,"heading":51.57968521118164,"speed":0.2590123414993286,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:19:28.3890633+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) [. :] TelemetryHub ${"longitude":92.9282067,"latitude":56.0594681,"timestamp":1684066763529,"accuracy":22.52199935913086,"altitude":155.6999969482422,"floor":null,"heading":54.322269439697266,"speed":0.395754337310791,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:19:29.0347255+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) [. :] TelemetryHub ${"longitude":92.9282165,"latitude":56.0594722,"timestamp":1684066766900,"accuracy":22.308000564575195,"altitude":155.6999969482422,"floor":null,"heading":53.22625732421875,"speed":0.26185914874076843,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:19:37.0311592+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] TelemetryHub ${"longitude":92.9280271,"latitude":56.0594067,"timestamp":1684066774899,"accuracy":22.54800033569336,"altitude":156.39999389648438,"floor":null,"heading":238.21615600585938,"speed":1.2935646772384644,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:19:41.0496857+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub ${"longitude":92.9280389,"latitude":56.0593981,"timestamp":1684066778901,"accuracy":23.325000762939453,"altitude":156.39999389648438,"floor":null,"heading":189.19729614257812,"speed":0.1563486009836197,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:19:47.0352266+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] TelemetryHub ${"longitude":92.9281288,"latitude":56.0594329,"timestamp":1684066784899,"accuracy":24.20400047302246,"altitude":155.6999969482422,"floor":null,"heading":56.291385650634766,"speed":0.5462555885314941,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:19:51.0553008+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) [. :] TelemetryHub ${"longitude":92.9280833,"latitude":56.0594306,"timestamp":1684066788901,"accuracy":23.527000427246094,"altitude":156.39999389648438,"floor":null,"heading":271.3294982910156,"speed":0.21059612929821014,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:19:57.0302507+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub ${"longitude":92.9282146,"latitude":56.0594749,"timestamp":1684066794903,"accuracy":20.75,"altitude":155.6999969482422,"floor":null,"heading":58.173404693603516,"speed":0.7002198100090027,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:20:01.0403989+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub ${"longitude":92.9282061,"latitude":56.0594724,"timestamp":1684066798901,"accuracy":29.47100067138672,"altitude":155.6999969482422,"floor":null,"heading":0.0,"speed":0.007335109170526266,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:20:08.3429133+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub ${"longitude":92.9281752,"latitude":56.0594585,"timestamp":1684066803611,"accuracy":33.827999114990234,"altitude":155.6999969482422,"floor":null,"heading":58.64917755126953,"speed":0.9847753047943115,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:20:09.0390627+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] TelemetryHub ${"longitude":92.9282068,"latitude":56.0594697,"timestamp":1684066806902,"accuracy":33.79399871826172,"altitude":155.6999969482422,"floor":null,"heading":57.950103759765625,"speed":0.7953384518623352,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:20:17.0250912+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) [. :] TelemetryHub ${"longitude":92.9280876,"latitude":56.0594303,"timestamp":1684066814899,"accuracy":24.72800064086914,"altitude":156.39999389648438,"floor":null,"heading":239.4801788330078,"speed":0.6371837854385376,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:20:21.0427248+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] TelemetryHub ${"longitude":92.9280348,"latitude":56.0594084,"timestamp":1684066818901,"accuracy":24.992000579833984,"altitude":156.39999389648438,"floor":null,"heading":234.17471313476562,"speed":0.4590914249420166,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:20:27.0246665+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) [. :] TelemetryHub ${"longitude":92.9280204,"latitude":56.0594076,"timestamp":1684066824900,"accuracy":24.482999801635742,"altitude":156.39999389648438,"floor":null,"heading":253.2496795654297,"speed":0.11169920861721039,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:20:31.0406366+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub ${"longitude":92.9281451,"latitude":56.0594408,"timestamp":1684066828901,"accuracy":23.34600067138672,"altitude":155.6999969482422,"floor":null,"heading":64.34963989257812,"speed":0.7466899752616882,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:20:37.0260107+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub ${"longitude":92.9280808,"latitude":56.0594183,"timestamp":1684066834898,"accuracy":23.018999099731445,"altitude":155.6999969482422,"floor":null,"heading":236.96876525878906,"speed":0.3971046805381775,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:20:41.0597523+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub ${"longitude":92.9281092,"latitude":56.0594329,"timestamp":1684066838900,"accuracy":23.361000061035156,"altitude":156.39999389648438,"floor":null,"heading":45.33394241333008,"speed":0.19590894877910614,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:20:47.0271274+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub ${"longitude":92.928062,"latitude":56.0594193,"timestamp":1684066844899,"accuracy":22.20800018310547,"altitude":156.39999389648438,"floor":null,"heading":243.7316131591797,"speed":0.2455504983663559,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:20:51.0466520+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) [. :] TelemetryHub ${"longitude":92.9280336,"latitude":56.0594059,"timestamp":1684066848900,"accuracy":23.433000564575195,"altitude":156.39999389648438,"floor":null,"heading":231.00003051757812,"speed":0.264186292886734,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:20:57.0244709+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) [. :] TelemetryHub ${"longitude":92.9282117,"latitude":56.0594724,"timestamp":1684066854899,"accuracy":21.59600067138672,"altitude":155.6999969482422,"floor":null,"heading":56.3511962890625,"speed":0.976285457611084,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:21:01.0255399+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub ${"longitude":92.9281167,"latitude":56.0594332,"timestamp":1684066858901,"accuracy":22.45599937438965,"altitude":155.6999969482422,"floor":null,"heading":233.12599182128906,"speed":0.7466405034065247,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:21:07.0354084+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub ${"longitude":92.9282052,"latitude":56.0594684,"timestamp":1684066864898,"accuracy":22.5049991607666,"altitude":155.6999969482422,"floor":null,"heading":54.68166732788086,"speed":0.5009080767631531,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:21:11.0329465+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) [. :] TelemetryHub ${"longitude":92.9279662,"latitude":56.059388,"timestamp":1684066868902,"accuracy":23.694000244140625,"altitude":156.39999389648438,"floor":null,"heading":239.04794311523438,"speed":1.7944419384002686,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:21:17.0257198+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub ${"longitude":92.9282041,"latitude":56.0594687,"timestamp":1684066874900,"accuracy":22.714000701904297,"altitude":155.6999969482422,"floor":null,"heading":58.69279861450195,"speed":1.19437837600708,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:21:21.0240014+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) [. :] TelemetryHub ${"longitude":92.9280632,"latitude":56.0594095,"timestamp":1684066878900,"accuracy":23.030000686645508,"altitude":156.39999389648438,"floor":null,"heading":232.41513061523438,"speed":0.9750982522964478,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:21:27.0263396+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) [. :] TelemetryHub ${"longitude":92.9282054,"latitude":56.0594744,"timestamp":1684066884899,"accuracy":26.743999481201172,"altitude":155.6999969482422,"floor":null,"heading":50.537437438964844,"speed":0.9696128368377686,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:21:31.0275302+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub ${"longitude":92.9282032,"latitude":56.059469,"timestamp":1684066888900,"accuracy":24.17799949645996,"altitude":155.6999969482422,"floor":null,"heading":0.0,"speed":0.06406769156455994,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:21:36.0494188+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub ${"longitude":92.9282083,"latitude":56.0594678,"timestamp":1684066893900,"accuracy":22.798999786376953,"altitude":155.6999969482422,"floor":null,"heading":0.0,"speed":0.04472563415765762,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:21:42.0184208+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub ${"longitude":92.9275015,"latitude":56.0592936,"timestamp":1684066899900,"accuracy":48.84400177001953,"altitude":155.6999969482422,"floor":null,"heading":246.15138244628906,"speed":5.887779235839844,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:21:46.0354191+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub ${"longitude":92.9280282,"latitude":56.0594004,"timestamp":1684066903904,"accuracy":30.812999725341797,"altitude":156.39999389648438,"floor":null,"heading":73.13875579833984,"speed":0.9643161296844482,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:21:52.0248470+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub ${"longitude":92.9280429,"latitude":56.0594213,"timestamp":1684066909897,"accuracy":24.663999557495117,"altitude":156.39999389648438,"floor":null,"heading":34.82777404785156,"speed":0.2964554727077484,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:21:59.8760282+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:21:59.8760282+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:21:59.8760339+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:21:59.8760290+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:21:59.8760282+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/16) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:21:59.8760282+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:21:59.8760282+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:21:59.8760699+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:22:02.0365832+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub ${"longitude":92.928077,"latitude":56.0594136,"timestamp":1684066919902,"accuracy":23.22100067138672,"altitude":156.39999389648438,"floor":null,"heading":228.65090942382812,"speed":0.350544810295105,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:22:39.4279281+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:22:39.4279285+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:22:39.4279286+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:22:39.4279290+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:22:39.4279286+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:22:39.4286574+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:22:39.4279281+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:22:39.4398389+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/16) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:22:41.0756354+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) [. :] TelemetryHub ${"longitude":92.9280618,"latitude":56.0594186,"timestamp":1684066958900,"accuracy":22.617000579833984,"altitude":156.39999389648438,"floor":null,"heading":252.83175659179688,"speed":0.1339975893497467,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:22:41.0989380+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) [. :] TelemetryHub $92,9280618
+[MD_Main] 2023-05-14T19:22:48.0210590+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub ${"longitude":92.9281285,"latitude":56.0594356,"timestamp":1684066965897,"accuracy":20.917999267578125,"altitude":156.39999389648438,"floor":null,"heading":65.20446014404297,"speed":0.3180040717124939,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:22:48.0249913+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub $92,9281285
+[MD_Main] 2023-05-14T19:22:51.0425558+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) [. :] TelemetryHub ${"longitude":92.9281236,"latitude":56.0594352,"timestamp":1684066968900,"accuracy":23.094999313354492,"altitude":156.39999389648438,"floor":null,"heading":0.0,"speed":0.010542928241193295,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:22:51.0469332+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) [. :] TelemetryHub $92,9281236
+[MD_Main] 2023-05-14T19:22:57.0322509+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub ${"longitude":92.9280855,"latitude":56.0594248,"timestamp":1684066974900,"accuracy":23.788999557495117,"altitude":156.39999389648438,"floor":null,"heading":244.2845458984375,"speed":0.23013608157634735,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:22:57.0361967+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub $92,9280855
+[MD_Main] 2023-05-14T19:23:01.0520800+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) [. :] TelemetryHub ${"longitude":92.9280578,"latitude":56.0594124,"timestamp":1684066978900,"accuracy":23.89699935913086,"altitude":156.39999389648438,"floor":null,"heading":232.628173828125,"speed":0.25059929490089417,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:23:01.0563432+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) [. :] TelemetryHub $92,9280578
+[MD_Main] 2023-05-14T19:24:07.3341214+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/16) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:24:07.3341211+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:24:07.3341212+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:24:07.3341213+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:24:07.3341217+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:24:07.3341213+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:24:07.3344010+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) [. :] TelemetryHub hub connect
+[MD_Main] 2023-05-14T19:24:11.0505492+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub ${"longitude":92.9282116,"latitude":56.0594688,"timestamp":1684067048901,"accuracy":25.974000930786133,"altitude":155.6999969482422,"floor":null,"heading":0.0,"speed":0.042255837470293045,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:11.0747503+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub Serialize : {"longitude":92.9282116,"latitude":56.0594688,"timestamp":1684067048901,"accuracy":25.974000930786133,"altitude":155.6999969482422,"floor":null,"heading":0,"speed":0.042255837470293045,"speed_accuracy":0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:17.0229323+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub ${"longitude":92.9279809,"latitude":56.0593806,"timestamp":1684067054898,"accuracy":23.923999786376953,"altitude":156.39999389648438,"floor":null,"heading":235.4402313232422,"speed":1.4344755411148071,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:17.0270506+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub Serialize : {"longitude":92.9279809,"latitude":56.0593806,"timestamp":1684067054898,"accuracy":23.923999786376953,"altitude":156.39999389648438,"floor":null,"heading":235.4402313232422,"speed":1.4344755411148071,"speed_accuracy":0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:21.0552682+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub ${"longitude":92.927971,"latitude":56.0593736,"timestamp":1684067058903,"accuracy":22.625,"altitude":156.39999389648438,"floor":null,"heading":229.10345458984375,"speed":0.2544199526309967,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:21.0607870+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) [. :] TelemetryHub Serialize : {"longitude":92.927971,"latitude":56.0593736,"timestamp":1684067058903,"accuracy":22.625,"altitude":156.39999389648438,"floor":null,"heading":229.10345458984375,"speed":0.2544199526309967,"speed_accuracy":0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:27.0251963+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub ${"longitude":92.9282101,"latitude":56.0594684,"timestamp":1684067064897,"accuracy":35.698001861572266,"altitude":155.6999969482422,"floor":null,"heading":54.68339920043945,"speed":2.1131465435028076,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:27.0288401+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub Serialize : {"longitude":92.9282101,"latitude":56.0594684,"timestamp":1684067064897,"accuracy":35.698001861572266,"altitude":155.6999969482422,"floor":null,"heading":54.68339920043945,"speed":2.1131465435028076,"speed_accuracy":0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:31.0461623+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub ${"longitude":92.928099,"latitude":56.0594297,"timestamp":1684067068901,"accuracy":26.834999084472656,"altitude":156.39999389648438,"floor":null,"heading":241.30471801757812,"speed":0.2857080399990082,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:31.0499308+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) [. :] TelemetryHub Serialize : {"longitude":92.928099,"latitude":56.0594297,"timestamp":1684067068901,"accuracy":26.834999084472656,"altitude":156.39999389648438,"floor":null,"heading":241.30471801757812,"speed":0.2857080399990082,"speed_accuracy":0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:37.0237299+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) [. :] TelemetryHub ${"longitude":92.9279875,"latitude":56.0594044,"timestamp":1684067074898,"accuracy":23.91900062561035,"altitude":156.39999389648438,"floor":null,"heading":247.68055725097656,"speed":0.7370733022689819,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:37.0275877+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) [. :] TelemetryHub Serialize : {"longitude":92.9279875,"latitude":56.0594044,"timestamp":1684067074898,"accuracy":23.91900062561035,"altitude":156.39999389648438,"floor":null,"heading":247.68055725097656,"speed":0.7370733022689819,"speed_accuracy":0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:41.0464825+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub ${"longitude":92.9280524,"latitude":56.0594052,"timestamp":1684067078900,"accuracy":23.85700035095215,"altitude":156.39999389648438,"floor":null,"heading":93.98421478271484,"speed":0.3414490222930908,"speed_accuracy":0.0,"is_mocked":false}
+[MD_Main] 2023-05-14T19:24:41.0506432+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) [. :] TelemetryHub Serialize : {"longitude":92.9280524,"latitude":56.0594052,"timestamp":1684067078900,"accuracy":23.85700035095215,"altitude":156.39999389648438,"floor":null,"heading":93.98421478271484,"speed":0.3414490222930908,"speed_accuracy":0,"is_mocked":false}

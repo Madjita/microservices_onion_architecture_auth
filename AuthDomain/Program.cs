@@ -17,6 +17,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.RegularExpressions;
 using Swashbuckle.AspNetCore.SwaggerUI;
+using AuthDomain.Hubs.AppAuth;
 
 InitRootLoger();
 Log.Information("Application root starting...");
@@ -134,7 +135,8 @@ app.UseCors();
 app.UseWebSockets();
 app.MapControllers();
 app.UseHttpsRedirection();
-
+app.MapHub<AppHub>("/appHub");
+app.MapHub<TelemetryHub>("/TelemetryHub");
 
 SyncOrCreateDbAsync(app);
 

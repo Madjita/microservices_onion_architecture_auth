@@ -5428,3 +5428,258 @@ RETURNING 1;"
 [Default] 2023-05-11T21:58:50.4596312+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed endpoint '"405 HTTP Method Not Supported"'
 [Default] 2023-05-11T21:58:50.4702044+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) ["00-db5a046b1b761eeb99e2625aa9c6f2f4-226b725e7d355f79-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 38.6031 ms
 [Default] 2023-05-11T21:58:50.4736239+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 77.7024ms
+[Default] 2023-05-11T21:58:50.6814289+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:50.7034831+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:50.7034828+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:50.7056758+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:50.7056970+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:50.7056970+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:50.7066375+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:50.7068095+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:50.7068862+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:50.7079692+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) ["00-fb0447dc2f3eb444d78c9630cc4ca08c-f9a200a29b232cb7-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 3.3956 ms
+[Default] 2023-05-11T21:58:50.7079773+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) ["00-acc171432cef8ff967edde2fda849f63-6580e5c0dd25e2ba-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 3.6268 ms
+[Default] 2023-05-11T21:58:50.7079699+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) ["00-4ffa6f20bd441c23558dcd4ea748bd63-e4e64defbcd2c591-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 3.5600 ms
+[Default] 2023-05-11T21:58:50.7089957+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 5.4672ms
+[Default] 2023-05-11T21:58:50.7089957+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 27.6397ms
+[Default] 2023-05-11T21:58:50.7089940+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 5.4915ms
+[Default] 2023-05-11T21:58:50.8972257+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:50.8972257+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:50.8998363+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:50.8998358+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:50.9007328+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:50.9007919+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:50.9015116+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) ["00-e9900b8678358aa4c3cbe622ec27b3d2-866653d5d83a24cb-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 2.9615 ms
+[Default] 2023-05-11T21:58:50.9015898+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) ["00-684544bbe3f4fd3f9ab0e7e308ccf592-f5261961d984ca04-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 3.1073 ms
+[Default] 2023-05-11T21:58:50.9020283+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 4.9035ms
+[Default] 2023-05-11T21:58:50.9020783+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 4.9571ms
+[Default] 2023-05-11T21:58:51.7052459+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:51.7057555+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:51.7059377+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:51.7063414+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) ["00-e74ab422c67e35539d82673e255b47f1-b3b3f45fbd7ddc26-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.5391 ms
+[Default] 2023-05-11T21:58:51.7066548+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.4344ms
+[Default] 2023-05-11T21:58:51.7295465+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:51.7300374+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:51.7304075+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:51.7306951+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) ["00-b86c35a491c9a8b5d9fdc40e3593af23-fb9fabe681d06873-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6857 ms
+[Default] 2023-05-11T21:58:51.7309543+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.4155ms
+[Default] 2023-05-11T21:58:51.8027994+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:51.8032004+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:51.8035129+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:51.8037698+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) ["00-81aba773f7af0976de394b20b7c6b4a4-5ff291ecbce2e540-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6259 ms
+[Default] 2023-05-11T21:58:51.8040516+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.2353ms
+[Default] 2023-05-11T21:58:52.1434821+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:52.1444849+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:52.1450153+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:52.1456425+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) ["00-7d7061f2e13251d8cf2664f06969276f-358afbe39d9dd6ba-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 1.1116 ms
+[Default] 2023-05-11T21:58:52.1460024+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 2.4931ms
+[Default] 2023-05-11T21:58:52.7018688+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:52.7023971+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:52.7027772+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:52.7030473+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) ["00-b4c51d8b4d4ec0a9b53908f121ce821b-b8ace2a79c224557-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.7465 ms
+[Default] 2023-05-11T21:58:52.7033073+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.4896ms
+[Default] 2023-05-11T21:58:52.7111869+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:52.7117419+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:52.7119837+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:52.7122359+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) ["00-ed179b898aeea1850e83564c143b1d4b-1f33e77d774cdede-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.4851 ms
+[Default] 2023-05-11T21:58:52.7125778+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.4365ms
+[Default] 2023-05-11T21:58:52.7626844+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:52.7630835+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:52.7633628+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:52.7635947+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) ["00-ec994adb3def6449d6cad8bb872647e6-f38350f9dda67129-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.5876 ms
+[Default] 2023-05-11T21:58:52.7638250+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.1220ms
+[Default] 2023-05-11T21:58:53.7069573+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:53.7073411+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:53.7075677+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:53.7078029+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) ["00-8f7882158e48fe31e5776a1caa332081-9277fe811c2a47e2-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.5219 ms
+[Default] 2023-05-11T21:58:53.7080051+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.0586ms
+[Default] 2023-05-11T21:58:53.8074407+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:53.8079767+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:53.8082476+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:53.8084829+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) ["00-f96d2ceac7b4ad81a508c1b417ea9031-64f50b19fcb408ed-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.5845 ms
+[Default] 2023-05-11T21:58:53.8087020+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.3030ms
+[Default] 2023-05-11T21:58:54.0633958+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:54.0639839+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:54.0642244+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:54.0645226+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) ["00-d498cb202cc7e8c5c4e03ea521d9cdf3-ef21bdb58064777e-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6693 ms
+[Default] 2023-05-11T21:58:54.0649704+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.5661ms
+[Default] 2023-05-11T21:58:54.7033768+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:54.7037605+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:54.7041845+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:54.7044638+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) ["00-5c36fb4cc1d3accde9b5d1c7d30e17dd-b43c06e14b4951ff-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.7825 ms
+[Default] 2023-05-11T21:58:54.7047559+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.3653ms
+[Default] 2023-05-11T21:58:54.7120668+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:54.7126080+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:54.7127675+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:54.7130954+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) ["00-e19144a65f200a9cb52b91087a446ba2-0e0f92d29c7bdc01-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.5264 ms
+[Default] 2023-05-11T21:58:54.7133462+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.2703ms
+[Default] 2023-05-11T21:58:55.6993758+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:55.6998171+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:55.7000468+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:55.7003488+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) ["00-ea60a02ebc7a861f13148370779ec62a-a950f487c783365a-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.5934 ms
+[Default] 2023-05-11T21:58:55.7006061+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.2580ms
+[Default] 2023-05-11T21:58:55.9939977+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:55.9945232+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:55.9948111+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:55.9950519+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) ["00-aa01676f4ae42dbcbeb8367c970e3ca1-a4c32b98676b9cb7-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6097 ms
+[Default] 2023-05-11T21:58:55.9952672+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.3154ms
+[Default] 2023-05-11T21:58:56.7035694+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:56.7039077+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:56.7043369+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:56.7048362+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) ["00-d1a5ebf1ff80beb10da9e8a677e5656c-5563329293914b97-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.9617 ms
+[Default] 2023-05-11T21:58:56.7051467+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.5358ms
+[Default] 2023-05-11T21:58:57.2644779+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:57.2648489+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:57.2650872+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:57.2653636+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) ["00-a1035dd242630a9f1a7061f3ed5d914d-84fee9f241a48b7f-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.5977 ms
+[Default] 2023-05-11T21:58:57.2657542+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.2147ms
+[Default] 2023-05-11T21:58:57.7144343+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:57.7147581+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:57.7150185+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:57.7153873+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) ["00-d974de656c0773607f05bc5dfbf51efa-b19f4e237a5cc316-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6647 ms
+[Default] 2023-05-11T21:58:57.7157467+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.3238ms
+[Default] 2023-05-11T21:58:57.9014789+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:57.9018880+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:57.9021890+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:57.9024781+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) ["00-53e1aecff13fb4a5c1b5555944d46a76-095a6d15e0b019e2-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6446 ms
+[Default] 2023-05-11T21:58:57.9027551+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.2637ms
+[Default] 2023-05-11T21:58:58.7393122+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:58.7398401+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:58.7401832+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:58.7404137+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) ["00-49b4541c904d10516761d05d5494f286-e9c3fd5b7ae7fbf6-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6720 ms
+[Default] 2023-05-11T21:58:58.7406079+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.2920ms
+[Default] 2023-05-11T21:58:59.7033819+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:59.7037467+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:59.7040786+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:59.7043529+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) ["00-d8ce79ba26152d6e5c4034e9f1ce317d-a37b82a84c5cb2c1-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6724 ms
+[Default] 2023-05-11T21:58:59.7046745+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.2927ms
+[Default] 2023-05-11T21:59:00.6883222+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:00.6886542+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:00.6890215+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:00.6893073+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) ["00-ecfbdf6e6db252505f5fdba11b0c4e1d-c96b08393b25b4f4-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6961 ms
+[Default] 2023-05-11T21:59:00.6895775+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.2328ms
+[Default] 2023-05-11T21:59:01.7088413+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:01.7092216+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:01.7095626+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:01.7098378+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) ["00-8fe80e872e9af0fdec9607123b02b1ea-6d41055b988a98e9-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6973 ms
+[Default] 2023-05-11T21:59:01.7100867+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.2681ms
+[Default] 2023-05-11T21:59:02.7127538+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:02.7131085+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:02.7134373+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:02.7137199+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) ["00-3636fd5b5887e87eb783ed3c6da15e00-d293d16905ebfd9e-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6847 ms
+[Default] 2023-05-11T21:59:02.7140249+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.2491ms
+[Default] 2023-05-11T21:59:03.7037267+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:03.7041291+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:03.7043403+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:03.7045835+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) ["00-b87dcd5e1a44783108a08e84348be163-4172329af23d3ff9-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.5261 ms
+[Default] 2023-05-11T21:59:03.7047693+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.0372ms
+[Default] 2023-05-11T21:59:04.6430180+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request starting HTTP/1.1 POST http://95.188.89.10:5001/login application/json -
+[Default] 2023-05-11T21:59:04.6790297+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:04.6824511+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:04.6828171+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:04.6830671+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) ["00-27fed12fde3c9f6735293ba5519cd810-d6059a3dcf567e39-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6728 ms
+[Default] 2023-05-11T21:59:04.6833092+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 4.2679ms
+[Default] 2023-05-11T21:59:07.7889343+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:07.7889599+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:07.7893459+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:07.7896869+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:07.7896868+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:07.7896868+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:07.7899595+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executing endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-11T21:59:07.7900043+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:07.7900202+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:07.7900375+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:07.7901963+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) ["00-087362263d76ad6346467820846c6f53-37532b2679efa699-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.5516 ms
+[Default] 2023-05-11T21:59:07.7902755+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) ["00-a1d58d96823345d29d9b156b45442e94-f1dac19493a6b220-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6401 ms
+[Default] 2023-05-11T21:59:07.7902909+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) ["00-5d654d7e0c0b8f776c8a0882e6db9ac9-74b9c05bf0bc534e-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6238 ms
+[Default] 2023-05-11T21:59:07.7903832+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.4470ms
+[Default] 2023-05-11T21:59:07.7905123+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.9675ms
+[Default] 2023-05-11T21:59:07.7905398+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.1980ms
+[Default] 2023-05-11T21:59:07.8056946+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(AuthDAL.response_models.Login)" on controller "AuthDomain.Controllers.AuthController" ("AuthDomain").
+[Default] 2023-05-11T21:59:08.1206726+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executed DbCommand ("14"ms) [Parameters=["@__model_Email_0='madjita@mail.ru' (Size = 15)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"ID\", \"a\".\"CodeForApproveRegistration\", \"a\".\"CodeTwoFactorAuthentication\", \"a\".\"CreatedAt\", \"a\".\"Email\", \"a\".\"LastSignIn\", \"a\".\"Name\", \"a\".\"NickName\", \"a\".\"Password\", \"a\".\"Patronymic\", \"a\".\"PhoneNumber\", \"a\".\"RoleId\", \"a\".\"Surname\", \"a\".\"TwoFactorAuthentication\", \"a\".\"UpdatedAt\", \"a\".\"UserAuthenticated\"
+FROM \"Accounts\" AS \"a\"
+WHERE \"a\".\"Email\" = @__model_Email_0
+LIMIT 1"
+[Default] 2023-05-11T21:59:08.3794644+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executed DbCommand ("1"ms) [Parameters=["@__p_0='2'"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"r\".\"ID\", \"r\".\"CreatedAt\", \"r\".\"Name\", \"r\".\"UpdatedAt\"
+FROM \"Roles\" AS \"r\"
+WHERE \"r\".\"ID\" = @__p_0"
+[Default] 2023-05-11T21:59:08.5970405+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executed DbCommand ("1"ms) [Parameters=["@p0='2', @p1='2023-05-11T14:59:08.5528875+00:00', @p2='2023-05-12T02:59:08.4104645+00:00', @p3='2023-05-12T02:59:08.4104645+00:00', @p4='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiUmFuZG9tVG9rZW4iOiI0MjRkMDBjOC0zNTBlLTQxZTYtYWEzMi1hZGNmNzczN2Y4ZmMiLCJleHAiOjE2ODM4NjAzNDh9.klxoEj17KYhEouFp8A3fsYj5pZKjvs16C40RNAoUB1Y' (Size = 193), @p5='2023-05-11T14:59:08.5528875+00:00'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"JsonWebTokens\" (\"AccountId\", \"CreatedAt\", \"DeleteAfter\", \"ExpiresAt\", \"Token\", \"UpdatedAt\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ID\";"
+[Default] 2023-05-11T21:59:08.6143346+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executed DbCommand ("0"ms) [Parameters=["@p15='2', @p0='0', @p1='401114', @p2='0001-01-01T00:00:00.0000000+00:00', @p3='madjita@mail.ru' (Size = 15), @p4='2023-05-11T14:59:08.4104645Z' (DbType = DateTime), @p5=NULL, @p6=NULL, @p7='$2a$11$6pz8hKYJbQnP.cx5/iGuTupomDcMd1IgIm/xeZ.5eEmn/WNoZaPb2' (Size = 60), @p8=NULL, @p9=NULL, @p10='2', @p11=NULL, @p12='False', @p13='2023-05-11T14:59:08.6105086+00:00', @p14='True'"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"Accounts\" SET \"CodeForApproveRegistration\" = @p0, \"CodeTwoFactorAuthentication\" = @p1, \"CreatedAt\" = @p2, \"Email\" = @p3, \"LastSignIn\" = @p4, \"Name\" = @p5, \"NickName\" = @p6, \"Password\" = @p7, \"Patronymic\" = @p8, \"PhoneNumber\" = @p9, \"RoleId\" = @p10, \"Surname\" = @p11, \"TwoFactorAuthentication\" = @p12, \"UpdatedAt\" = @p13, \"UserAuthenticated\" = @p14
+WHERE \"ID\" = @p15
+RETURNING 1;"
+[Default] 2023-05-11T21:59:10.8587364+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:10.8583102+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:10.8583132+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:10.8592035+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:10.8592034+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:10.8592068+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:10.8595949+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:10.8596350+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:10.8596142+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:10.8600941+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) ["00-721468ecbebeda515d0bfa6cb41d5032-d2f0c87d0197746f-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.8376 ms
+[Default] 2023-05-11T21:59:10.8603146+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) ["00-05a22a094276e1d816ab42117f9b6d7d-78a57f42f7c7da49-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 1.1812 ms
+[Default] 2023-05-11T21:59:10.8604119+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 2.2286ms
+[Default] 2023-05-11T21:59:10.8603303+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) ["00-8a571ebdaf1343fe512b362bcb0a49d0-d4d00d688f413b38-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 1.2038 ms
+[Default] 2023-05-11T21:59:10.8606695+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 2.3160ms
+[Default] 2023-05-11T21:59:10.8611230+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/12) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 2.2940ms
+[Default] 2023-05-11T21:59:10.8659659+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executing "OkObjectResult", writing value of type '"AuthDAL.Dtos.AuthSignInResultDto"'.
+[Default] 2023-05-11T21:59:10.8923170+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executed action "AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)" in 3084.1179ms
+[Default] 2023-05-11T21:59:10.8926788+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Executed endpoint '"AuthDomain.Controllers.AuthController.LoginAsync (AuthDomain)"'
+[Default] 2023-05-11T21:59:10.8930807+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) ["00-f7cb5d363bef2f4825756abacc7c8424-005e8c9f61c60224-00"]["http"] "HTTP/1.1" "POST" "/login" responded 200 in 6249.7963 ms
+[Default] 2023-05-11T21:59:10.8962119+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/13) Request finished HTTP/1.1 POST http://95.188.89.10:5001/login application/json - - 200 - application/json;+charset=utf-8 6253.1837ms
+[Default] 2023-05-11T21:59:11.7034498+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:11.7042544+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:11.7049961+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:11.7052981+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) ["00-f8b909ef20bedf8cee485fb7fc95f0cd-182bcb1c4145bda1-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 1.1849 ms
+[Default] 2023-05-11T21:59:11.7056375+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 2.1926ms
+[Default] 2023-05-11T21:59:12.6780162+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:12.6784449+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:12.6787705+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:12.6790330+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) ["00-f7184c6ba5978e52931b04ea742f0dcb-aacc164067752e5e-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6039 ms
+[Default] 2023-05-11T21:59:12.6792364+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.1884ms
+[Default] 2023-05-11T21:59:13.6711502+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:13.6715222+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:13.6718035+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:13.6720870+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) ["00-96513f27521e70e9184ad54f2c1e8480-ab6d311d499ae464-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.5908 ms
+[Default] 2023-05-11T21:59:13.6723319+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/14) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.1995ms
+[Default] 2023-05-11T21:59:14.6903670+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:14.6909310+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:14.6914121+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:14.6916259+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) ["00-8a11b1aed8d8fa613f7b96c551295e59-6f4b2e72c4f522f0-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.7213 ms
+[Default] 2023-05-11T21:59:14.6918363+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/5) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.4892ms
+[Default] 2023-05-11T21:59:16.3659624+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:16.3662992+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:16.3666191+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:16.3669075+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) ["00-d46c300233bbb7d4e9df0614585c7474-9d4ce070660bea7b-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6629 ms
+[Default] 2023-05-11T21:59:16.3671649+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.1969ms
+[Default] 2023-05-11T21:59:17.3584532+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:17.3590602+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:17.3594965+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:17.3597630+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) ["00-082a12e6fdfd32847382d0da5d938126-530b3711dba1b4c6-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.7377 ms
+[Default] 2023-05-11T21:59:17.3600815+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.6617ms
+[Default] 2023-05-11T21:59:18.3697883+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:18.3701313+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:18.3704645+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:18.3707257+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) ["00-115e3072c28b37431af64df7ca982fd0-205b1d37ac582a88-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6469 ms
+[Default] 2023-05-11T21:59:18.3709605+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/8) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.1824ms
+[Default] 2023-05-11T21:59:19.3699875+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:19.3703380+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:19.3706288+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:19.3709955+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) ["00-85183c33b5a1cb2ac9cf5ea5b5f034da-b359e43e5cc899af-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.5747 ms
+[Default] 2023-05-11T21:59:19.3711668+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/15) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.1726ms
+[Default] 2023-05-11T21:59:20.3740763+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:20.3744110+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:20.3746941+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:20.3749680+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) ["00-b464219d5f852bda979212ee5fdff998-27fe76709e35aa16-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6063 ms
+[Default] 2023-05-11T21:59:20.3752768+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/11) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.1951ms
+[Default] 2023-05-11T21:59:21.3823035+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:59:21.3826471+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:21.3829269+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:59:21.3833136+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) ["00-6c64c390056db7d72a7d31070ce99f0f-a4e09ddc698b5ddf-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.6882 ms
+[Default] 2023-05-11T21:59:21.3835742+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.2787ms

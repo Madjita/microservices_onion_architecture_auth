@@ -210,5 +210,47 @@
       }
     ],
     "MinimumLevel": "Debug"
+  },
+  "MD_Main": {
+    "Using": [
+      "Serilog.Sinks.Console",
+      "Serilog.Enrichers.AssemblyName",
+      "Serilog.Enrichers.Environment",
+      "Serilog.Enrichers.GlobalLogContext",
+      "Serilog.Enrichers.Memory",
+      "Serilog.Enrichers.Process",
+      "Serilog.Enrichers.Thread"
+    ],
+    "Enrich": [
+      "FromLogContext",
+      "WithAssemblyName",
+      "WithEnvironmentName",
+      "WithMachineName",
+      "WithMemoryUsage",
+      "WithProcessId",
+      "WithProcessName",
+      "WithThreadId",
+      "WithThreadName"
+    ],
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "[MD_Main] {Timestamp:o} [{Level:u3}] ({AssemblyName}/{MachineName}/{ThreadId}) [{CallerType}.{CallerMethod} {CallerFileName}:{CallerLineNo}] {Message}{NewLine}{Exception}",
+          "restrictedToMinimumLevel": "Information"
+        }
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs/MD_Main_.log",
+          "outputTemplate": "[MD_Main] {Timestamp:o} [{Level:u3}] ({AssemblyName}/{MachineName}/{ThreadId}) [{CallerType}.{CallerMethod} {CallerFileName}:{CallerLineNo}] {Message}{NewLine}{Exception}",
+          "restrictedToMinimumLevel": "Information",
+          "rollingInterval": "Day",
+          "Shared": true
+        }
+      }
+    ],
+    "MinimumLevel": "Information"
   }
 }

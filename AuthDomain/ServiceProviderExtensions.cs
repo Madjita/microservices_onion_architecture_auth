@@ -270,7 +270,7 @@ namespace AuthDomain
                     options.JsonSerializerOptions.PropertyNamingPolicy = null;
 
                     options.JsonSerializerOptions.Converters.Add(new StringTrimmingConverter());
-                    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+                    // options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
                 });
         }
         
