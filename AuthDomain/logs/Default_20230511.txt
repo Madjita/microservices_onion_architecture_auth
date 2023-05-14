@@ -5411,3 +5411,20 @@ RETURNING 1;"
 [Default] 2023-05-11T21:57:45.5810388+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed endpoint '"405 HTTP Method Not Supported"'
 [Default] 2023-05-11T21:57:45.5812840+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) ["00-4e49d530c456398bb8a2df8ab8aa3360-a2c254c07a69f465-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 0.5261 ms
 [Default] 2023-05-11T21:57:45.5815279+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 1.1017ms
+[Default] 2023-05-11T21:58:48.5876219+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Environment: Development
+[Default] 2023-05-11T21:58:48.5911834+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Add Swagger & SwaggerUI
+[Default] 2023-05-11T21:58:48.6994214+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) User profile is available. Using '"C:\Users\Sergey\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[Default] 2023-05-11T21:58:48.7558350+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Starting synchronization with the global database...
+[Default] 2023-05-11T21:58:49.5989983+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/1) Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[Default] 2023-05-11T21:58:49.7839385+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Finishing synchronization "AuthDbContext" with the global database...
+[Default] 2023-05-11T21:58:49.7863817+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application setting is finished...
+[Default] 2023-05-11T21:58:49.8686845+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Now listening on: "http://192.168.0.3:5001"
+[Default] 2023-05-11T21:58:49.8702981+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Application started. Press Ctrl+C to shut down.
+[Default] 2023-05-11T21:58:49.8708855+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Hosting environment: "Development"
+[Default] 2023-05-11T21:58:49.8718547+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/1) Content root path: "C:\Users\Sergey\Documents\MyProject\microservices_onion_architecture_auth\AuthDomain"
+[Default] 2023-05-11T21:58:50.3985491+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request starting HTTP/1.1 HEAD http://95.188.89.10:5001/ - -
+[Default] 2023-05-11T21:58:50.4558635+07:00 [WRN] (AuthDomain/DESKTOP-IMH6I3E/7) Failed to determine the https port for redirect.
+[Default] 2023-05-11T21:58:50.4586147+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executing endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:50.4596312+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Executed endpoint '"405 HTTP Method Not Supported"'
+[Default] 2023-05-11T21:58:50.4702044+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) ["00-db5a046b1b761eeb99e2625aa9c6f2f4-226b725e7d355f79-00"]["http"] "HTTP/1.1" "HEAD" "/" responded 405 in 38.6031 ms
+[Default] 2023-05-11T21:58:50.4736239+07:00 [INF] (AuthDomain/DESKTOP-IMH6I3E/7) Request finished HTTP/1.1 HEAD http://95.188.89.10:5001/ - - - 405 - - 77.7024ms
